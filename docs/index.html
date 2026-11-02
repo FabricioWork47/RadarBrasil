@@ -39,7 +39,7 @@ function render(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttr
  if(tab==="agenda"){const hj=new Date(Date.now()-3*3600e3).toISOString().slice(0,10);const f=AG.filter(e=>e.data>=hj).sort((a,b)=>(a.data+a.hora).localeCompare(b.data+b.hora));
   h=`<h2>O que esperar</h2>`+(f.length?f.map(e=>`<div class="ag${e.destaque?" d":""}"><span class="mu">${esc(e.data.split("-").reverse().slice(0,2).join("/"))} ${esc(e.hora)}</span><span>${e.destaque?"<b>":""}${esc(e.evento)}${e.destaque?"</b>":""} ${ok(e.link)?`<a href="${esc(e.link)}" target="_blank" rel="noopener">fonte</a>`:""}</span></div>`).join(""):'<div class="empty">Sem eventos futuros em agenda.json. Atualize o arquivo.</div>')}
  if(tab==="fontes")h=`<h2>Fontes</h2><div class="box"><ul>${FONTES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`).join("")}</ul></div>`;
- $("#m").innerHTML=h;$("#eb").textContent=ED?`Edição de ${ED.data} · gerada às ${ED.geradoEm.slice(-5)}${ED.dia.ia?"":" · sem IA"}`:"Sem edições"}
+ $("#m").innerHTML=h;$("#eb").textContent=ED?`Edição de ${ED.data} · gerada às ${ED.geradoEm.slice(-5)}${ED.dia.ia?"":(ED.dia.modo==="regras"?" · análise por regras (sem IA)":" · sem análise")}`:"Sem edições"}
 async function load(d){try{ED=await fj("data/"+d+".json")}catch(_){ED=null}render()}
 (async()=>{$("#tabs").innerHTML=TABS.map(([k,n])=>`<button data-t="${k}">${n}</button>`).join("");
  $("#tabs").onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;render()}};
