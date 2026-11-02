@@ -32,6 +32,10 @@ PALAVRAS = re.compile(r"economi|selic|copom|juros|infla|ipca|pib|d[óo]lar|ibove
                       r"senado|c[âa]mara|stf|lula|ministro|pec|emprego|desemprego|ibge|petr[óo]leo|agro|"
                       r"exporta|importa|balan[çc]a|energia|aneel|elei[çc]", re.I)
 
+EXCLUIR = re.compile(r"wall street|nova york|\bnyse\b|nasdaq|s&p ?500|dow jones|\badrs?\b|bolsas? (de ny|europeias?|asi[áa]ticas?)|"
+                     r"meio de mandato|aprova[çc][ãa]o de trump|futebol|brasileir[ãa]o|libertadores|copa do brasil|"
+                     r"\bnba\b|f[óo]rmula 1|\bf1\b|big brother|horóscopo", re.I)
+
 def log(*a): print(*a, file=sys.stderr, flush=True)
 
 def baixar(url):
@@ -39,9 +43,15 @@ def baixar(url):
     with urllib.request.urlopen(req, timeout=25) as r:
         return r.read()
 
+LEGENDA = re.compile(r"REUTERS|FILE PHOTO|\(Foto|Foto:|Getty|Crédito|/Agência Brasil|Reprodução", re.I)
+
 def limpar(t, n=320):
-    t = re.sub(r"<[^>]+>", " ", html.unescape(t or ""))
+    t = re.sub(r"<[^>]+>", " ", t or "")
+    t = html.unescape(t)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = re.sub(r"\"?\s*data-[\w-]+=.*$", "", t)      # sobra de atributos HTML cortados
     t = re.sub(r"\s+", " ", t).strip()
+    if LEGENDA.search(t): return ""                   # descrição que é só legenda de foto
     return t[:n].rsplit(" ", 1)[0] + "…" if len(t) > n else t
 
 def tag(e): return e.tag.rsplit("}", 1)[-1].lower()
@@ -85,6 +95,7 @@ def coletar(agora):
         n0 = len(got)
         got = [g for g in got if agora - g["data"] <= timedelta(hours=JANELA_H)]
         if filtra: got = [g for g in got if PALAVRAS.search(g["titulo"] + " " + g["resumo"])]
+        got = [g for g in got if not EXCLUIR.search(g["titulo"])]
         log(f"[ok] {nome}: {n0} itens, {len(got)} úteis")
         itens += got
     vistos, final = set(), []
@@ -110,7 +121,7 @@ def chamar_ia(sistema, usuario):
             m = re.search(r"\{.*\}", txt, re.S)
             return json.loads(m.group(0))
         except urllib.error.HTTPError as e:
-            log(f"[IA] HTTP {e.code} (tentativa {tentativa+1})")
+            log(f"[IA] HTTP {e.code} (tentativa {tentativa+1}): {e.read()[:300]!r}")
             if e.code in (429, 500, 502, 503): time.sleep(20 * (tentativa + 1)); continue
             raise
     raise RuntimeError("IA indisponível")
@@ -119,7 +130,7 @@ REGRAS = ("Você é analista de economia e política do Brasil. Escreva em portu
           "Use SOMENTE as informações da lista fornecida: não invente números, datas, nomes nem fatos. "
           "Separe fato (campo 'resumo') de interpretação (campos 'contexto' e 'impacto'). "
           "'impacto' é sempre hipótese: use 'pode', 'tende a', 'possível'. Nunca dê recomendação de investimento. "
-          "Cada item deve citar 'indices' (números da lista) que o sustentam. Responda apenas com JSON.")
+          "Ignore notícias estrangeiras (exceto com efeito direto no Brasil), estaduais, municipais, esportivas e de entretenimento. Cada item deve citar 'indices' (números da lista) que o sustentam. Responda apenas com JSON.")
 
 def anexar(itens, pool):
     saida = []
@@ -134,9 +145,25 @@ def anexar(itens, pool):
         it["fontes"] = fontes[:4]; saida.append(it)
     return saida
 
+def lista_limitada(linhas, limite):
+    out, tot = [], 0
+    for l in linhas:
+        if tot + len(l) + 1 > limite: break
+        out.append(l); tot += len(l) + 1
+    return out
+
 def gerar_dia(cands):
-    pool = [{"fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands]
-    lista = "\n".join(f"[{i}] ({c['fonte']}) {c['titulo']} — {c['resumo']}" for i, c in enumerate(cands))
+    for limite in (15000, 8000):          # ~4.500 e ~2.400 tokens; o teto gratuito é 8.000 de entrada
+        try: return _gerar_dia(cands, limite)
+        except urllib.error.HTTPError as e:
+            if e.code != 413: raise
+            log(f"[IA] 413: reduzindo a lista para {limite//2} caracteres")
+    raise RuntimeError("prompt grande demais")
+
+def _gerar_dia(cands, limite):
+    linhas = lista_limitada([f"[{i}] ({c['fonte']}) {c['titulo']} — {c['resumo'][:160]}" for i, c in enumerate(cands)], limite)
+    pool = [{"fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands[:len(linhas)]]
+    lista = "\n".join(linhas)
     r = chamar_ia(REGRAS, "Notícias recentes:\n" + lista + "\n\nEscolha as 8 a 12 mais relevantes de economia e política "
         "nacional e agrupe duplicatas. Formato: {\"resumo30s\":[3 a 5 frases curtas],\"itens\":[{\"tag\":\"Economia|Política|"
         "Fiscal|Juros e inflação|Congresso|Judiciário|...\",\"titulo\":\"...\",\"resumo\":\"fato em 2-3 frases\","
@@ -156,7 +183,8 @@ def gerar_semana(hoje):
         d = json.loads(p.read_text(encoding="utf-8"))
         for it in d.get("dia", {}).get("itens", []):
             pool.append({"fontes": it["fontes"]})
-            linhas.append(f"[{len(pool)-1}] ({d['data']}) {it['titulo']} — {it['resumo']}")
+            linhas.append(f"[{len(pool)-1}] ({d['data']}) {it['titulo']} — {it['resumo'][:140]}")
+    linhas = lista_limitada(linhas, 15000); pool = pool[:len(linhas)]
     if len(pool) < 5: return None
     r = chamar_ia(REGRAS, "Itens publicados nos últimos 7 dias:\n" + "\n".join(linhas) + "\n\nFaça a retrospectiva da semana. "
         "Formato: {\"resumo\":[4 a 6 frases],\"destaques\":[{\"tag\":\"...\",\"titulo\":\"...\",\"resumo\":\"o que aconteceu\","
