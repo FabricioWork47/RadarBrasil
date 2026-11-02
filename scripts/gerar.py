@@ -207,6 +207,96 @@ def dia_sem_ia(cands):
             "fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands[:15]]
     return {"resumo30s": ["Análise por IA indisponível hoje: exibindo apenas as manchetes coletadas."], "itens": its, "ia": False}
 
+# ---------- Análise por regras (plano B, sem IA) ----------
+# (tag, regex de palavras, contexto genérico do tema, possível impacto genérico)
+TEMAS = [
+ ("Juros e inflação", r"selic|copom|juros|ipca|infla[çc]|focus|banco central|\bbc\b|ipc-",
+  "Inflação e juros orientam as decisões do Banco Central e o custo do crédito.",
+  "Pode influenciar o rumo da Selic, o custo de financiamentos e o rendimento da renda fixa."),
+ ("Fiscal", r"fiscal|or[çc]amento|d[ée]ficit|super[áa]vit|d[íi]vida p|arcabou[çc]o|tesouro|\bloa\b|\bldo\b|despesa|gasto p",
+  "O equilíbrio das contas públicas pesa no risco do país, nos juros e no câmbio.",
+  "Sinais de piora fiscal tendem a pressionar juros futuros e dólar; sinais de melhora, a aliviar."),
+ ("Tributos", r"tribut|imposto|\bcbs\b|\bibs\b|\biof\b|isen[çc][ãa]o|reforma tribut",
+  "Mudanças em impostos alteram a arrecadação do governo e os custos de empresas e famílias.",
+  "Pode mudar preços, margens das empresas e prazos de adaptação para contribuintes."),
+ ("Mercado", r"d[óo]lar|ibovespa|bolsa|c[âa]mbio|\bb3\b|petr[óo]leo|a[çc][õo]es",
+  "O mercado financeiro reage a expectativas sobre economia, juros e política.",
+  "Oscilações podem afetar o preço de importados, de combustíveis e de investimentos."),
+ ("Congresso", r"congresso|senado|c[âa]mara|\bpec\b|projeto de lei|plen[áa]rio|deputad|senador|vota[çc][ãa]o",
+  "As votações no Congresso definem leis e emendas que mudam regras e gastos.",
+  "Pode alterar o calendário de reformas e a relação entre governo e Legislativo."),
+ ("Judiciário", r"\bstf\b|supremo|\btse\b|\btcu\b|justi[çc]a|\bpf\b|ministro do|barroso|moraes",
+  "Decisões do Judiciário e dos órgãos de controle podem validar, barrar ou redefinir políticas.",
+  "Pode gerar insegurança jurídica ou destravar medidas em discussão."),
+ ("Trabalho e renda", r"emprego|desemprego|sal[áa]rio|\brenda\b|pnad|\binss\b|aposent|caged",
+  "Emprego e renda sustentam o consumo e influenciam a inflação de serviços.",
+  "Mercado de trabalho forte tende a sustentar o consumo e a exigir cautela do Banco Central."),
+ ("Energia", r"energia|aneel|petrobras|combust[íi]vel|gasolina|diesel|bandeira tarif",
+  "Preços de energia e combustíveis entram diretamente na inflação e nos custos de produção.",
+  "Pode pesar na conta de luz, no preço dos combustíveis e nos custos de transporte."),
+ ("Agronegócio", r"agro|safra|soja|milho|carne|pecu[áa]ri",
+  "O agro responde por boa parte das exportações e pesa nos preços de alimentos.",
+  "Pode afetar o preço dos alimentos, a balança comercial e a renda no campo."),
+ ("Comércio exterior", r"balan[çc]a comercial|exporta|importa|tarif[aã]|mdic|\bchina\b|mercosul",
+  "O comércio exterior influencia o câmbio, a indústria e a entrada de dólares no país.",
+  "Pode mexer no câmbio, em setores exportadores e no preço de produtos importados."),
+ ("Governo", r"\blula\b|planalto|ministr|governo|haddad|presidente",
+  "Decisões do governo federal definem prioridades de política econômica e relação com o Congresso.",
+  "Pode influenciar a agenda de votações, os gastos e as expectativas do mercado."),
+]
+_TEMAS = [(t, re.compile(r, re.I), c, i) for t, r, c, i in TEMAS]
+AVISO_REGRAS = "Análise automática por regras (sem IA): contexto e impacto são genéricos por tema, não específicos de cada notícia."
+
+def classificar(titulo, resumo):
+    melhor = None
+    for t, rx, c, i in _TEMAS:
+        n = 2 * len(rx.findall(titulo)) + len(rx.findall(resumo))
+        if n and (not melhor or n > melhor[0]): melhor = (n, t, c, i)
+    return melhor
+
+def dia_por_regras(cands):
+    pont = []
+    for k, c in enumerate(cands):
+        r = classificar(c["titulo"], c["resumo"])
+        if r: pont.append((r[0], -k, c, r))      # -k: mantém a ordem (mais recente primeiro) nos empates
+    pont.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    itens, por_tag = [], {}
+    for _, _, c, (n, t, ctx, imp) in pont:
+        if por_tag.get(t, 0) >= 3 or len(itens) >= 12: continue
+        por_tag[t] = por_tag.get(t, 0) + 1
+        itens.append({"tag": t, "titulo": c["titulo"], "resumo": c["resumo"], "contexto": ctx, "impacto": imp,
+                      "fontes": [{"n": c["fonte"], "u": c["link"]}]})
+    if not itens: return dia_sem_ia(cands)
+    ordem = sorted(por_tag, key=lambda t: -por_tag[t])[:3]
+    resumo = [f"{len(itens)} notícias selecionadas em {len(por_tag)} temas."]
+    for t in ordem:
+        top = next(i for i in itens if i["tag"] == t)
+        resumo.append(f"{t}: {top['titulo']}")
+    resumo.append(AVISO_REGRAS)
+    return {"resumo30s": resumo, "itens": itens, "ia": False, "modo": "regras"}
+
+def semana_por_regras(hoje):
+    vistos, itens = set(), []
+    for k in range(1, 8):
+        p = DATA / f"{(hoje - timedelta(days=k)).isoformat()}.json"
+        if not p.exists(): continue
+        d = json.loads(p.read_text(encoding="utf-8"))
+        for it in d.get("dia", {}).get("itens", []):
+            if it["titulo"] not in vistos: vistos.add(it["titulo"]); itens.append(it)
+    if len(itens) < 5: return None
+    cont = {}
+    for it in itens: cont[it["tag"]] = cont.get(it["tag"], 0) + 1
+    ordem = sorted(cont, key=lambda t: -cont[t])
+    destaques = []
+    for t in ordem[:6]:
+        for it in [x for x in itens if x["tag"] == t][:2]:
+            destaques.append({k: it.get(k, "") for k in ("tag", "titulo", "resumo", "contexto", "impacto")} | {"fontes": it["fontes"]})
+    ini, fim = hoje - timedelta(days=7), hoje - timedelta(days=1)
+    return {"intervalo": f"{ini.strftime('%d/%m')} a {fim.strftime('%d/%m/%Y')}",
+            "resumo": [f"{len(itens)} notícias registradas na semana.",
+                       "Temas mais frequentes: " + ", ".join(f"{t} ({cont[t]})" for t in ordem[:4]) + ".", AVISO_REGRAS],
+            "destaques": destaques}
+
 def gerar_semana(hoje):
     pool, linhas = [], []
     for k in range(1, 8):
@@ -232,17 +322,17 @@ def main():
     if len(cands) < 3: log("Poucas notícias coletadas; abortando sem sobrescrever."); sys.exit(0)
     try: dia = gerar_dia(cands)
     except Exception as e:
-        log(f"[IA falhou] {e}"); dia = dia_sem_ia(cands)
+        log(f"[IA falhou] {e}"); log("[plano B] usando análise por regras (sem IA)"); dia = dia_por_regras(cands)
     if not dia["itens"]: dia = dia_sem_ia(cands)
     semana = None
-    if hoje.weekday() == 0 and dia.get("ia"):
-        try: semana = gerar_semana(hoje)
+    if hoje.weekday() == 0:
+        try: semana = gerar_semana(hoje) if dia.get("ia") else semana_por_regras(hoje)
         except Exception as e: log(f"[semana falhou] {e}")
     saida = {"data": hoje.isoformat(), "geradoEm": datetime.now(BRT).strftime("%d/%m/%Y %H:%M"),
-             "modelo": MODELO if dia.get("ia") else None, "dia": dia, "semana": semana}
+             "modelo": MODELO if dia.get("ia") else None, "modo": dia.get("modo", "ia" if dia.get("ia") else "manchetes"), "dia": dia, "semana": semana}
     (DATA / f"{hoje.isoformat()}.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
     datas = sorted((p.stem for p in DATA.glob("20*.json")), reverse=True)[:120]
     (DATA / "index.json").write_text(json.dumps(datas), encoding="utf-8")
-    log(f"Edição {hoje} gravada: {len(dia['itens'])} itens, IA={dia.get('ia')}, semana={'sim' if semana else 'não'}")
+    log(f"Edição {hoje} gravada: {len(dia['itens'])} itens, IA={dia.get('ia')}, modo={dia.get('modo','ia')}, semana={'sim' if semana else 'não'}")
 
 if __name__ == "__main__": main()
