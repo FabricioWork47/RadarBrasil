@@ -13,10 +13,11 @@ o resumo e a análise, e atualiza o site. Nas segundas, gera também a retrospec
 
 ## Manutenção
 - `docs/agenda.json`: agenda de eventos (Copom, IBGE, votações). Edite quando surgir evento novo.
+- O feed público do Valor Econômico fornece manchetes, links e imagens; o acesso ao texto completo pode exigir assinatura.
 - Modelo de IA: variável `MODELO` no script (padrão `openai/gpt-4o-mini`). Veja os modelos em github.com/marketplace/models.
 - Se a IA estiver indisponível ou no limite gratuito, o site mostra só as manchetes, sem análise.
 
 ## Limites
 - Os links vêm sempre dos feeds, nunca da IA. Itens sem fonte real não são publicados.
 - A análise é gerada por IA: pode errar. Confira nas fontes.
-- O Valor Econômico é pago e não tem feed aberto, por isso não entra na coleta.
+- Algumas matérias do Valor Econômico podem exigir assinatura para leitura integral.

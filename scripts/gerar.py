@@ -19,6 +19,7 @@ MAX_CAND = 60          # candidatas enviadas à IA
 FEEDS = [
     ("g1 Economia", "https://g1.globo.com/rss/g1/economia/", False),
     ("g1 Política", "https://g1.globo.com/rss/g1/politica/", False),
+    ("Valor Econômico", "https://valor.globo.com/rss/valor/", True),
     ("Agência Brasil", "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", True),
     ("InfoMoney", "https://www.infomoney.com.br/feed/", True),
     ("Money Times", "https://www.moneytimes.com.br/feed/", True),
