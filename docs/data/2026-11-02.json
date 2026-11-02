@@ -1,122 +1,65 @@
 {
  "data": "2026-11-02",
- "geradoEm": "02/11/2026 19:29",
- "modelo": null,
+ "geradoEm": "02/11/2026 19:39",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
  "dia": {
   "resumo30s": [
-   "Análise por IA indisponível hoje: exibindo apenas as manchetes coletadas."
+   "D",
+   "e",
+   "b",
+   "a",
+   "t"
   ],
   "itens": [
    {
-    "tag": "InfoMoney",
-    "titulo": "Parlamentares governistas aumentam críticas a juros altos antes de reunião do Copom",
-    "resumo": "O deputado federal Lindbergh Farias (PT-RJ) criticou nesta segunda-feira, 2, a mudança nas projeções dos analistas para a taxa básica de juros após o segundo turno das eleições The post Parlamentares governistas aumentam críticas a juros altos antes de reunião do Copom appeared first on InfoMoney .",
-    "contexto": "",
-    "impacto": "",
+    "tag": "Economia|Juros e inflação|Fiscal",
+    "titulo": "Proposta de redução de juros e contenção da dívida pública ganha apoio",
+    "resumo": "Uma proposta do economista André Lara Resende para reduzir a taxa Selic e frear o crescimento da dívida pública tem ganhado apoio no PT. A ideia defende a redução dos juros sem impor austeridade fiscal e sugere a criação de um órgão para metas de juros.",
+    "contexto": "A proposta surge em meio a críticas de parlamentares governistas a juros altos e a um debate sobre a política fiscal do governo Lula, com o economista José Sérgio Gabrielli endossando a tese de Lara Resende e acusando o Banco Central de causar rombo fiscal via juros.",
+    "impacto": "Pode gerar pressão sobre o Banco Central e o Copom em suas decisões futuras sobre a taxa Selic. Tende a aumentar o debate sobre a relação entre juros, dívida pública e política fiscal no Brasil.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/selic-a-75-para-conter-a-divida-proposta-de-lara-resende-ganha-apoio-no-pt-e-provoca-reacao-jcav/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-integras/leia-a-integra-do-documento-sobre-politica-fiscal-de-lula/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "Economia|Juros e inflação",
+    "titulo": "Mercado financeiro eleva projeção da Selic e prevê pausa nos cortes",
+    "resumo": "Um dos bancos mais otimistas com a queda dos juros, o Inter, elevou sua projeção para a taxa Selic e passou a prever uma pausa nos cortes. Outros analistas também revisaram suas projeções para a taxa básica de juros.",
+    "contexto": "A revisão das projeções ocorre em um cenário de debates sobre a política de juros no Brasil e críticas de parlamentares governistas à taxa Selic atual.",
+    "impacto": "Pode indicar maior cautela do mercado financeiro em relação ao futuro da taxa Selic, possivelmente influenciando decisões de investimento.",
     "fontes": [
      {
       "n": "InfoMoney",
       "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Leia a íntegra do documento sobre política fiscal de Lula",
-    "resumo": "Texto de José Sérgio Gabrielli defende corte de juros sem impor austeridade e apoia tese de André Lara Resende",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
+     },
      {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-integras/leia-a-integra-do-documento-sobre-politica-fiscal-de-lula/"
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/"
      }
     ]
    },
    {
-    "tag": "InfoMoney",
-    "titulo": "Trump admite indultos a aliados e promete vetos se democratas vencerem eleição",
-    "resumo": "Questionado sobre a possibilidade de perdoar antecipadamente aliados diante de ameaças de investigações, Trump citou o antecessor Joe Biden The post Trump admite indultos a aliados e promete vetos se democratas vencerem eleição appeared first on InfoMoney .",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mundo/trump-admite-indultos-a-aliados-e-promete-vetos-se-democratas-vencerem-eleicao/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Ana Elisa e irmão de Cleitinho divergem sobre quem encarece combustíveis",
-    "resumo": "Deputada atribui aumento previsto para fevereiro de 2027 à elevação do ICMS aprovada pelos Estados; deputado responsabiliza governo Lula",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-congresso/ana-elisa-e-irmao-de-cleitinho-divergem-sobre-quem-encarece-combustiveis/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Coordenador do programa de governo de Lula endossa Lara Resende",
-    "resumo": "Gabrielli defendeu criar órgão para metas de juros e criticou o mercado financeiro em artigo sobre política econômica",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Janones leva a Sergio Massa estratégias digitais da campanha de Lula",
-    "resumo": "Deputado se reuniu com opositor peronista para compartilhar estratégias de redes sociais aplicadas na reeleição de Lula",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-eleicoes-2026/janones-leva-a-sergio-massa-estrategias-digitais-da-campanha-de-lula/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Defesa de Vorcaro pede audiência no STF sobre pedidos pendentes",
-    "resumo": "Advogados devem ser recebidos por juiz auxiliar da Presidência do Supremo; ex-banqueiro está preso preventivamente",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-justica/defesa-de-vorcaro-pede-audiencia-no-stf-sobre-pedidos-pendentes/"
-     }
-    ]
-   },
-   {
-    "tag": "Agência Brasil",
-    "titulo": "Desembargador assume governo de MS após licença de governador e vice",
-    "resumo": "Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Executivo estadual neste domingo (1º). Pavan deve permanecer à frente do governo…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Agência Brasil",
-      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/desembargador-assume-governo-de-ms-apos-licenca-de-governador-e-vice"
-     }
-    ]
-   },
-   {
-    "tag": "InfoMoney",
-    "titulo": "‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário",
-    "resumo": "O petista afirmou que o Piauí é o primeiro lugar do Brasil em taxa de investimentos públicos em relação à receita The post ‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário appeared first on InfoMoney .",
-    "contexto": "",
-    "impacto": "",
+    "tag": "Economia|Fiscal|Congresso",
+    "titulo": "Governador cotado para Fazenda defende equilíbrio fiscal",
+    "resumo": "Um governador petista, cotado para assumir o Ministério da Fazenda, declarou apoio ao equilíbrio fiscal. Ele destacou que o Piauí é o primeiro lugar do Brasil em taxa de investimentos públicos em relação à receita.",
+    "contexto": "A declaração ocorre em um momento de intensos debates sobre a política fiscal do governo Lula e a relação entre juros e dívida pública.",
+    "impacto": "Pode sinalizar uma linha de atuação mais conservadora em relação às contas públicas caso o governador assuma a Fazenda, buscando conciliar responsabilidade fiscal com investimentos.",
     "fontes": [
      {
       "n": "InfoMoney",
@@ -125,85 +68,92 @@
     ]
    },
    {
-    "tag": "Money Times",
-    "titulo": "Petróleo despenca com expectativa de diálogo entre Irã e EUA e decisão da Opep+",
-    "resumo": "Os contratos futuros do petróleo fecharam em forte queda nesta segunda-feira, 2, diante das expectativas de diálogo entre Irã e EUA, por mediadores, para alcançar uma resolução para o conflito no Oriente Médio e reabrir o Estreito de Ormuz. Investidores também digerem a decisão da Organização de Países Exportadores de…",
-    "contexto": "",
-    "impacto": "",
+    "tag": "Economia|Consumidor",
+    "titulo": "Novas regras de atendimento ao consumidor entram em vigor",
+    "resumo": "A partir desta segunda-feira, 2, entram em vigor novas regras para os canais de atendimento telefônicos e eletrônicos (SAC) das empresas. As empresas são obrigadas a oferecer atendimento humano.",
+    "contexto": "As mudanças visam aprimorar a relação entre empresas e consumidores, garantindo um atendimento mais eficaz e humano.",
+    "impacto": "Pode levar a uma melhoria na experiência do consumidor e a um aumento nos custos operacionais para as empresas que precisam adaptar seus sistemas de atendimento.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/novas-regras-de-atendimento-ao-consumidor-comecam-valer-hoje"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "Economia|Fiscal|Impostos",
+    "titulo": "Estados preparam aumento de ICMS sobre combustíveis em 2027",
+    "resumo": "Os Estados brasileiros terão um reajuste do ICMS sobre combustíveis a partir de 1º de fevereiro de 2027. Há divergências sobre quem deve ser responsabilizado pelo aumento.",
+    "contexto": "A deputada Ana Elisa atribui o aumento à elevação do ICMS aprovada pelos Estados, enquanto o deputado irmão de Cleitinho responsabiliza o governo Lula. O aumento previsto para 2027 pode impactar o preço final dos combustíveis.",
+    "impacto": "Pode gerar um aumento nos preços da gasolina, gás de cozinha e diesel para o consumidor a partir de 2027, dependendo da alíquota final definida pelos Estados.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/ana-elisa-e-irmao-de-cleitinho-divergem-sobre-quem-encarece-combustiveis/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/02/icms-sobre-os-combustiveis-veja-quanto-sera-o-aumento-na-gasolina-gas-de-cozinha-e-diesel-a-partir-de-1-de-fevereiro-de-2027-em-sp.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "Economia|Mercado financeiro|Criptomoedas",
+    "titulo": "Mercado Bitcoin sofre ataque e suspende saques",
+    "resumo": "O Mercado Bitcoin suspendeu saques após sofrer um ataque hacker. A notícia surge dias após um roubo bilionário na Binance, que posteriormente retomou saques de bitcoin e ether.",
+    "contexto": "Ataques a exchanges de criptomoedas levantam preocupações sobre a segurança do mercado e podem afetar a confiança dos investidores.",
+    "impacto": "Pode gerar desconfiança no mercado de criptomoedas, levando investidores a retirarem fundos, como os US$ 3,6 bilhões retirados da Binance após um ataque.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/01/binance-retoma-saques-apos-roubo-de-us-63-bilhoes.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "Economia|Comércio exterior|Agronegócio",
+    "titulo": "Acordo Mercosul-UE impulsiona exportações do agro",
+    "resumo": "O acordo comercial entre Mercosul e União Europeia, após mais de 25 anos de negociações, completa seis meses com alta de 14,8% nas exportações do agronegócio brasileiro.",
+    "contexto": "O acordo visa facilitar o comércio e a cooperação entre os blocos econômicos, com o agronegócio sendo um dos setores mais beneficiados.",
+    "impacto": "Tende a fortalecer o setor de agronegócio brasileiro no mercado internacional, aumentando a receita de exportação e a competitividade dos produtos nacionais.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/01/agro-ue-acordo-exportacoes-crescem.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "Economia|Energia|Petróleo",
+    "titulo": "Petróleo despenca com expectativas de diálogo entre Irã e EUA",
+    "resumo": "Os preços do petróleo fecharam em forte queda diante das expectativas de diálogo entre Irã e Estados Unidos para alcançar um acordo de paz. O Brent ameaça perder o nível de US$ 100.",
+    "contexto": "Negociações entre autoridades do Irã e do Catar alimentaram esperanças de resolução do conflito no Oriente Médio, impactando diretamente o mercado de petróleo.",
+    "impacto": "Pode levar a uma redução nos custos de combustíveis e insumos para diversas indústrias no Brasil, além de afetar a receita de países produtores de petróleo.",
     "fontes": [
      {
       "n": "Money Times",
       "u": "https://www.moneytimes.com.br/petroleo-fecha-em-queda-de-mais-de-7-com-expectativa-de-dialogo-entre-eua-e-ira-sobre-guerra-jcav/"
-     }
-    ]
-   },
-   {
-    "tag": "Poder360",
-    "titulo": "Trump pede à Suprema Corte dos EUA bloqueio de votos na Califórnia",
-    "resumo": "Governo norte-americano questiona cidadania de 20.000 eleitores e tenta suspender contagem a 1 dia da eleição",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-internacional/trump-pede-a-suprema-corte-dos-eua-bloqueio-de-votos-na-california/"
-     }
-    ]
-   },
-   {
-    "tag": "Money Times",
-    "titulo": "Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes",
-    "resumo": "Um dos bancos que mais apostavam na continuidade da queda dos juros entre as instituições acompanhadas pelo Money Times durante o ano, o Inter passou a prever uma interrupção dos cortes antes do esperado. O banco agora estima que a Selic encerre 2026 em 13,50%, ante os 13,25% projetados anteriormente, diante da piora…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
+     },
      {
       "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/"
-     }
-    ]
-   },
-   {
-    "tag": "InfoMoney",
-    "titulo": "Montadoras nos EUA pedem proibição permanente de carros chineses",
-    "resumo": "Grandes montadoras pedem ao Congresso dos EUA que aprove proibição permanente de veículos chineses The post Montadoras nos EUA pedem proibição permanente de carros chineses appeared first on InfoMoney .",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/business/montadoras-nos-eua-pedem-proibicao-permanente-de-carros-chineses/"
-     }
-    ]
-   },
-   {
-    "tag": "Money Times",
-    "titulo": "El Niño representa “risco significativo” de aumento da inflação em 2027, diz estudo do Fed de San Francisco",
-    "resumo": "O fenômeno climático El Niño, que pode causar um aumento recorde nas temperaturas oceânicas nos próximos meses, representa um “risco significativo” de aumento da inflação nos Estados Unidos em 2027, embora também deva contribuir para a geração de empregos, de acordo com uma pesquisa publicada nesta segunda-feira pelo…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/el-nino-representa-risco-significativo-de-aumento-da-inflacao-em-2027-diz-estudo-do-fed-de-san-francisco/"
-     }
-    ]
-   },
-   {
-    "tag": "InfoMoney",
-    "titulo": "Ouro fecha em alta com otimismo sobre diálogo entre EUA e Irã para encerrar guerra",
-    "resumo": "O mercado também monitora sinais do futuro da trajetória de juros pelo Federal Reserve (Fed), à espera da publicação do payroll no fim desta semana The post Ouro fecha em alta com otimismo sobre diálogo entre EUA e Irã para encerrar guerra appeared first on InfoMoney .",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mercados/ouro-fecha-em-alta-com-otimismo-sobre-dialogo-entre-eua-e-ira-para-encerrar-guerra/"
+      "u": "https://www.moneytimes.com.br/petroleo-intradia-2-11-26-lils/"
      }
     ]
    }
   ],
-  "ia": false
+  "ia": true
  },
  "semana": null
 }
