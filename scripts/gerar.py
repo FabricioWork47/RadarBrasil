@@ -165,6 +165,11 @@ REGRAS = ("Você é analista de economia e política do Brasil. Escreva em portu
           "'impacto' é sempre hipótese: use 'pode', 'tende a', 'possível'. Nunca dê recomendação de investimento. "
           "Ignore notícias estrangeiras (exceto com efeito direto no Brasil), estaduais, municipais, esportivas e de entretenimento. Cada item deve citar 'indices' (números da lista) que o sustentam. Responda apenas com JSON.")
 
+def tema(t):
+    partes = [x.strip() for x in re.split(r"[|/;]", str(t)) if x.strip()]
+    esp = [x for x in partes if x.lower() not in ("economia", "política", "politica")]
+    return (esp or partes or ["Geral"])[0]
+
 def anexar(itens, pool):
     saida = []
     for it in itens or []:
@@ -175,7 +180,7 @@ def anexar(itens, pool):
                 if f["u"] not in vistos: vistos.add(f["u"]); fontes.append(f)
         if not fontes: continue            # sem fonte real, não publica
         it = {k: str(it.get(k, "")) for k in ("tag", "titulo", "resumo", "contexto", "impacto")}
-        it["fontes"] = fontes[:4]; saida.append(it)
+        it["tag"] = tema(it["tag"]); it["fontes"] = fontes[:4]; saida.append(it)
     return saida
 
 def lista_limitada(linhas, limite):
@@ -196,10 +201,10 @@ def _gerar_dia(cands, limite):
     linhas = lista_limitada([f"[{i}] ({c['fonte']}) {c['titulo']} — {c['resumo'][:160]}" for i, c in enumerate(cands)], limite)
     pool = [{"fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands[:len(linhas)]]
     lista = "\n".join(linhas)
-    r = chamar_ia(REGRAS, "Notícias recentes:\n" + lista + "\n\nEscolha as 8 a 12 mais relevantes de economia e política "
-        "nacional e agrupe duplicatas. Formato: {\"resumo30s\":[3 a 5 frases curtas],\"itens\":[{\"tag\":\"Economia|Política|"
-        "Fiscal|Juros e inflação|Congresso|Judiciário|...\",\"titulo\":\"...\",\"resumo\":\"fato em 2-3 frases\","
-        "\"contexto\":\"por que importa\",\"impacto\":\"possível efeito (hipótese)\",\"indices\":[0]}]}")
+    r = chamar_ia(REGRAS, "Notícias recentes:\n" + lista + "\n\nEscolha as 10 a 12 mais relevantes de economia e política "
+        "nacional e agrupe duplicatas. Formato: {\"resumo30s\":[3 a 5 frases curtas],\"itens\":[{\"tag\":\"um único tema curto, "
+        "ex.: Juros e inflação, Fiscal, Congresso, Judiciário, Mercado\",\"titulo\":\"...\",\"resumo\":\"fato em 2-3 frases\","
+        "\"contexto\":\"por que importa, específico desta notícia; sem base na lista, deixe vazio\",\"impacto\":\"possível efeito (hipótese)\",\"indices\":[0]}]}")
     return {"resumo30s": [str(x) for x in r.get("resumo30s", [])][:5], "itens": anexar(r.get("itens"), pool), "ia": True}
 
 def dia_sem_ia(cands):
