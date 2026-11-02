@@ -1,12 +1,51 @@
 {
  "data": "2026-11-02",
- "geradoEm": "02/11/2026 19:10",
+ "geradoEm": "02/11/2026 19:20",
  "modelo": null,
  "dia": {
   "resumo30s": [
    "Análise por IA indisponível hoje: exibindo apenas as manchetes coletadas."
   ],
   "itens": [
+   {
+    "tag": "InfoMoney",
+    "titulo": "Parlamentares governistas aumentam críticas a juros altos antes de reunião do Copom",
+    "resumo": "O deputado federal Lindbergh Farias (PT-RJ) criticou nesta segunda-feira, 2, a mudança nas projeções dos analistas para a taxa básica de juros após o segundo turno das eleições The post Parlamentares governistas aumentam críticas a juros altos antes de reunião do Copom appeared first on InfoMoney .",
+    "contexto": "",
+    "impacto": "",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
+     }
+    ]
+   },
+   {
+    "tag": "Poder360",
+    "titulo": "Leia a íntegra do documento sobre política fiscal de Lula",
+    "resumo": "Texto de José Sérgio Gabrielli defende corte de juros sem impor austeridade e apoia tese de André Lara Resende",
+    "contexto": "",
+    "impacto": "",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-integras/leia-a-integra-do-documento-sobre-politica-fiscal-de-lula/"
+     }
+    ]
+   },
+   {
+    "tag": "InfoMoney",
+    "titulo": "Trump admite indultos a aliados e promete vetos se democratas vencerem eleição",
+    "resumo": "Questionado sobre a possibilidade de perdoar antecipadamente aliados diante de ameaças de investigações, Trump citou o antecessor Joe Biden The post Trump admite indultos a aliados e promete vetos se democratas vencerem eleição appeared first on InfoMoney .",
+    "contexto": "",
+    "impacto": "",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/trump-admite-indultos-a-aliados-e-promete-vetos-se-democratas-vencerem-eleicao/"
+     }
+    ]
+   },
    {
     "tag": "Poder360",
     "titulo": "Ana Elisa e irmão de Cleitinho divergem sobre quem encarece combustíveis",
@@ -125,19 +164,6 @@
     ]
    },
    {
-    "tag": "Poder360",
-    "titulo": "Inflação disparou na Turquia com teto de juro, que Lara Resende propõe",
-    "resumo": "Recep Erdogan mandou cortar taxa básica de juros em 2021; inflação chegou a 85% e dólar foi de 8 para 18 liras",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-economia/inflacao-disparou-na-turquia-com-teto-de-juro-que-lara-resende-propoe/"
-     }
-    ]
-   },
-   {
     "tag": "InfoMoney",
     "titulo": "Montadoras nos EUA pedem proibição permanente de carros chineses",
     "resumo": "Grandes montadoras pedem ao Congresso dos EUA que aprove proibição permanente de veículos chineses The post Montadoras nos EUA pedem proibição permanente de carros chineses appeared first on InfoMoney .",
@@ -173,32 +199,6 @@
      {
       "n": "InfoMoney",
       "u": "https://www.infomoney.com.br/mercados/ouro-fecha-em-alta-com-otimismo-sobre-dialogo-entre-eua-e-ira-para-encerrar-guerra/"
-     }
-    ]
-   },
-   {
-    "tag": "g1 Política",
-    "titulo": "'Propostas como tabelar os juros ou queimar reservas cambiais não estão em avaliação', diz Durigan",
-    "resumo": "",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "g1 Política",
-      "u": "https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml"
-     }
-    ]
-   },
-   {
-    "tag": "InfoMoney",
-    "titulo": "Coreia do Norte turbina hackers com IA: roubo de US$ 6,3 bi da Binance é só o começo",
-    "resumo": "O grupo norte-coreano acusado do maior roubo de criptomoedas da história é uma organização estatal de hackers de elite, treinados desde cedo para caçar \"grandes presas\". A inteligência artificial agora lhes deu uma nova ferramenta poderosa para inflar os cofres de Kim Jong Un e financiar sua expansão militar The post…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mundo/coreia-do-norte-turbina-hackers-com-ia-roubo-de-us-63-bi-da-binance-e-so-o-comeco/"
      }
     ]
    }
