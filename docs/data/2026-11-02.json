@@ -1,27 +1,31 @@
 {
  "data": "2026-11-02",
- "geradoEm": "02/11/2026 19:39",
+ "geradoEm": "02/11/2026 19:48",
  "modelo": "openai/gpt-4o-mini",
  "modo": "ia",
  "dia": {
   "resumo30s": [
-   "D",
-   "e",
-   "b",
-   "a",
-   "t"
+   "Proposta para reduzir juros e dívida pública ganha apoio no PT, com economista defendendo órgão para metas de juros.",
+   "Parlamentares governistas criticam juros altos antes de reunião do Copom, enquanto projeções da Selic são elevadas.",
+   "Governo defende política fiscal com corte de juros sem austeridade, alinhado à tese de redução da taxa básica.",
+   "Aumento de ICMS sobre combustíveis a partir de 2027 gera divergências entre parlamentares.",
+   "Novas regras de atendimento ao consumidor e interoperabilidade de vale-tíquete entram em vigor."
   ],
   "itens": [
    {
-    "tag": "Economia|Juros e inflação|Fiscal",
-    "titulo": "Proposta de redução de juros e contenção da dívida pública ganha apoio",
-    "resumo": "Uma proposta do economista André Lara Resende para reduzir a taxa Selic e frear o crescimento da dívida pública tem ganhado apoio no PT. A ideia defende a redução dos juros sem impor austeridade fiscal e sugere a criação de um órgão para metas de juros.",
-    "contexto": "A proposta surge em meio a críticas de parlamentares governistas a juros altos e a um debate sobre a política fiscal do governo Lula, com o economista José Sérgio Gabrielli endossando a tese de Lara Resende e acusando o Banco Central de causar rombo fiscal via juros.",
-    "impacto": "Pode gerar pressão sobre o Banco Central e o Copom em suas decisões futuras sobre a taxa Selic. Tende a aumentar o debate sobre a relação entre juros, dívida pública e política fiscal no Brasil.",
+    "tag": "Juros e Dívida Pública",
+    "titulo": "Proposta de redução de juros e dívida pública ganha apoio no PT",
+    "resumo": "Uma proposta do economista André Lara Resende para reduzir os juros e frear o crescimento da dívida pública tem ganhado apoio no PT. A ideia é criar um órgão para metas de juros, criticando o mercado financeiro.",
+    "contexto": "A discussão sobre a política monetária e fiscal tem sido intensa, com parlamentares governistas criticando juros altos e o Banco Central sendo acusado de causar rombo fiscal via juros.",
+    "impacto": "Pode haver pressão por redução da taxa Selic, com possíveis impactos na inflação e no custo da dívida pública.",
     "fontes": [
      {
       "n": "Money Times",
       "u": "https://www.moneytimes.com.br/selic-a-75-para-conter-a-divida-proposta-de-lara-resende-ganha-apoio-no-pt-e-provoca-reacao-jcav/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
      },
      {
       "n": "Poder360",
@@ -30,6 +34,23 @@
      {
       "n": "Poder360",
       "u": "https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/"
+     }
+    ]
+   },
+   {
+    "tag": "Política Fiscal",
+    "titulo": "Governo defende corte de juros sem austeridade",
+    "resumo": "Um documento sobre política fiscal defende corte de juros sem impor austeridade e apoia tese de redução da taxa básica. Governador cotado para Fazenda defende equilíbrio fiscal.",
+    "contexto": "A política fiscal do governo tem sido tema de debate, com diferentes visões sobre como equilibrar as contas públicas e estimular a economia.",
+    "impacto": "Pode sinalizar uma abordagem menos restritiva em relação aos gastos públicos, com foco em estímulos econômicos.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-integras/leia-a-integra-do-documento-sobre-politica-fiscal-de-lula/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/"
      },
      {
       "n": "g1 Política",
@@ -38,58 +59,11 @@
     ]
    },
    {
-    "tag": "Economia|Juros e inflação",
-    "titulo": "Mercado financeiro eleva projeção da Selic e prevê pausa nos cortes",
-    "resumo": "Um dos bancos mais otimistas com a queda dos juros, o Inter, elevou sua projeção para a taxa Selic e passou a prever uma pausa nos cortes. Outros analistas também revisaram suas projeções para a taxa básica de juros.",
-    "contexto": "A revisão das projeções ocorre em um cenário de debates sobre a política de juros no Brasil e críticas de parlamentares governistas à taxa Selic atual.",
-    "impacto": "Pode indicar maior cautela do mercado financeiro em relação ao futuro da taxa Selic, possivelmente influenciando decisões de investimento.",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
-     },
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/"
-     }
-    ]
-   },
-   {
-    "tag": "Economia|Fiscal|Congresso",
-    "titulo": "Governador cotado para Fazenda defende equilíbrio fiscal",
-    "resumo": "Um governador petista, cotado para assumir o Ministério da Fazenda, declarou apoio ao equilíbrio fiscal. Ele destacou que o Piauí é o primeiro lugar do Brasil em taxa de investimentos públicos em relação à receita.",
-    "contexto": "A declaração ocorre em um momento de intensos debates sobre a política fiscal do governo Lula e a relação entre juros e dívida pública.",
-    "impacto": "Pode sinalizar uma linha de atuação mais conservadora em relação às contas públicas caso o governador assuma a Fazenda, buscando conciliar responsabilidade fiscal com investimentos.",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/"
-     }
-    ]
-   },
-   {
-    "tag": "Economia|Consumidor",
-    "titulo": "Novas regras de atendimento ao consumidor entram em vigor",
-    "resumo": "A partir desta segunda-feira, 2, entram em vigor novas regras para os canais de atendimento telefônicos e eletrônicos (SAC) das empresas. As empresas são obrigadas a oferecer atendimento humano.",
-    "contexto": "As mudanças visam aprimorar a relação entre empresas e consumidores, garantindo um atendimento mais eficaz e humano.",
-    "impacto": "Pode levar a uma melhoria na experiência do consumidor e a um aumento nos custos operacionais para as empresas que precisam adaptar seus sistemas de atendimento.",
-    "fontes": [
-     {
-      "n": "Agência Brasil",
-      "u": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/novas-regras-de-atendimento-ao-consumidor-comecam-valer-hoje"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml"
-     }
-    ]
-   },
-   {
-    "tag": "Economia|Fiscal|Impostos",
-    "titulo": "Estados preparam aumento de ICMS sobre combustíveis em 2027",
-    "resumo": "Os Estados brasileiros terão um reajuste do ICMS sobre combustíveis a partir de 1º de fevereiro de 2027. Há divergências sobre quem deve ser responsabilizado pelo aumento.",
-    "contexto": "A deputada Ana Elisa atribui o aumento à elevação do ICMS aprovada pelos Estados, enquanto o deputado irmão de Cleitinho responsabiliza o governo Lula. O aumento previsto para 2027 pode impactar o preço final dos combustíveis.",
-    "impacto": "Pode gerar um aumento nos preços da gasolina, gás de cozinha e diesel para o consumidor a partir de 2027, dependendo da alíquota final definida pelos Estados.",
+    "tag": "Combustíveis",
+    "titulo": "Aumento de ICMS sobre combustíveis a partir de 2027 gera divergências",
+    "resumo": "Parlamentares divergem sobre quem encarece combustíveis, com um atribuindo aumento previsto para 2027 à elevação do ICMS aprovada pelos Estados e outro responsabilizando o governo Lula.",
+    "contexto": "O impacto de impostos sobre o preço dos combustíveis é um tema sensível para a população e para a economia.",
+    "impacto": "Pode gerar debates sobre a política tributária e seus efeitos no custo de vida e na inflação.",
     "fontes": [
      {
       "n": "Poder360",
@@ -102,49 +76,40 @@
     ]
    },
    {
-    "tag": "Economia|Mercado financeiro|Criptomoedas",
-    "titulo": "Mercado Bitcoin sofre ataque e suspende saques",
-    "resumo": "O Mercado Bitcoin suspendeu saques após sofrer um ataque hacker. A notícia surge dias após um roubo bilionário na Binance, que posteriormente retomou saques de bitcoin e ether.",
-    "contexto": "Ataques a exchanges de criptomoedas levantam preocupações sobre a segurança do mercado e podem afetar a confiança dos investidores.",
-    "impacto": "Pode gerar desconfiança no mercado de criptomoedas, levando investidores a retirarem fundos, como os US$ 3,6 bilhões retirados da Binance após um ataque.",
+    "tag": "Regulamentação do Consumidor",
+    "titulo": "Novas regras de atendimento ao consumidor entram em vigor",
+    "resumo": "Novas regras de atendimento ao consumidor, incluindo atendimento humano em canais telefônicos e eletrônicos (SAC), começam a valer. Máquinas de vale-tíquete também terão de aceitar todos os cartões.",
+    "contexto": "A melhoria na qualidade do atendimento ao consumidor e a ampliação das opções de pagamento são medidas que visam proteger e facilitar a vida dos cidadãos.",
+    "impacto": "Pode levar a uma melhor experiência do consumidor e a maior concorrência no setor de pagamentos.",
     "fontes": [
      {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml"
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/novas-regras-de-atendimento-ao-consumidor-comecam-valer-hoje"
      },
      {
       "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml"
+      "u": "https://g1.globo.com/economia/noticia/2026/11/02/vale-tiquete-maquinas-terao-de-aceitar-todos-os-cartoes-a-partir-de-7-de-novembro-diz-ministerio-do-trabalho.ghtml"
      },
      {
       "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/01/binance-retoma-saques-apos-roubo-de-us-63-bilhoes.ghtml"
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml"
      }
     ]
    },
    {
-    "tag": "Economia|Comércio exterior|Agronegócio",
-    "titulo": "Acordo Mercosul-UE impulsiona exportações do agro",
-    "resumo": "O acordo comercial entre Mercosul e União Europeia, após mais de 25 anos de negociações, completa seis meses com alta de 14,8% nas exportações do agronegócio brasileiro.",
-    "contexto": "O acordo visa facilitar o comércio e a cooperação entre os blocos econômicos, com o agronegócio sendo um dos setores mais beneficiados.",
-    "impacto": "Tende a fortalecer o setor de agronegócio brasileiro no mercado internacional, aumentando a receita de exportação e a competitividade dos produtos nacionais.",
-    "fontes": [
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/01/agro-ue-acordo-exportacoes-crescem.ghtml"
-     }
-    ]
-   },
-   {
-    "tag": "Economia|Energia|Petróleo",
-    "titulo": "Petróleo despenca com expectativas de diálogo entre Irã e EUA",
-    "resumo": "Os preços do petróleo fecharam em forte queda diante das expectativas de diálogo entre Irã e Estados Unidos para alcançar um acordo de paz. O Brent ameaça perder o nível de US$ 100.",
-    "contexto": "Negociações entre autoridades do Irã e do Catar alimentaram esperanças de resolução do conflito no Oriente Médio, impactando diretamente o mercado de petróleo.",
-    "impacto": "Pode levar a uma redução nos custos de combustíveis e insumos para diversas indústrias no Brasil, além de afetar a receita de países produtores de petróleo.",
+    "tag": "Economia Internacional",
+    "titulo": "Petróleo despenca com expectativa de diálogo entre Irã e EUA e decisão da Opep+",
+    "resumo": "Os preços do petróleo caíram significativamente com expectativas de diálogo entre Irã e EUA e decisões da Opep+. O ouro subiu com o otimismo para resolução da guerra no Oriente Médio.",
+    "contexto": "Eventos geopolíticos e decisões de blocos produtores de petróleo têm forte influência nos preços das commodities e na economia global.",
+    "impacto": "Pode afetar os custos de produção e transporte no Brasil, além de influenciar a inflação e a balança comercial.",
     "fontes": [
      {
       "n": "Money Times",
       "u": "https://www.moneytimes.com.br/petroleo-fecha-em-queda-de-mais-de-7-com-expectativa-de-dialogo-entre-eua-e-ira-sobre-guerra-jcav/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ouro-2-11-26-lils/"
      },
      {
       "n": "Money Times",
