@@ -1,6 +1,6 @@
 {
  "data": "2026-11-02",
- "geradoEm": "02/11/2026 18:39",
+ "geradoEm": "02/11/2026 18:54",
  "modelo": null,
  "dia": {
   "resumo30s": [
@@ -8,41 +8,28 @@
   ],
   "itens": [
    {
-    "tag": "Money Times",
-    "titulo": "Wall Street vira com petróleo em queda, IA sob pressão e Apple no radar",
-    "resumo": "O S&P 500 fechou em baixa nesta segunda-feira, com os preços do petróleo despencando devido ao otimismo em relação a um possível acordo de paz entre os Estados Unidos e o Irã, enquanto as ações da Apple registraram queda antes do relatório trimestral da fabricante do iPhone e com os investidores aguardando as eleições…",
+    "tag": "Poder360",
+    "titulo": "Ana Elisa e irmão de Cleitinho divergem sobre quem encarece combustíveis",
+    "resumo": "Deputada atribui aumento previsto para fevereiro de 2027 à elevação do ICMS aprovada pelos Estados; deputado responsabiliza governo Lula",
     "contexto": "",
     "impacto": "",
     "fontes": [
      {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/sp-500-fecha-em-baixa-e-apple-recua-antes-de-relatorio-trimestral-jcav/"
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/ana-elisa-e-irmao-de-cleitinho-divergem-sobre-quem-encarece-combustiveis/"
      }
     ]
    },
    {
-    "tag": "InfoMoney",
-    "titulo": "Bolsas de NY fecham mistas com queda do petróleo, em semana de payroll e midterms",
-    "resumo": "Placa da Wall Street é vista do lado de fora da Bolsa de Valores de Nova York (NYSE), no distrito de Manhattan, em Nova York, Estados Unidos, em 2 de outubro de 2020. REUTERS/Carlo Allegri/Foto de arquivo \"…",
+    "tag": "Poder360",
+    "titulo": "Coordenador do programa de governo de Lula endossa Lara Resende",
+    "resumo": "Gabrielli defendeu criar órgão para metas de juros e criticou o mercado financeiro em artigo sobre política econômica",
     "contexto": "",
     "impacto": "",
     "fontes": [
      {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mercados/bolsas-de-ny-abrem-em-alta-com-queda-do-petroleo-em-semana-de-agenda-cheia/"
-     }
-    ]
-   },
-   {
-    "tag": "Money Times",
-    "titulo": "Aprovação de Trump fica perto da mínima histórica antes da eleição de meio de mandato, mostra pesquisa da Reuters/Ipsos",
-    "resumo": "O índice de aprovação do presidente Donald Trump se manteve próximo do mínimo histórico, com uma ampla parcela do eleitorado norte-americano vendo seu voto nas eleições legislativas de terça-feira como uma forma de se opor ao presidente republicano, de acordo com uma pesquisa da Reuters/Ipsos concluída na…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/aprovacao-de-trump-fica-perto-da-minima-historica-antes-da-eleicao-de-meio-de-mandato-mostra-pesquisa-da-reuters-ipsos-jcav/"
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/"
      }
     ]
    },
@@ -73,19 +60,6 @@
     ]
    },
    {
-    "tag": "InfoMoney",
-    "titulo": "Índice de ADRs brasileiros recua em dia de queda de petróleo e bolsas mistas em NY",
-    "resumo": "FILE PHOTO: The Wall Street entrance to the New York Stock Exchange (NYSE) is seen in New York City, U.S., November 15, 2022. REUTERS/Brendan McDermid///File Photo \" data-image-caption=\" (Foto: Brendan Mcdermid / Reuters) \"…",
-    "contexto": "",
-    "impacto": "",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-sobe-em-dia-de-queda-de-petroleo-e-altas-em-ny/"
-     }
-    ]
-   },
-   {
     "tag": "Agência Brasil",
     "titulo": "Desembargador assume governo de MS após licença de governador e vice",
     "resumo": "Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Executivo estadual neste domingo (1º). Pavan deve permanecer à frente do governo…",
@@ -101,7 +75,7 @@
    {
     "tag": "InfoMoney",
     "titulo": "‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário",
-    "resumo": "Governador do Piauí, Rafael Fonteles em entrevista a Rafael Furlaneti, sócio-diretor institucional da XP e apresentador do FurlaCast (Reportagem) \" data-image-caption=\" Governador do Piauí, Rafael Fonteles em entrevista a Rafael Furlaneti, sócio-diretor institucional da XP e apresentador do FurlaCast (Reportagem) \"…",
+    "resumo": "O petista afirmou que o Piauí é o primeiro lugar do Brasil em taxa de investimentos públicos em relação à receita The post ‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário appeared first on InfoMoney .",
     "contexto": "",
     "impacto": "",
     "fontes": [
@@ -192,13 +166,39 @@
    {
     "tag": "InfoMoney",
     "titulo": "Ouro fecha em alta com otimismo sobre diálogo entre EUA e Irã para encerrar guerra",
-    "resumo": "Barras de ouro 10 de junho de 2026 REUTERS/Toby Shepheard \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/2026-08-25T215728Z_1_LYNXMPEM7O1ND_RTROPTP_4_METALS-RESEARCH-GOLDMAN-SACHS.jpg?fit=1280%2C853&quality=70&strip=all\" />O mercado também monitora sinais do futuro da trajetória de juros…",
+    "resumo": "O mercado também monitora sinais do futuro da trajetória de juros pelo Federal Reserve (Fed), à espera da publicação do payroll no fim desta semana The post Ouro fecha em alta com otimismo sobre diálogo entre EUA e Irã para encerrar guerra appeared first on InfoMoney .",
     "contexto": "",
     "impacto": "",
     "fontes": [
      {
       "n": "InfoMoney",
       "u": "https://www.infomoney.com.br/mercados/ouro-fecha-em-alta-com-otimismo-sobre-dialogo-entre-eua-e-ira-para-encerrar-guerra/"
+     }
+    ]
+   },
+   {
+    "tag": "g1 Política",
+    "titulo": "'Propostas como tabelar os juros ou queimar reservas cambiais não estão em avaliação', diz Durigan",
+    "resumo": "",
+    "contexto": "",
+    "impacto": "",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml"
+     }
+    ]
+   },
+   {
+    "tag": "InfoMoney",
+    "titulo": "Coreia do Norte turbina hackers com IA: roubo de US$ 6,3 bi da Binance é só o começo",
+    "resumo": "O grupo norte-coreano acusado do maior roubo de criptomoedas da história é uma organização estatal de hackers de elite, treinados desde cedo para caçar \"grandes presas\". A inteligência artificial agora lhes deu uma nova ferramenta poderosa para inflar os cofres de Kim Jong Un e financiar sua expansão militar The post…",
+    "contexto": "",
+    "impacto": "",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/coreia-do-norte-turbina-hackers-com-ia-roubo-de-us-63-bi-da-binance-e-so-o-comeco/"
      }
     ]
    }
