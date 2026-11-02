@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Radar Brasil: coleta RSS, resume com IA (GitHub Models, gratuito) e grava JSON em docs/data/.
 Só usa a biblioteca padrão do Python. Se a IA falhar, publica só as manchetes (sem análise)."""
-import json, os, re, sys, html, time, urllib.request, urllib.error
+import json, os, re, sys, html, time, subprocess, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -22,8 +22,6 @@ FEEDS = [
     ("Agência Brasil", "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", True),
     ("InfoMoney", "https://www.infomoney.com.br/feed/", True),
     ("Money Times", "https://www.moneytimes.com.br/feed/", True),
-    ("InfoMoney Economia", "https://www.infomoney.com.br/economia/feed/", True),
-    ("InfoMoney Política", "https://www.infomoney.com.br/politica/feed/", True),
     ("Agência Senado", "https://www12.senado.leg.br/noticias/rss", True),
     ("Agência Câmara", "https://www.camara.leg.br/noticias/rss/ultimas-noticias", True),
     ("Poder360", "https://www.poder360.com.br/feed/", True),
@@ -106,31 +104,32 @@ def coletar(agora):
         vistos.add(k); final.append(g)
     return final[:MAX_CAND]
 
-LEGADO = "https://models.inference.ai.azure.com/chat/completions"
+class TamanhoExcedido(Exception): pass
 
 def _post(url, modelo, sistema, usuario, modo_json):
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token: raise RuntimeError("sem GITHUB_TOKEN")
+    # Usa o curl (igual ao exemplo da documentação do GitHub Models). MODELS_TOKEN (opcional) tem prioridade.
+    token = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if not token: raise RuntimeError("sem token")
     payload = {"model": modelo, "temperature": 0.2, "max_tokens": 3500,
                "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}]}
     if modo_json: payload["response_format"] = {"type": "json_object"}
     corpo = json.dumps(payload).encode()
     for tentativa in range(3):
-        req = urllib.request.Request(url, data=corpo, method="POST", headers={
-            "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-            "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "RadarBrasil/1.0"})
+        p = subprocess.run(["curl", "-sS", "-m", "120", "-w", "\n%{http_code}", "-X", "POST", url,
+                            "-H", "Content-Type: application/json", "-H", f"Authorization: Bearer {token}", "-d", "@-"],
+                           input=corpo, capture_output=True)
+        saida = p.stdout.decode("utf-8", "replace")
+        resp, _, cod = saida.rpartition("\n")
+        if p.returncode != 0: raise RuntimeError(f"curl falhou: {p.stderr.decode()[:200]}")
+        if cod == "413": raise TamanhoExcedido()
+        if cod in ("429", "500", "502", "503") and tentativa < 2:
+            log(f"[IA] HTTP {cod}, nova tentativa"); time.sleep(15 * (tentativa + 1)); continue
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
-                bruto, status, final = r.read(), r.status, r.geturl()
-                tipo = r.headers.get("Content-Type", "")
-        except urllib.error.HTTPError as e:
-            log(f"[IA] HTTP {e.code} em {url.split('/')[2]} (tentativa {tentativa+1}): {e.read()[:300]!r}")
-            if e.code in (429, 500, 502, 503) and tentativa < 2: time.sleep(15 * (tentativa + 1)); continue
-            raise
-        try:
-            txt = json.loads(bruto)["choices"][0]["message"]["content"]
+            txt = json.loads(resp)["choices"][0]["message"]["content"]
         except Exception:
-            raise RuntimeError(f"resposta fora do formato: status={status} url={final} tipo={tipo} corpo={bruto[:300]!r}")
+            dica = (" | Resposta 'OK' = o token do Actions não tem acesso ao Models: crie o segredo MODELS_TOKEN (veja o README)"
+                    if resp.strip() == "OK" else "")
+            raise RuntimeError(f"HTTP {cod}, corpo={resp[:300]!r}{dica}")
         m = re.search(r"\{.*\}", txt or "", re.S)
         if not m: raise RuntimeError(f"resposta sem JSON: {(txt or '')[:200]!r}")
         return json.loads(m.group(0))
@@ -138,14 +137,12 @@ def _post(url, modelo, sistema, usuario, modo_json):
 
 def chamar_ia(sistema, usuario):
     erros = []
-    for url, modelo, js in ((ENDPOINT, MODELO, True), (ENDPOINT, MODELO, False), (LEGADO, MODELO.split("/")[-1], False)):
-        try: return _post(url, modelo, sistema, usuario, js)
-        except urllib.error.HTTPError as e:
-            if e.code == 413: raise
-            erros.append(f"{url.split('/')[2]} {modelo} json={js}: HTTP {e.code}")
+    for js in (True, False):
+        try: return _post(ENDPOINT, MODELO, sistema, usuario, js)
+        except TamanhoExcedido: raise
         except Exception as e:
-            erros.append(f"{url.split('/')[2]} {modelo} json={js}: {e}")
-        log(f"[IA] tentativa falhou: {erros[-1]}")
+            erros.append(f"{MODELO} json={js}: {e}"); log(f"[IA] tentativa falhou: {erros[-1]}")
+            if "MODELS_TOKEN" in erros[-1]: break      # repetir não adianta
     raise RuntimeError(" | ".join(erros))
 
 REGRAS = ("Você é analista de economia e política do Brasil. Escreva em português do Brasil, tom claro e neutro. "
@@ -177,8 +174,7 @@ def lista_limitada(linhas, limite):
 def gerar_dia(cands):
     for limite in (15000, 8000):          # ~4.500 e ~2.400 tokens; o teto gratuito é 8.000 de entrada
         try: return _gerar_dia(cands, limite)
-        except urllib.error.HTTPError as e:
-            if e.code != 413: raise
+        except TamanhoExcedido:
             log(f"[IA] 413: reduzindo a lista para {limite//2} caracteres")
     raise RuntimeError("prompt grande demais")
 
