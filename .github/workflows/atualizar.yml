@@ -1,0 +1,25 @@
+name: Atualizar Radar Brasil
+on:
+  schedule:
+    - cron: "0 9 * * 1-5"   # 09:00 UTC = 06:00 em Brasília, de segunda a sexta
+  workflow_dispatch:         # botão "Run workflow" para rodar na hora
+permissions:
+  contents: write
+  models: read               # libera o GitHub Models (IA gratuita) para o GITHUB_TOKEN
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Gerar edição
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/gerar.py
+      - name: Publicar
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || (git commit -m "Edição $(date -u +%F)" && git push)

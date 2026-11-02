@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar Brasil</title>
+<style>
+:root{--bg:#F2F5F8;--sf:#fff;--fg:#15212C;--mu:#566574;--ln:#D5DDE5;--ac:#1B4F8F;--as:#E3ECF7;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1620;--sf:#16212D;--fg:#E6EDF4;--mu:#9AABBB;--ln:#2A3948;--ac:#7FB0EE;--as:#1A2B40;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Segoe UI",Arial,sans-serif;padding:24px 16px 56px}
+.w{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+a{color:var(--ac)}h1,h2,h3{margin:0;line-height:1.2}h1{font-size:clamp(30px,7vw,44px)}h2{font-size:24px;border-bottom:2px solid var(--fg);padding-bottom:6px}h3{font-size:19px}
+.eb{font:12.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--mu)}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+select,button{font:500 14px inherit;font-family:inherit;color:var(--fg);background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:8px 12px;cursor:pointer}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button{border-radius:999px;padding:6px 14px}.tabs button[aria-selected=true]{background:var(--ac);border-color:var(--ac);color:var(--bg)}
+.box{background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:14px 16px}.box ul{margin:0;padding-left:18px}
+.it{display:flex;flex-direction:column;gap:8px;padding:16px 0;border-bottom:1px solid var(--ln)}
+.tag{font:11.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--ac)}
+.im{background:var(--as);border-radius:8px;padding:10px 14px}.src{font-size:13.5px;color:var(--mu)}.src a{margin-right:8px}
+.ag{display:grid;grid-template-columns:90px 1fr;gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--ln)}.ag.d b{color:var(--ac)}
+.mu{color:var(--mu);font-size:13.5px}.empty{color:var(--mu);padding:20px;border:1px dashed var(--ln);border-radius:8px}
+</style></head><body><div class="w">
+<header class="top"><div><div class="eb" id="eb">Carregando…</div><h1>Radar Brasil</h1></div><select id="ed" aria-label="Edição"></select></header>
+<nav class="tabs" id="tabs"></nav><main id="m"></main>
+<footer class="mu" id="ft">Resumos gerados por IA a partir de feeds públicos. Podem conter erros: confira nas fontes. Não é recomendação financeira.</footer></div>
+<script>
+const TABS=[["hoje","Notícias do dia"],["semana","Semana passada"],["agenda","O que esperar"],["fontes","Fontes"]];
+const FONTES=[["Banco Central – Copom","https://www.bcb.gov.br/controleinflacao/historicocopom"],["IBGE – calendário","https://www.ibge.gov.br/calendario-indicadores-novo.html"],["Tesouro Transparente","https://www.tesourotransparente.gov.br/"],["Câmara – agenda","https://www.camara.leg.br/agenda"],["Senado","https://www12.senado.leg.br/"],["STF","https://portal.stf.jus.br/"],["TSE","https://www.tse.jus.br/"],["Valor Econômico (pago)","https://valor.globo.com/"]];
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ok=u=>/^https?:\/\//.test(u||"");
+const src=a=>a&&a.length?`<div class="src">Fontes: ${a.filter(x=>ok(x.u)).map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.n)}</a>`).join("")}</div>`:"";
+const item=i=>`<article class="it"><div class="tag">${esc(i.tag)}</div><h3>${esc(i.titulo)}</h3><p style="margin:0">${esc(i.resumo)}</p>${i.contexto?`<p style="margin:0"><strong>Contexto:</strong> ${esc(i.contexto)}</p>`:""}${i.impacto?`<p class="im" style="margin:0"><strong>Possível impacto (hipótese):</strong> ${esc(i.impacto)}</p>`:""}${src(i.fontes)}</article>`;
+let tab="hoje",ED=null,SEM=null,AG=[];
+const fj=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw 0;return r.json()};
+function render(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===tab));let h="";
+ if(tab==="hoje"){if(!ED)h='<div class="empty">Ainda não há edições. Rode o fluxo “Atualizar Radar Brasil” no GitHub.</div>';else{const d=ED.dia;
+  h=`<h2>Notícias do dia</h2><div class="box"><ul>${d.resumo30s.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${d.itens.map(item).join("")}`}}
+ if(tab==="semana"){const s=SEM&&SEM.semana;h=!s?'<div class="empty">A retrospectiva é gerada nas segundas-feiras, a partir das edições da semana anterior.</div>':
+  `<h2>Resumo da semana passada</h2><div class="mu">${esc(s.intervalo)} · edição de ${esc(SEM.data)}</div><div class="box"><ul>${s.resumo.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${s.destaques.map(item).join("")}`}
+ if(tab==="agenda"){const hj=new Date(Date.now()-3*3600e3).toISOString().slice(0,10);const f=AG.filter(e=>e.data>=hj).sort((a,b)=>(a.data+a.hora).localeCompare(b.data+b.hora));
+  h=`<h2>O que esperar</h2>`+(f.length?f.map(e=>`<div class="ag${e.destaque?" d":""}"><span class="mu">${esc(e.data.split("-").reverse().slice(0,2).join("/"))} ${esc(e.hora)}</span><span>${e.destaque?"<b>":""}${esc(e.evento)}${e.destaque?"</b>":""} ${ok(e.link)?`<a href="${esc(e.link)}" target="_blank" rel="noopener">fonte</a>`:""}</span></div>`).join(""):'<div class="empty">Sem eventos futuros em agenda.json. Atualize o arquivo.</div>')}
+ if(tab==="fontes")h=`<h2>Fontes</h2><div class="box"><ul>${FONTES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`).join("")}</ul></div>`;
+ $("#m").innerHTML=h;$("#eb").textContent=ED?`Edição de ${ED.data} · gerada às ${ED.geradoEm.slice(-5)}${ED.dia.ia?"":" · sem IA"}`:"Sem edições"}
+async function load(d){try{ED=await fj("data/"+d+".json")}catch(_){ED=null}render()}
+(async()=>{$("#tabs").innerHTML=TABS.map(([k,n])=>`<button data-t="${k}">${n}</button>`).join("");
+ $("#tabs").onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;render()}};
+ try{AG=await fj("agenda.json")}catch(_){}
+ let ix=[];try{ix=await fj("data/index.json")}catch(_){}
+ $("#ed").innerHTML=ix.map(d=>`<option>${d}</option>`).join("");$("#ed").onchange=e=>load(e.target.value);
+ if(ix.length){await load(ix[0]);for(const d of ix){try{const x=await fj("data/"+d+".json");if(x.semana){SEM=x;break}}catch(_){}}}render()})();
+</script></body></html>

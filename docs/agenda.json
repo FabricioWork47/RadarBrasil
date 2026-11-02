@@ -1,0 +1,9 @@
+[
+ {"data":"2026-11-03","hora":"","evento":"Copom inicia a reunião de dois dias","destaque":true,"link":"https://www.bcb.gov.br/controleinflacao/historicocopom"},
+ {"data":"2026-11-03","hora":"","evento":"PEC da Segurança Pública no Plenário do Senado","destaque":false,"link":"https://www12.senado.leg.br/"},
+ {"data":"2026-11-04","hora":"18:30","evento":"Copom divulga a decisão sobre a Selic","destaque":true,"link":"https://www.bcb.gov.br/controleinflacao/historicocopom"},
+ {"data":"2026-11-06","hora":"","evento":"Balança comercial de outubro (Secex/MDIC)","destaque":false,"link":"https://www.gov.br/mdic/pt-br"},
+ {"data":"2026-11-06","hora":"10:30","evento":"EUA: relatório de emprego (payroll) de outubro","destaque":false,"link":""},
+ {"data":"2026-11-10","hora":"","evento":"Ata do Copom","destaque":false,"link":"https://www.bcb.gov.br/controleinflacao/historicocopom"},
+ {"data":"2026-11-12","hora":"","evento":"IPCA de outubro (IBGE)","destaque":true,"link":"https://www.ibge.gov.br/calendario-indicadores-novo.html"}
+]
