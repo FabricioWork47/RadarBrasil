@@ -30,6 +30,11 @@ main{min-height:180px}
 .box{margin:0 0 22px;padding:20px 24px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 16%,var(--line));border-radius:14px}
 .box ul{margin:0;padding-left:20px}
 .box li+li{margin-top:7px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.filters button{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--muted);font-size:13px;font-weight:650;cursor:pointer;transition:background .18s ease,color .18s ease,border-color .18s ease}
+.filters button:hover{border-color:var(--accent);color:var(--accent)}
+.filters button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.filter-count{margin:0 0 12px;color:var(--muted);font-size:13px}
 .it{display:flex;flex-direction:column;gap:12px;margin:0 0 14px;padding:22px 24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
 .cover{order:-1;margin:-22px -24px 2px;overflow:hidden;border-radius:13px 13px 0 0;background:var(--accent-soft);aspect-ratio:16/8}
 .cover img{display:block;width:100%;height:100%;object-fit:cover}
@@ -55,13 +60,20 @@ const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>(
 const ok=u=>/^https?:\/\//.test(u||"");
 const src=a=>a&&a.length?`<div class="src">Fontes: ${a.filter(x=>ok(x.u)).map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.n)}</a>`).join("")}</div>`:"";
 const item=i=>`<article class="it">${ok(i.imagem)?`<div class="cover"><img src="${esc(i.imagem)}" alt="${esc(i.titulo)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`:""}<div class="tag">${esc(i.tag)}</div><h3>${esc(i.titulo)}</h3><p style="margin:0">${esc(i.resumo)}</p>${i.contexto?`<p style="margin:0"><strong>Contexto:</strong> ${esc(i.contexto)}</p>`:""}${i.impacto?`<p class="im" style="margin:0"><strong>Possível impacto (hipótese):</strong> ${esc(i.impacto)}</p>`:""}${src(i.fontes)}</article>`;
-let tab="hoje",ED=null,SEM=null,AG=[];
+let tab="hoje",ED=null,SEM=null,AG=[],temaSelecionado="";
 const fj=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw 0;return r.json()};
+function listaPorTema(itens){
+ const temas=[...new Set(itens.map(i=>i.tag).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+ if(temaSelecionado&&!temas.includes(temaSelecionado))temaSelecionado="";
+ const visiveis=temaSelecionado?itens.filter(i=>i.tag===temaSelecionado):itens;
+ const botoes=[["","Todos",itens.length],...temas.map(t=>[t,t,itens.filter(i=>i.tag===t).length])];
+ return `<nav class="filters" aria-label="Filtrar notícias por assunto">${botoes.map(([id,nome,total])=>`<button type="button" data-topic="${esc(id)}" aria-pressed="${temaSelecionado===id}">${esc(nome)} <span>${total}</span></button>`).join("")}</nav><p class="filter-count" aria-live="polite">Exibindo ${visiveis.length} de ${itens.length} notícias</p>${visiveis.map(item).join("")}`;
+}
 function render(){document.querySelectorAll("#tabs button").forEach(b=>{const selected=b.dataset.t===tab;b.setAttribute("aria-selected",selected);b.tabIndex=selected?0:-1});$("#m").setAttribute("aria-labelledby","tab-"+tab);let h="";
  if(tab==="hoje"){if(!ED)h='<div class="empty">Ainda não há edições. Rode o fluxo “Atualizar Radar Brasil” no GitHub.</div>';else{const d=ED.dia;
-  h=`<h2>Notícias do dia</h2><div class="box"><ul>${d.resumo30s.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${d.itens.map(item).join("")}`}}
+  h=`<h2>Notícias do dia</h2><div class="box"><ul>${d.resumo30s.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${listaPorTema(d.itens)}`}}
  if(tab==="semana"){const s=SEM&&SEM.semana;h=!s?'<div class="empty">A retrospectiva é gerada nas segundas-feiras, a partir das edições da semana anterior.</div>':
-  `<h2>Resumo da semana passada</h2><div class="mu">${esc(s.intervalo)} · edição de ${esc(SEM.data)}</div><div class="box"><ul>${s.resumo.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${s.destaques.map(item).join("")}`}
+  `<h2>Resumo da semana passada</h2><div class="mu">${esc(s.intervalo)} · edição de ${esc(SEM.data)}</div><div class="box"><ul>${s.resumo.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${listaPorTema(s.destaques)}`}
  if(tab==="agenda"){const hj=new Date(Date.now()-3*3600e3).toISOString().slice(0,10);const f=AG.filter(e=>e.data>=hj).sort((a,b)=>(a.data+a.hora).localeCompare(b.data+b.hora));
   h=`<h2>O que esperar</h2>`+(f.length?f.map(e=>`<div class="ag${e.destaque?" d":""}"><span class="mu">${esc(e.data.split("-").reverse().slice(0,2).join("/"))} ${esc(e.hora)}</span><span>${e.destaque?"<b>":""}${esc(e.evento)}${e.destaque?"</b>":""} ${ok(e.link)?`<a href="${esc(e.link)}" target="_blank" rel="noopener">fonte</a>`:""}</span></div>`).join(""):'<div class="empty">Sem eventos futuros em agenda.json. Atualize o arquivo.</div>')}
  if(tab==="fontes")h=`<h2>Fontes</h2><div class="box"><ul>${FONTES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`).join("")}</ul></div>`;
@@ -69,6 +81,7 @@ function render(){document.querySelectorAll("#tabs button").forEach(b=>{const se
 async function load(d){try{ED=await fj("data/"+d+".json")}catch(_){ED=null}render()}
 (async()=>{$("#tabs").innerHTML=TABS.map(([k,n])=>`<button type="button" id="tab-${k}" role="tab" aria-controls="m" aria-selected="${k===tab}" tabindex="${k===tab?0:-1}" data-t="${k}">${n}</button>`).join("");
  $("#m").addEventListener("error",e=>{if(e.target.matches(".cover img"))e.target.closest(".cover").remove()},true);
+ $("#m").onclick=e=>{const button=e.target.closest("button[data-topic]");if(!button)return;temaSelecionado=button.dataset.topic;render();[...$("#m").querySelectorAll("button[data-topic]")].find(b=>b.dataset.topic===temaSelecionado)?.focus()};
  $("#tabs").onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;render()}};
  $("#tabs").onkeydown=e=>{const buttons=[...$("#tabs").querySelectorAll('[role="tab"]')],current=buttons.indexOf(e.target);if(current<0)return;let next=current;
   if(e.key==="ArrowRight")next=(current+1)%buttons.length;else if(e.key==="ArrowLeft")next=(current+buttons.length-1)%buttons.length;else if(e.key==="Home")next=0;else if(e.key==="End")next=buttons.length-1;else return;
