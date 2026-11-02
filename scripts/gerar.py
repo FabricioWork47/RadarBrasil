@@ -106,11 +106,22 @@ def coletar(agora):
 
 class TamanhoExcedido(Exception): pass
 
-def _post(url, modelo, sistema, usuario, modo_json):
-    # Usa o curl (igual ao exemplo da documentação do GitHub Models). MODELS_TOKEN (opcional) tem prioridade.
-    token = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    if not token: raise RuntimeError("sem token")
-    payload = {"model": modelo, "temperature": 0.2, "max_tokens": 3500,
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+
+def provedores():
+    """Ordem de tentativa: Gemini (se houver GEMINI_API_KEY) e depois GitHub Models."""
+    lista = []
+    g = os.environ.get("GEMINI_API_KEY")
+    if g:
+        for m in dict.fromkeys([os.environ.get("MODELO_GEMINI") or "gemini-2.5-flash-lite", "gemini-2.5-flash"]):
+            lista.append(("Gemini", GEMINI_URL, m, g, 6000))
+    t = os.environ.get("MODELS_TOKEN"); origem = "MODELS_TOKEN" if t else "GITHUB_TOKEN"
+    t = t or os.environ.get("GITHUB_TOKEN")
+    if t: lista.append((f"GitHub Models ({origem})", ENDPOINT, MODELO, t, 3500))
+    return lista
+
+def _post(url, modelo, token, max_tokens, sistema, usuario, modo_json):
+    payload = {"model": modelo, "temperature": 0.2, "max_tokens": max_tokens,
                "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}]}
     if modo_json: payload["response_format"] = {"type": "json_object"}
     corpo = json.dumps(payload).encode()
@@ -118,8 +129,7 @@ def _post(url, modelo, sistema, usuario, modo_json):
         p = subprocess.run(["curl", "-sS", "-m", "120", "-w", "\n%{http_code}", "-X", "POST", url,
                             "-H", "Content-Type: application/json", "-H", f"Authorization: Bearer {token}", "-d", "@-"],
                            input=corpo, capture_output=True)
-        saida = p.stdout.decode("utf-8", "replace")
-        resp, _, cod = saida.rpartition("\n")
+        resp, _, cod = p.stdout.decode("utf-8", "replace").rpartition("\n")
         if p.returncode != 0: raise RuntimeError(f"curl falhou: {p.stderr.decode()[:200]}")
         if cod == "413": raise TamanhoExcedido()
         if cod in ("429", "500", "502", "503") and tentativa < 2:
@@ -127,8 +137,7 @@ def _post(url, modelo, sistema, usuario, modo_json):
         try:
             txt = json.loads(resp)["choices"][0]["message"]["content"]
         except Exception:
-            dica = (" | Resposta 'OK' = o token do Actions não tem acesso ao Models: crie o segredo MODELS_TOKEN (veja o README)"
-                    if resp.strip() == "OK" else "")
+            dica = " (resposta 'OK': esse token não tem acesso ao GitHub Models)" if resp.strip() == "OK" else ""
             raise RuntimeError(f"HTTP {cod}, corpo={resp[:300]!r}{dica}")
         m = re.search(r"\{.*\}", txt or "", re.S)
         if not m: raise RuntimeError(f"resposta sem JSON: {(txt or '')[:200]!r}")
@@ -136,13 +145,18 @@ def _post(url, modelo, sistema, usuario, modo_json):
     raise RuntimeError("IA indisponível (limite ou erro temporário)")
 
 def chamar_ia(sistema, usuario):
+    provs = provedores()
+    if not provs: raise RuntimeError("nenhum token de IA configurado")
     erros = []
-    for js in (True, False):
-        try: return _post(ENDPOINT, MODELO, sistema, usuario, js)
-        except TamanhoExcedido: raise
-        except Exception as e:
-            erros.append(f"{MODELO} json={js}: {e}"); log(f"[IA] tentativa falhou: {erros[-1]}")
-            if "MODELS_TOKEN" in erros[-1]: break      # repetir não adianta
+    for nome, url, modelo, token, mx in provs:
+        for js in (True, False):
+            try:
+                r = _post(url, modelo, token, mx, sistema, usuario, js)
+                log(f"[IA] ok via {nome} / {modelo}"); return r
+            except TamanhoExcedido: raise
+            except Exception as e:
+                erros.append(f"{nome} {modelo} json={js}: {e}"); log(f"[IA] falhou: {erros[-1]}")
+                if "não tem acesso" in str(e): break      # repetir sem JSON não adianta
     raise RuntimeError(" | ".join(erros))
 
 REGRAS = ("Você é analista de economia e política do Brasil. Escreva em português do Brasil, tom claro e neutro. "
