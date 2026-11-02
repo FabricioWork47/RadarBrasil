@@ -16,6 +16,7 @@ jobs:
       - name: Gerar edição
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}   # opcional: token pessoal com acesso ao Models
         run: python scripts/gerar.py
       - name: Publicar
         run: |
