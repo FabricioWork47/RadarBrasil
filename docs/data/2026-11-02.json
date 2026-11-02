@@ -1,26 +1,31 @@
 {
  "data": "2026-11-02",
- "geradoEm": "02/11/2026 20:01",
+ "geradoEm": "02/11/2026 20:20",
  "modelo": "openai/gpt-4o-mini",
  "modo": "ia",
  "dia": {
   "resumo30s": [
-   "Proposta de redução de juros ganha força no PT, com apoio de economista ligado ao Plano Real e endosso de coordenador do programa de governo de Lula.",
-   "Parlamentares governistas criticam juros altos antes de reunião do Copom, enquanto o mercado financeiro eleva projeções para a Selic.",
-   "Governo de Mato Grosso do Sul tem troca de comando com posse de desembargador.",
-   "Novas regras de atendimento ao consumidor e interoperabilidade do vale-tíquete entram em vigor."
+   "A",
+   " ",
+   "p",
+   "r",
+   "o"
   ],
   "itens": [
    {
     "tag": "Juros e Dívida Pública",
-    "titulo": "Proposta de redução de juros para conter dívida pública ganha apoio no PT",
-    "resumo": "Uma proposta do economista André Lara Resende para reduzir os juros e frear o crescimento da dívida pública tem ganhado apoio no PT. O coordenador do programa de governo de Lula endossou a tese, defendendo a criação de um órgão para metas de juros e criticando o mercado financeiro.",
-    "contexto": "A discussão sobre a política de juros e seu impacto na dívida pública é um tema central no debate econômico e político brasileiro, especialmente em antecipação a decisões do Banco Central.",
-    "impacto": "A aprovação de uma política de juros mais baixos pode tender a reduzir o custo da dívida pública, mas também pode gerar pressões inflacionárias e reações do mercado financeiro.",
+    "titulo": "Proposta de Juros a 7,5% para Conter Dívida Ganha Apoio no PT",
+    "resumo": "Uma proposta do economista André Lara Resende para reduzir a taxa Selic a 7,5% e conter o crescimento da dívida pública tem ganhado apoio no PT e entre parlamentares governistas. A ideia defende o corte de juros sem impor austeridade fiscal, com o coordenador do programa de governo de Lula endossando a tese.",
+    "contexto": "A discussão sobre a política de juros e seu impacto na dívida pública é um tema central no debate econômico e político brasileiro, especialmente em relação às projeções futuras da taxa básica de juros.",
+    "impacto": "A aceitação da proposta pode levar a uma pressão por cortes na taxa Selic, com possíveis impactos na inflação e na atratividade de investimentos de renda fixa.",
     "fontes": [
      {
       "n": "Money Times",
       "u": "https://www.moneytimes.com.br/selic-a-75-para-conter-a-divida-proposta-de-lara-resende-ganha-apoio-no-pt-e-provoca-reacao-jcav/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
      },
      {
       "n": "Poder360",
@@ -29,25 +34,35 @@
      {
       "n": "Poder360",
       "u": "https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/"
-     },
-     {
-      "n": "g1 Política",
-      "u": "https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml"
      }
     ],
-    "imagem": "https://s2-g1.glbimg.com/ChvJldDk0ZWpc6fWlti1Z22nqhI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/Y/tzvofAQwiA20TOJ40rPQ/2026-06-25t044420z-1057932595-rc2q0ma2y8ua-rtrmadp-3-china-brazil.jpg"
+    "imagem": "https://s2-valor.glbimg.com/gmr0-qTMk-RKJnMFOwj68lbKjPs=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/g/r/WKO4UsQqmewm7OeVdYIg/lara0.jpg"
    },
    {
-    "tag": "Juros e Mercado Financeiro",
-    "titulo": "Críticas a juros altos e elevação de projeções da Selic",
-    "resumo": "Parlamentares governistas aumentam as críticas à taxa de juros elevada antes de reuniões do Copom. Em contrapartida, o mercado financeiro, representado por um banco que antes era otimista, elevou sua projeção para a Selic, prevendo uma pausa nos cortes.",
-    "contexto": "A divergência entre o discurso político e as expectativas do mercado financeiro sobre a taxa de juros reflete tensões sobre a condução da política monetária no Brasil.",
-    "impacto": "A persistência de juros altos pode impactar negativamente o investimento e o crescimento econômico, enquanto a elevação das projeções pelo mercado pode sinalizar maior cautela.",
+    "tag": "Política Fiscal",
+    "titulo": "Equilíbrio Fiscal Elogiado por Governador Cotado para Fazenda",
+    "resumo": "Rafael Fonteles, governador cotado para o Ministério da Fazenda, enalteceu o equilíbrio fiscal em suas redes sociais. Ele destacou que o Piauí é o primeiro lugar do Brasil em taxa de investimentos públicos em relação à receita.",
+    "contexto": "A declaração ocorre em um momento de debate sobre a política fiscal do governo e a condução da economia, com a possibilidade de mudanças em ministérios chave.",
+    "impacto": "A ênfase no equilíbrio fiscal pode sinalizar uma linha de continuidade ou ajuste na política econômica, buscando atrair investidores e manter a confiança do mercado.",
     "fontes": [
      {
       "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/politica/parlamentares-governistas-aumentam-criticas-a-juros-altos-antes-de-reuniao-do-copom/"
+      "u": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/"
      },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/02/viva-o-equilbrio-fiscal-diz-nas-redes-sociais-rafael-fonteles-cotado-para-ser-ministro-da-fazenda.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/LYGIU547rRtJHysOM_gtamEu8XA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/h/T/WPAtT6QNaHqttOZU238g/13pol-100-coordena-a13-img01.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Projeção da Selic Elevada e Pausa nos Cortes",
+    "resumo": "O banco Inter, antes otimista com a queda dos juros, elevou sua projeção para a taxa Selic e agora prevê uma pausa nos cortes. Essa mudança reflete uma cautela maior do mercado em relação ao futuro da política monetária.",
+    "contexto": "A revisão das projeções para a Selic por instituições financeiras indica uma mudança na percepção do mercado sobre os rumos da economia e as decisões do Banco Central.",
+    "impacto": "A expectativa de uma pausa nos cortes da Selic pode afetar o desempenho de ativos de renda variável e renda fixa, além de influenciar decisões de investimento.",
+    "fontes": [
      {
       "n": "Money Times",
       "u": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/"
@@ -56,43 +71,59 @@
     "imagem": ""
    },
    {
-    "tag": "Fiscal e Investimentos",
-    "titulo": "Equilíbrio fiscal e investimento público em destaque",
-    "resumo": "Um governador cotado para o Ministério da Fazenda defendeu o equilíbrio fiscal, destacando o Piauí como primeiro lugar em taxa de investimentos públicos em relação à receita. O texto sobre política fiscal de Lula também defende corte de juros sem impor austeridade.",
-    "contexto": "O debate sobre a gestão fiscal e o nível de investimento público é crucial para a sustentabilidade econômica e o desenvolvimento do país.",
-    "impacto": "O foco no equilíbrio fiscal, aliado a um bom nível de investimento público, pode ser positivo para a confiança dos agentes econômicos e para o crescimento de longo prazo.",
+    "tag": "Commodities",
+    "titulo": "Petróleo em Queda com Sinais de Diálogo EUA-Irã",
+    "resumo": "Os contratos futuros de petróleo despencaram com expectativas de abertura diplomática entre Estados Unidos e Irã, levando investidores a retirarem parte do prêmio de risco. O Brent ameaça perder o nível de US$ 100.",
+    "contexto": "A instabilidade geopolítica no Oriente Médio tem sido um fator de volatilidade para os preços do petróleo, e sinais de distensão podem alterar essa dinâmica.",
+    "impacto": "A queda nos preços do petróleo tende a reduzir custos para setores que dependem do insumo, como transporte e indústria, mas pode afetar a receita de países produtores.",
     "fontes": [
      {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-integras/leia-a-integra-do-documento-sobre-politica-fiscal-de-lula/"
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/02/petroleo-despenca-com-sinais-de-abertura-diplomatica-pelos-eua-e-ira.ghtml"
      },
      {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/"
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petroleo-fecha-em-queda-de-mais-de-7-com-expectativa-de-dialogo-entre-eua-e-ira-sobre-guerra-jcav/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ouro-2-11-26-lils/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petroleo-intradia-2-11-26-lils/"
      }
     ],
-    "imagem": ""
+    "imagem": "https://s2-valor.glbimg.com/G_ybQKAELOKqNGTST3E9grxpTwE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/B/K/eHZXCBTQWQl02Yxn8Gxg/barril-de-petroleo-schmucki-pixabay.jpg"
    },
    {
-    "tag": "Política Nacional",
-    "titulo": "Troca de comando no governo de Mato Grosso do Sul",
-    "resumo": "O desembargador do Tribunal de Justiça de Mato Grosso do Sul assumiu o governo do estado após a licença do governador e vice. Ele é o terceiro na linha de sucessão em caso de vacância.",
-    "contexto": "Mudanças na chefia do poder executivo estadual podem gerar incertezas sobre a continuidade de políticas públicas e a gestão administrativa.",
-    "impacto": "A nova gestão pode implementar mudanças em prioridades e na condução de políticas estaduais.",
+    "tag": "Tecnologia e IA",
+    "titulo": "Palantir Dobra Lucro e Eleva Projeções com IA",
+    "resumo": "A Palantir, empresa de software e inteligência artificial (IA), viu seu lucro mais que dobrar no terceiro trimestre e elevou suas projeções para 2026. A receita da companhia disparou 96% na comparação anual.",
+    "contexto": "O setor de inteligência artificial tem apresentado forte crescimento, impulsionando os resultados de empresas que atuam na área e gerando otimismo no mercado.",
+    "impacto": "O avanço da IA pode impulsionar a produtividade em diversos setores, mas também levanta preocupações sobre segurança e o futuro do trabalho.",
     "fontes": [
      {
-      "n": "Agência Brasil",
-      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/desembargador-assume-governo-de-ms-apos-licenca-de-governador-e-vice"
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/palantir-ve-lucro-mais-que-dobrar-no-3o-trimestre-e-eleva-projecoes-para-2026/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/virus-ia.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/02/rendimentos-dos-treasuries-tm-sinal-misto-com-cautela-sobre-ia-e-eleies-nos-eua-no-radar.ghtml"
      }
     ],
-    "imagem": ""
+    "imagem": "https://s2-g1.glbimg.com/zmFlNNd2iJ9RCg1ztLCMQ0Txt-o=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/k/n/JWWwTCTH6OxivIFNOA9A/capa-pe-direito-duplo.webp"
    },
    {
-    "tag": "Regulamentação do Consumidor",
-    "titulo": "Novas regras de atendimento ao consumidor e interoperabilidade do vale-tíquete entram em vigor",
-    "resumo": "A partir desta segunda-feira, empresas são obrigadas a oferecer atendimento humano em canais telefônicos e eletrônicos (SAC). Além disso, máquinas de vale-tíquete deverão aceitar todos os cartões a partir de 7 de novembro.",
-    "contexto": "Aprimoramentos nas relações de consumo e na utilização de benefícios trabalhistas visam melhorar a experiência do cidadão e a eficiência dos serviços.",
-    "impacto": "As novas regras tendem a melhorar a qualidade do atendimento ao consumidor e a ampliar as opções de uso do vale-tíquete.",
+    "tag": "Consumidor",
+    "titulo": "Novas Regras de Atendimento ao Consumidor Entram em Vigor",
+    "resumo": "A partir desta segunda-feira, 2, empresas são obrigadas a oferecer atendimento humano para o consumidor em canais telefônicos e eletrônicos (SAC). Máquinas de vale-tíquete também terão de aceitar todos os cartões a partir de 7 de novembro.",
+    "contexto": "As novas regulamentações visam aprimorar a relação entre empresas e consumidores, garantindo mais opções e qualidade nos serviços de atendimento.",
+    "impacto": "As mudanças podem aumentar os custos operacionais para as empresas, mas tendem a melhorar a experiência do consumidor e a sua satisfação.",
     "fontes": [
      {
       "n": "Agência Brasil",
@@ -110,11 +141,37 @@
     "imagem": ""
    },
    {
-    "tag": "Combustíveis e Tributos",
-    "titulo": "Divergência sobre aumento de combustíveis e ICMS",
-    "resumo": "Há divergência entre parlamentares sobre quem encarece os combustíveis. Uma deputada atribui o aumento previsto para fevereiro de 2027 à elevação do ICMS aprovada pelos Estados, enquanto outro deputado responsabiliza o governo Lula.",
-    "contexto": "A tributação sobre combustíveis é um tema sensível que afeta o custo de vida e a inflação, gerando debates sobre responsabilidades e políticas públicas.",
-    "impacto": "O aumento do ICMS sobre combustíveis pode levar a um encarecimento dos preços para o consumidor final em 2027.",
+    "tag": "Eleições EUA",
+    "titulo": "Trump Intensifica Ações Legais e Gera Temor de Intimidação",
+    "resumo": "Donald Trump intensifica medidas contra supostos votos ilegais às vésperas das eleições nos EUA, pedindo à Suprema Corte o bloqueio de votos na Califórnia. Suas ações geram temor de intimidação eleitoral.",
+    "contexto": "As disputas legais e as declarações de Trump sobre a integridade do processo eleitoral nos Estados Unidos têm sido um ponto de atenção, com potencial impacto na confiança democrática.",
+    "impacto": "A incerteza gerada pelas ações de Trump pode afetar a estabilidade política e econômica dos EUA, com possíveis reflexos em mercados globais.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/trump-admite-indultos-a-aliados-e-promete-vetos-se-democratas-vencerem-eleicao/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-internacional/trump-pede-a-suprema-corte-dos-eua-bloqueio-de-votos-na-california/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/02/ofensiva-de-trump-contra-suposto-voto-ilegal-gera-temor-de-intimidao-nas-eleies.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/02/americanos-demonstram-pessimismo-com-economia-s-vsperas-de-eleio-nos-eua.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/N-SpQ0Nx2VT3Ke7HJqTPIubV8n4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/f/ZZif4xQD2Ry80yOf2kcA/ap26306154593328.jpg"
+   },
+   {
+    "tag": "Combustíveis",
+    "titulo": "Aumento do ICMS sobre Combustíveis Previsto para 2027",
+    "resumo": "Estados brasileiros terão reajuste do ICMS sobre combustíveis a partir de 1º de fevereiro de 2027. Há divergência sobre quem encarece o produto, com atribuições ao ICMS estadual e ao governo federal.",
+    "contexto": "A tributação sobre combustíveis é um tema sensível para o consumidor e para a inflação, com impactos diretos no orçamento das famílias e no custo de produção.",
+    "impacto": "O aumento do ICMS tende a elevar o preço final dos combustíveis, impactando a inflação e o poder de compra da população.",
     "fontes": [
      {
       "n": "Poder360",
@@ -128,11 +185,43 @@
     "imagem": "https://s2-g1.glbimg.com/a8AIeTDLFSbMvqy6b-PHWnNoMbQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/1/e3DVk4SFyeqAQlp5jGew/fotojet-2026-11-02t122915.931.jpg"
    },
    {
-    "tag": "Cibersegurança e Mercado Financeiro",
-    "titulo": "Ataques hackers afetam exchanges de criptomoedas",
-    "resumo": "O Mercado Bitcoin suspendeu saques dias após um roubo bilionário na Binance. Investidores retiraram US$ 3,6 bilhões da Binance após um ataque hacker, embora a exchange tenha posteriormente retomado saques de bitcoin e ether.",
-    "contexto": "A segurança no mercado de criptomoedas é um fator crítico para a confiança dos investidores e a estabilidade do setor.",
-    "impacto": "Ataques hackers podem gerar desconfiança e volatilidade no mercado de criptomoedas, levando à retirada de fundos.",
+    "tag": "Agronegócio",
+    "titulo": "Compras Agrícolas da China nos EUA em Mínima de 7 Anos",
+    "resumo": "As compras agrícolas da China nos Estados Unidos atingiram o menor nível em sete anos, apesar de acordos comerciais. O dado sugere uma reconfiguração nas relações comerciais entre os dois países.",
+    "contexto": "A balança comercial entre China e EUA é um indicador importante da saúde da economia global e das relações comerciais internacionais.",
+    "impacto": "A redução das compras chinesas pode afetar produtores agrícolas americanos e influenciar os preços de commodities no mercado internacional.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/02/compras-agricolas-china-eua.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/EPbmqLJ2CE_yqTZC70vOlGG9Vaw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/O/P/AqgxdIQlaQpEFcAsNpqQ/lidi-1.jpg"
+   },
+   {
+    "tag": "Infraestrutura",
+    "titulo": "Agenda de Concessões em Infraestrutura de R$ 230 Bilhões",
+    "resumo": "Caso o presidente Lula seja reeleito, a agenda de infraestrutura prevê R$ 230 bilhões em concessões. O BNDES estuda o uso do Fundo Garantidor de Exportação para investimento em mineração.",
+    "contexto": "O investimento em infraestrutura é visto como um motor de crescimento econômico e geração de empregos, com o governo buscando atrair capital privado para o setor.",
+    "impacto": "A concretização desses projetos pode impulsionar o desenvolvimento do país, melhorar a logística e atrair investimentos estrangeiros.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/02/bndes-estuda-uso-do-fundo-garantidor-de-exportao-para-investimento-em-minerao.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/02/com-lula-4-infraestrutura-tem-agenda-de-r-230-bilhoes-em-concessoes.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/r-hHr7PJJPBjTaIGs-GH0WYky3w=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/M/H/xwTSmQQnGjMBdfjSBZbg/jose-luis-pinho.jpg"
+   },
+   {
+    "tag": "Mercado de Cripto",
+    "titulo": "Mercado Bitcoin Suspende Saques Após Ataque Hacker",
+    "resumo": "O Mercado Bitcoin suspendeu saques após sofrer um ataque hacker, dias depois de um roubo bilionário na Binance. Investidores retiraram US$ 3,6 bilhões da Binance.",
+    "contexto": "A segurança no mercado de criptomoedas tem sido um ponto de preocupação, com ataques hackers recorrentes afetando plataformas e a confiança dos investidores.",
+    "impacto": "Ataques hackers podem gerar perdas financeiras significativas para investidores e abalar a confiança no mercado de criptoativos, levando à fuga de capitais.",
     "fontes": [
      {
       "n": "g1 Economia",
@@ -141,111 +230,9 @@
      {
       "n": "g1 Economia",
       "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/01/binance-retoma-saques-apos-roubo-de-us-63-bilhoes.ghtml"
      }
     ],
     "imagem": "https://s2-g1.glbimg.com/JCf9bsWNeZ-vQSj5ZOxRa5ppz0g=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/M/gd7umNQa63R19PVgmorA/2026-02-07t090548z-627419622-rc22pgamqkxp-rtrmadp-3-fintech-crypto-bitcoin-outlook.jpg"
-   },
-   {
-    "tag": "Tecnologia e IA",
-    "titulo": "Inteligência Artificial cria vírus autônomo",
-    "resumo": "A inteligência artificial demonstrou capacidade de criar um vírus que se espalha autonomamente em eletrodomésticos. Outra notícia menciona hackers atacando supermercados europeus e elevando a temperatura de freezers.",
-    "contexto": "O avanço da inteligência artificial e o uso de tecnologia em ambientes domésticos e comerciais levantam questões sobre segurança e controle.",
-    "impacto": "A capacidade de IA criar ameaças autônomas pode representar riscos futuros para a segurança de dispositivos conectados e sistemas.",
-    "fontes": [
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/virus-ia.ghtml"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/hackers-atacam-supermercados-europeus-e-elevam-temperatura-de-freezers-a-50c.ghtml"
-     }
-    ],
-    "imagem": "https://s2-g1.glbimg.com/zmFlNNd2iJ9RCg1ztLCMQ0Txt-o=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/k/n/JWWwTCTH6OxivIFNOA9A/capa-pe-direito-duplo.webp"
-   },
-   {
-    "tag": "Comércio Exterior",
-    "titulo": "Acordo Mercosul-UE e exportações agrícolas da China",
-    "resumo": "O acordo Mercosul-UE completa seis meses com alta de 14,8% nas exportações do agronegócio brasileiro. Em outro cenário, as compras agrícolas da China nos EUA caíram para o menor nível em sete anos.",
-    "contexto": "Acordos comerciais e as relações entre grandes economias impactam diretamente os fluxos de comércio e a produção agrícola global.",
-    "impacto": "O acordo Mercosul-UE tende a impulsionar as exportações brasileiras para a Europa, enquanto a queda nas compras chinesas dos EUA pode afetar o agronegócio americano.",
-    "fontes": [
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/02/compras-agricolas-china-eua.ghtml"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/01/agro-ue-acordo-exportacoes-crescem.ghtml"
-     }
-    ],
-    "imagem": "https://s2-g1.glbimg.com/EPbmqLJ2CE_yqTZC70vOlGG9Vaw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/O/P/AqgxdIQlaQpEFcAsNpqQ/lidi-1.jpg"
-   },
-   {
-    "tag": "Petróleo e Ouro",
-    "titulo": "Queda nos preços do petróleo impulsiona alta do ouro",
-    "resumo": "Os preços do petróleo despencaram, com o Brent ameaçando perder o nível de US$ 100, diante de expectativas de diálogo entre Irã e EUA e decisões da Opep+. O ouro, por sua vez, subiu quase 2%, revertendo perdas recentes.",
-    "contexto": "As cotações do petróleo são influenciadas por fatores geopolíticos e decisões de grandes produtores, impactando mercados globais, incluindo o ouro.",
-    "impacto": "A queda no preço do petróleo pode ter efeitos diversos na economia global, enquanto a alta do ouro reflete busca por segurança em momentos de incerteza.",
-    "fontes": [
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/petroleo-fecha-em-queda-de-mais-de-7-com-expectativa-de-dialogo-entre-eua-e-ira-sobre-guerra-jcav/"
-     },
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/ouro-2-11-26-lils/"
-     },
-     {
-      "n": "Money Times",
-      "u": "https://www.moneytimes.com.br/petroleo-intradia-2-11-26-lils/"
-     }
-    ],
-    "imagem": ""
-   },
-   {
-    "tag": "Política dos EUA",
-    "titulo": "Midterms nos EUA e impacto em Trump e mercados",
-    "resumo": "As eleições de meio de mandato nos EUA podem mudar os planos de Donald Trump e afetar o dólar e os juros no Brasil. Trump também admitiu a possibilidade de indultos a aliados e pediu à Suprema Corte o bloqueio de votos na Califórnia.",
-    "contexto": "Eventos políticos nos Estados Unidos, como eleições e decisões judiciais, podem ter repercussões significativas na economia e nos mercados globais, incluindo o Brasil.",
-    "impacto": "O resultado das eleições nos EUA pode gerar volatilidade nos mercados financeiros globais e brasileiros, além de influenciar a percepção de risco.",
-    "fontes": [
-     {
-      "n": "InfoMoney",
-      "u": "https://www.infomoney.com.br/mundo/trump-admite-indultos-a-aliados-e-promete-vetos-se-democratas-vencerem-eleicao/"
-     },
-     {
-      "n": "Poder360",
-      "u": "https://www.poder360.com.br/poder-internacional/trump-pede-a-suprema-corte-dos-eua-bloqueio-de-votos-na-california/"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/economia/noticia/2026/11/02/midterms-nos-eua-eleicoes-podem-mudar-planos-de-trump-e-mexer-com-dolar-e-juros-no-brasil.ghtml"
-     },
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/economia/noticia/2026/11/01/por-que-trump-enfrenta-o-mesmo-problema-economico-que-derrubou-biden.ghtml"
-     }
-    ],
-    "imagem": "https://s2-g1.glbimg.com/1-B3_OzIhDAOho2006H8AJOaV9U=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/0/BBon1hQYCBaRv5dmEACw/2026-10-24t224431z-105027597-rc2w9oazeoor-rtrmadp-3-usa-trump.jpg"
-   },
-   {
-    "tag": "Aviação e Indústria",
-    "titulo": "KC-390 da Embraer será comprado pela Grécia",
-    "resumo": "O KC-390 Millennium, avião militar fabricado pela Embraer, será utilizado pela Força Aérea da Grécia. Este é o maior avião produzido na América Latina.",
-    "contexto": "A venda de aeronaves militares para forças estrangeiras demonstra a capacidade tecnológica e a competitividade da indústria aeroespacial brasileira no mercado internacional.",
-    "impacto": "A exportação do KC-390 pode fortalecer a posição da Embraer no mercado global e gerar receita para a empresa.",
-    "fontes": [
-     {
-      "n": "g1 Economia",
-      "u": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/02/saiba-como-e-o-kc-390-maior-aviao-produzido-na-america-latina-e-que-sera-comprado-pela-grecia.ghtml"
-     }
-    ],
-    "imagem": "https://s2-g1.glbimg.com/lW0dunpcUvscbEBqlA3XXMiVoOM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/f/7/Cfp9b7R1AjFyTclW1f6A/kc-390-millennium-new-livery-nova-pintura.jpg"
    }
   ],
   "ia": true
