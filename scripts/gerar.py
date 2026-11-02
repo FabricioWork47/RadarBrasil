@@ -22,7 +22,8 @@ FEEDS = [
     ("Agência Brasil", "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", True),
     ("InfoMoney", "https://www.infomoney.com.br/feed/", True),
     ("Money Times", "https://www.moneytimes.com.br/feed/", True),
-    ("CNN Brasil Economia", "https://www.cnnbrasil.com.br/economia/feed/", False),
+    ("InfoMoney Economia", "https://www.infomoney.com.br/economia/feed/", True),
+    ("InfoMoney Política", "https://www.infomoney.com.br/politica/feed/", True),
     ("Agência Senado", "https://www12.senado.leg.br/noticias/rss", True),
     ("Agência Câmara", "https://www.camara.leg.br/noticias/rss/ultimas-noticias", True),
     ("Poder360", "https://www.poder360.com.br/feed/", True),
@@ -105,26 +106,47 @@ def coletar(agora):
         vistos.add(k); final.append(g)
     return final[:MAX_CAND]
 
-def chamar_ia(sistema, usuario):
+LEGADO = "https://models.inference.ai.azure.com/chat/completions"
+
+def _post(url, modelo, sistema, usuario, modo_json):
     token = os.environ.get("GITHUB_TOKEN")
     if not token: raise RuntimeError("sem GITHUB_TOKEN")
-    corpo = json.dumps({"model": MODELO, "temperature": 0.2, "max_tokens": 3500,
-        "response_format": {"type": "json_object"},
-        "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}]}).encode()
+    payload = {"model": modelo, "temperature": 0.2, "max_tokens": 3500,
+               "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}]}
+    if modo_json: payload["response_format"] = {"type": "json_object"}
+    corpo = json.dumps(payload).encode()
     for tentativa in range(3):
-        req = urllib.request.Request(ENDPOINT, data=corpo, headers={
+        req = urllib.request.Request(url, data=corpo, method="POST", headers={
             "Authorization": f"Bearer {token}", "Content-Type": "application/json",
-            "Accept": "application/vnd.github+json"})
+            "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "RadarBrasil/1.0"})
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
-                txt = json.load(r)["choices"][0]["message"]["content"]
-            m = re.search(r"\{.*\}", txt, re.S)
-            return json.loads(m.group(0))
+                bruto, status, final = r.read(), r.status, r.geturl()
+                tipo = r.headers.get("Content-Type", "")
         except urllib.error.HTTPError as e:
-            log(f"[IA] HTTP {e.code} (tentativa {tentativa+1}): {e.read()[:300]!r}")
-            if e.code in (429, 500, 502, 503): time.sleep(20 * (tentativa + 1)); continue
+            log(f"[IA] HTTP {e.code} em {url.split('/')[2]} (tentativa {tentativa+1}): {e.read()[:300]!r}")
+            if e.code in (429, 500, 502, 503) and tentativa < 2: time.sleep(15 * (tentativa + 1)); continue
             raise
-    raise RuntimeError("IA indisponível")
+        try:
+            txt = json.loads(bruto)["choices"][0]["message"]["content"]
+        except Exception:
+            raise RuntimeError(f"resposta fora do formato: status={status} url={final} tipo={tipo} corpo={bruto[:300]!r}")
+        m = re.search(r"\{.*\}", txt or "", re.S)
+        if not m: raise RuntimeError(f"resposta sem JSON: {(txt or '')[:200]!r}")
+        return json.loads(m.group(0))
+    raise RuntimeError("IA indisponível (limite ou erro temporário)")
+
+def chamar_ia(sistema, usuario):
+    erros = []
+    for url, modelo, js in ((ENDPOINT, MODELO, True), (ENDPOINT, MODELO, False), (LEGADO, MODELO.split("/")[-1], False)):
+        try: return _post(url, modelo, sistema, usuario, js)
+        except urllib.error.HTTPError as e:
+            if e.code == 413: raise
+            erros.append(f"{url.split('/')[2]} {modelo} json={js}: HTTP {e.code}")
+        except Exception as e:
+            erros.append(f"{url.split('/')[2]} {modelo} json={js}: {e}")
+        log(f"[IA] tentativa falhou: {erros[-1]}")
+    raise RuntimeError(" | ".join(erros))
 
 REGRAS = ("Você é analista de economia e política do Brasil. Escreva em português do Brasil, tom claro e neutro. "
           "Use SOMENTE as informações da lista fornecida: não invente números, datas, nomes nem fatos. "
