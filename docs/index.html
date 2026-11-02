@@ -3,24 +3,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Radar Brasil</title>
 <style>
-:root{--bg:#F2F5F8;--sf:#fff;--fg:#15212C;--mu:#566574;--ln:#D5DDE5;--ac:#1B4F8F;--as:#E3ECF7;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#0E1620;--sf:#16212D;--fg:#E6EDF4;--mu:#9AABBB;--ln:#2A3948;--ac:#7FB0EE;--as:#1A2B40;color-scheme:dark}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Segoe UI",Arial,sans-serif;padding:24px 16px 56px}
-.w{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
-a{color:var(--ac)}h1,h2,h3{margin:0;line-height:1.2}h1{font-size:clamp(30px,7vw,44px)}h2{font-size:24px;border-bottom:2px solid var(--fg);padding-bottom:6px}h3{font-size:19px}
-.eb{font:12.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--mu)}
-.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
-select,button{font:500 14px inherit;font-family:inherit;color:var(--fg);background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:8px 12px;cursor:pointer}
-.tabs{display:flex;gap:8px;flex-wrap:wrap}.tabs button{border-radius:999px;padding:6px 14px}.tabs button[aria-selected=true]{background:var(--ac);border-color:var(--ac);color:var(--bg)}
-.box{background:var(--sf);border:1px solid var(--ln);border-radius:8px;padding:14px 16px}.box ul{margin:0;padding-left:18px}
-.it{display:flex;flex-direction:column;gap:8px;padding:16px 0;border-bottom:1px solid var(--ln)}
-.tag{font:11.5px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--ac)}
-.im{background:var(--as);border-radius:8px;padding:10px 14px}.src{font-size:13.5px;color:var(--mu)}.src a{margin-right:8px}
-.ag{display:grid;grid-template-columns:90px 1fr;gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--ln)}.ag.d b{color:var(--ac)}
-.mu{color:var(--mu);font-size:13.5px}.empty{color:var(--mu);padding:20px;border:1px dashed var(--ln);border-radius:8px}
+:root{color-scheme:light;--bg:#f4f3ef;--surface:#fffefa;--ink:#17251f;--muted:#68736c;--line:#e4e3dc;--accent:#176b50;--accent-dark:#10543e;--accent-soft:#e9f2ec;--highlight:#f4efe1;--shadow:0 12px 32px rgb(23 37 31 / 6%)}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#111915;--surface:#19231e;--ink:#edf2ed;--muted:#a3b0a7;--line:#2c3931;--accent:#83c9a5;--accent-dark:#9dd8b8;--accent-soft:#20362a;--highlight:#302e23;--shadow:0 12px 32px rgb(0 0 0 / 18%)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;padding:clamp(20px,5vw,56px) 18px 48px}
+.w{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent-dark)}
+h1,h2,h3{margin:0;line-height:1.25;letter-spacing:-.025em}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,60px);font-weight:500;letter-spacing:-.045em}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(26px,5vw,34px);font-weight:500;margin:0 0 16px}
+h3{font-size:20px;font-weight:650}
+.eb{display:flex;align-items:center;gap:9px;color:var(--accent);font-size:11px;font-weight:750;letter-spacing:.14em;text-transform:uppercase}
+.eb:before{content:"";width:22px;height:2px;background:var(--accent)}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:22px;padding:0 0 24px;border-bottom:1px solid var(--line)}
+.top>div{display:grid;gap:8px}
+.intro{max-width:440px;margin:2px 0 0;color:var(--muted);font-size:15px}
+select,button{font:inherit}
+select{max-width:100%;padding:10px 36px 10px 14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;font-size:14px;cursor:pointer}
+select:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:3px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:-8px}
+.tabs button{padding:9px 15px;border:1px solid transparent;border-radius:999px;background:transparent;color:var(--muted);font-size:14px;font-weight:650;cursor:pointer;transition:background .18s ease,color .18s ease,border-color .18s ease}
+.tabs button:hover{background:var(--surface);color:var(--ink)}
+.tabs button[aria-selected=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+main{min-height:180px}
+.box{margin:0 0 22px;padding:20px 24px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 16%,var(--line));border-radius:14px}
+.box ul{margin:0;padding-left:20px}
+.box li+li{margin-top:7px}
+.it{display:flex;flex-direction:column;gap:12px;margin:0 0 14px;padding:22px 24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.cover{order:-1;margin:-22px -24px 2px;overflow:hidden;border-radius:13px 13px 0 0;background:var(--accent-soft);aspect-ratio:16/8}
+.cover img{display:block;width:100%;height:100%;object-fit:cover}
+.tag{color:var(--accent);font-size:11px;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.im{padding:12px 15px;background:var(--highlight);border-radius:9px}
+.src{display:flex;flex-wrap:wrap;gap:5px 14px;color:var(--muted);font-size:13px}
+.src a{margin:0}
+.ag{display:grid;grid-template-columns:112px 1fr;gap:6px 16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.ag.d b{color:var(--accent)}
+.mu{color:var(--muted);font-size:13px}
+.empty{padding:24px;background:var(--surface);border:1px dashed var(--line);border-radius:14px;color:var(--muted)}
+footer{padding-top:18px;border-top:1px solid var(--line)}
+@media(max-width:560px){.w{gap:22px}.top{align-items:flex-start;flex-direction:column}.top>div{gap:6px}.tabs{gap:4px}.tabs button{padding:8px 11px;font-size:13px}.box,.it{padding:17px}.cover{margin:-17px -17px 2px}.ag{grid-template-columns:1fr;gap:3px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
 </style></head><body><div class="w">
-<header class="top"><div><div class="eb" id="eb">Carregando…</div><h1>Radar Brasil</h1></div><select id="ed" aria-label="Edição"></select></header>
-<nav class="tabs" id="tabs"></nav><main id="m"></main>
+<header class="top"><div><div class="eb" id="eb">Carregando…</div><h1>Radar Brasil</h1><p class="intro">O essencial sobre o Brasil, com contexto para entender o que está acontecendo.</p></div><select id="ed" aria-label="Edição"></select></header>
+<nav class="tabs" id="tabs" aria-label="Seções do Radar" role="tablist"></nav><main id="m" role="tabpanel" tabindex="0"></main>
 <footer class="mu" id="ft">Resumos gerados por IA a partir de feeds públicos. Podem conter erros: confira nas fontes. Não é recomendação financeira.</footer></div>
 <script>
 const TABS=[["hoje","Notícias do dia"],["semana","Semana passada"],["agenda","O que esperar"],["fontes","Fontes"]];
@@ -28,10 +54,10 @@ const FONTES=[["Banco Central – Copom","https://www.bcb.gov.br/controleinflaca
 const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const ok=u=>/^https?:\/\//.test(u||"");
 const src=a=>a&&a.length?`<div class="src">Fontes: ${a.filter(x=>ok(x.u)).map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.n)}</a>`).join("")}</div>`:"";
-const item=i=>`<article class="it"><div class="tag">${esc(i.tag)}</div><h3>${esc(i.titulo)}</h3><p style="margin:0">${esc(i.resumo)}</p>${i.contexto?`<p style="margin:0"><strong>Contexto:</strong> ${esc(i.contexto)}</p>`:""}${i.impacto?`<p class="im" style="margin:0"><strong>Possível impacto (hipótese):</strong> ${esc(i.impacto)}</p>`:""}${src(i.fontes)}</article>`;
+const item=i=>`<article class="it">${ok(i.imagem)?`<div class="cover"><img src="${esc(i.imagem)}" alt="${esc(i.titulo)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`:""}<div class="tag">${esc(i.tag)}</div><h3>${esc(i.titulo)}</h3><p style="margin:0">${esc(i.resumo)}</p>${i.contexto?`<p style="margin:0"><strong>Contexto:</strong> ${esc(i.contexto)}</p>`:""}${i.impacto?`<p class="im" style="margin:0"><strong>Possível impacto (hipótese):</strong> ${esc(i.impacto)}</p>`:""}${src(i.fontes)}</article>`;
 let tab="hoje",ED=null,SEM=null,AG=[];
 const fj=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw 0;return r.json()};
-function render(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===tab));let h="";
+function render(){document.querySelectorAll("#tabs button").forEach(b=>{const selected=b.dataset.t===tab;b.setAttribute("aria-selected",selected);b.tabIndex=selected?0:-1});$("#m").setAttribute("aria-labelledby","tab-"+tab);let h="";
  if(tab==="hoje"){if(!ED)h='<div class="empty">Ainda não há edições. Rode o fluxo “Atualizar Radar Brasil” no GitHub.</div>';else{const d=ED.dia;
   h=`<h2>Notícias do dia</h2><div class="box"><ul>${d.resumo30s.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${d.itens.map(item).join("")}`}}
  if(tab==="semana"){const s=SEM&&SEM.semana;h=!s?'<div class="empty">A retrospectiva é gerada nas segundas-feiras, a partir das edições da semana anterior.</div>':
@@ -41,8 +67,12 @@ function render(){document.querySelectorAll("#tabs button").forEach(b=>b.setAttr
  if(tab==="fontes")h=`<h2>Fontes</h2><div class="box"><ul>${FONTES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`).join("")}</ul></div>`;
  $("#m").innerHTML=h;$("#eb").textContent=ED?`Edição de ${ED.data} · gerada às ${ED.geradoEm.slice(-5)}${ED.dia.ia?"":(ED.dia.modo==="regras"?" · análise por regras (sem IA)":" · sem análise")}`:"Sem edições"}
 async function load(d){try{ED=await fj("data/"+d+".json")}catch(_){ED=null}render()}
-(async()=>{$("#tabs").innerHTML=TABS.map(([k,n])=>`<button data-t="${k}">${n}</button>`).join("");
+(async()=>{$("#tabs").innerHTML=TABS.map(([k,n])=>`<button type="button" id="tab-${k}" role="tab" aria-controls="m" aria-selected="${k===tab}" tabindex="${k===tab?0:-1}" data-t="${k}">${n}</button>`).join("");
+ $("#m").addEventListener("error",e=>{if(e.target.matches(".cover img"))e.target.closest(".cover").remove()},true);
  $("#tabs").onclick=e=>{if(e.target.dataset.t){tab=e.target.dataset.t;render()}};
+ $("#tabs").onkeydown=e=>{const buttons=[...$("#tabs").querySelectorAll('[role="tab"]')],current=buttons.indexOf(e.target);if(current<0)return;let next=current;
+  if(e.key==="ArrowRight")next=(current+1)%buttons.length;else if(e.key==="ArrowLeft")next=(current+buttons.length-1)%buttons.length;else if(e.key==="Home")next=0;else if(e.key==="End")next=buttons.length-1;else return;
+  e.preventDefault();tab=buttons[next].dataset.t;render();buttons[next].focus()};
  try{AG=await fj("agenda.json")}catch(_){}
  let ix=[];try{ix=await fj("data/index.json")}catch(_){}
  $("#ed").innerHTML=ix.map(d=>`<option>${d}</option>`).join("");$("#ed").onchange=e=>load(e.target.value);

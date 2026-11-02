@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Radar Brasil: coleta RSS, resume com IA (GitHub Models, gratuito) e grava JSON em docs/data/.
 Só usa a biblioteca padrão do Python. Se a IA falhar, publica só as manchetes (sem análise)."""
-import json, os, re, sys, html, time, subprocess, urllib.request, urllib.error
+import json, os, re, sys, html, time, subprocess, urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -81,7 +81,21 @@ def parse_feed(xml_bytes, fonte):
         for k in ("pubdate", "published", "updated", "date"):
             if k in f and f[k].text: d = data_item(f[k].text.strip()); break
         if titulo and link.startswith("http") and d:
-            out.append({"fonte": fonte, "titulo": titulo, "resumo": desc, "link": link, "data": d})
+            imagem = ""
+            for el in it.iter():
+                local = tag(el)
+                namespace = el.tag.split("}", 1)[0].lower() if "}" in el.tag else ""
+                tipo = el.attrib.get("type", "").lower()
+                if (local in ("thumbnail", "content") and ("media" in namespace or "mrss" in namespace)) or (local == "enclosure" and tipo.startswith("image/")):
+                    candidato = el.attrib.get("url", "")
+                    try:
+                        partes = urllib.parse.urlsplit(candidato)
+                    except ValueError:
+                        continue
+                    if partes.scheme in ("http", "https") and partes.netloc and not partes.username and not partes.password:
+                        imagem = candidato
+                        break
+            out.append({"fonte": fonte, "titulo": titulo, "resumo": desc, "link": link, "data": d, "imagem": imagem})
     return out
 
 def coletar(agora):
@@ -180,7 +194,9 @@ def anexar(itens, pool):
                 if f["u"] not in vistos: vistos.add(f["u"]); fontes.append(f)
         if not fontes: continue            # sem fonte real, não publica
         it = {k: str(it.get(k, "")) for k in ("tag", "titulo", "resumo", "contexto", "impacto")}
-        it["tag"] = tema(it["tag"]); it["fontes"] = fontes[:4]; saida.append(it)
+        it["tag"] = tema(it["tag"]); it["fontes"] = fontes[:4]
+        it["imagem"] = next((pool[i].get("imagem") for i in idx if pool[i].get("imagem")), "")
+        saida.append(it)
     return saida
 
 def lista_limitada(linhas, limite):
@@ -199,7 +215,7 @@ def gerar_dia(cands):
 
 def _gerar_dia(cands, limite):
     linhas = lista_limitada([f"[{i}] ({c['fonte']}) {c['titulo']} — {c['resumo'][:160]}" for i, c in enumerate(cands)], limite)
-    pool = [{"fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands[:len(linhas)]]
+    pool = [{"fontes": [{"n": c["fonte"], "u": c["link"]}], "imagem": c.get("imagem", "")} for c in cands[:len(linhas)]]
     lista = "\n".join(linhas)
     r = chamar_ia(REGRAS, "Notícias recentes:\n" + lista + "\n\nEscolha as 10 a 12 mais relevantes de economia e política "
         "nacional e agrupe duplicatas. Formato: {\"resumo30s\":[3 a 5 frases curtas],\"itens\":[{\"tag\":\"um único tema curto, "
@@ -209,7 +225,7 @@ def _gerar_dia(cands, limite):
 
 def dia_sem_ia(cands):
     its = [{"tag": c["fonte"], "titulo": c["titulo"], "resumo": c["resumo"], "contexto": "", "impacto": "",
-            "fontes": [{"n": c["fonte"], "u": c["link"]}]} for c in cands[:15]]
+            "fontes": [{"n": c["fonte"], "u": c["link"]}], "imagem": c.get("imagem", "")} for c in cands[:15]]
     return {"resumo30s": ["Análise por IA indisponível hoje: exibindo apenas as manchetes coletadas."], "itens": its, "ia": False}
 
 # ---------- Análise por regras (plano B, sem IA) ----------
@@ -269,7 +285,7 @@ def dia_por_regras(cands):
     for _, _, c, (n, t, ctx, imp) in pont:
         if por_tag.get(t, 0) >= 3 or len(itens) >= 12: continue
         por_tag[t] = por_tag.get(t, 0) + 1
-        itens.append({"tag": t, "titulo": c["titulo"], "resumo": c["resumo"], "contexto": ctx, "impacto": imp,
+        itens.append({"tag": t, "titulo": c["titulo"], "resumo": c["resumo"], "contexto": ctx, "impacto": imp, "imagem": c.get("imagem", ""),
                       "fontes": [{"n": c["fonte"], "u": c["link"]}]})
     if not itens: return dia_sem_ia(cands)
     ordem = sorted(por_tag, key=lambda t: -por_tag[t])[:3]
@@ -309,7 +325,7 @@ def gerar_semana(hoje):
         if not p.exists(): continue
         d = json.loads(p.read_text(encoding="utf-8"))
         for it in d.get("dia", {}).get("itens", []):
-            pool.append({"fontes": it["fontes"]})
+            pool.append({"fontes": it["fontes"], "imagem": it.get("imagem", "")})
             linhas.append(f"[{len(pool)-1}] ({d['data']}) {it['titulo']} — {it['resumo'][:140]}")
     linhas = lista_limitada(linhas, 15000); pool = pool[:len(linhas)]
     if len(pool) < 5: return None
