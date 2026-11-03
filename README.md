@@ -1,6 +1,6 @@
 # Radar Brasil (automático e gratuito)
 
-Todo dia útil, às 6h (Brasília), o GitHub coleta feeds RSS, pede a um modelo de IA gratuito (GitHub Models)
+Todo dia útil, às 6h17 (Brasília), o GitHub coleta feeds RSS, pede a um modelo de IA gratuito (GitHub Models)
 o resumo e a análise, e atualiza o site. Nas segundas, gera também a retrospectiva da semana.
 
 ## Instalação (uma vez, ~10 min)

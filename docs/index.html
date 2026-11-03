@@ -62,6 +62,13 @@ const src=a=>a&&a.length?`<div class="src">Fontes: ${a.filter(x=>ok(x.u)).map(x=
 const item=i=>`<article class="it">${ok(i.imagem)?`<div class="cover"><img src="${esc(i.imagem)}" alt="${esc(i.titulo)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`:""}<div class="tag">${esc(i.tag)}</div><h3>${esc(i.titulo)}</h3><p style="margin:0">${esc(i.resumo)}</p>${i.contexto?`<p style="margin:0"><strong>Contexto:</strong> ${esc(i.contexto)}</p>`:""}${i.impacto?`<p class="im" style="margin:0"><strong>Possível impacto (hipótese):</strong> ${esc(i.impacto)}</p>`:""}${src(i.fontes)}</article>`;
 let tab="hoje",ED=null,SEM=null,AG=[],temaSelecionado="";
 const fj=async u=>{const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw 0;return r.json()};
+function resumoHtml(resumo,itens){
+ let linhas=typeof resumo==="string"?(resumo.trim()?[resumo.trim()]:[]):Array.isArray(resumo)?resumo.filter(x=>typeof x==="string"&&x.trim()):[];
+ if(linhas.length>1&&linhas.every(x=>x.trim().length<=1))linhas=[];
+ if(!linhas.length)linhas=(Array.isArray(itens)?itens:[]).filter(i=>i&&i.titulo).slice(0,5).map(i=>i.tag?`${i.tag}: ${i.titulo}`:i.titulo);
+ if(!linhas.length)linhas=["Resumo indisponível nesta edição."];
+ return `<div class="box"><ul>${linhas.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+}
 function listaPorTema(itens){
  const temas=[...new Set(itens.map(i=>i.tag).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
  if(temaSelecionado&&!temas.includes(temaSelecionado))temaSelecionado="";
@@ -71,9 +78,9 @@ function listaPorTema(itens){
 }
 function render(){document.querySelectorAll("#tabs button").forEach(b=>{const selected=b.dataset.t===tab;b.setAttribute("aria-selected",selected);b.tabIndex=selected?0:-1});$("#m").setAttribute("aria-labelledby","tab-"+tab);let h="";
  if(tab==="hoje"){if(!ED)h='<div class="empty">Ainda não há edições. Rode o fluxo “Atualizar Radar Brasil” no GitHub.</div>';else{const d=ED.dia;
-  h=`<h2>Notícias do dia</h2><div class="box"><ul>${d.resumo30s.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${listaPorTema(d.itens)}`}}
+  h=`<h2>Notícias do dia</h2>${resumoHtml(d.resumo30s,d.itens)}${listaPorTema(d.itens)}`}}
  if(tab==="semana"){const s=SEM&&SEM.semana;h=!s?'<div class="empty">A retrospectiva é gerada nas segundas-feiras, a partir das edições da semana anterior.</div>':
-  `<h2>Resumo da semana passada</h2><div class="mu">${esc(s.intervalo)} · edição de ${esc(SEM.data)}</div><div class="box"><ul>${s.resumo.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>${listaPorTema(s.destaques)}`}
+  `<h2>Resumo da semana passada</h2><div class="mu">${esc(s.intervalo)} · edição de ${esc(SEM.data)}</div>${resumoHtml(s.resumo,s.destaques)}${listaPorTema(s.destaques)}`}
  if(tab==="agenda"){const hj=new Date(Date.now()-3*3600e3).toISOString().slice(0,10);const f=AG.filter(e=>e.data>=hj).sort((a,b)=>(a.data+a.hora).localeCompare(b.data+b.hora));
   h=`<h2>O que esperar</h2>`+(f.length?f.map(e=>`<div class="ag${e.destaque?" d":""}"><span class="mu">${esc(e.data.split("-").reverse().slice(0,2).join("/"))} ${esc(e.hora)}</span><span>${e.destaque?"<b>":""}${esc(e.evento)}${e.destaque?"</b>":""} ${ok(e.link)?`<a href="${esc(e.link)}" target="_blank" rel="noopener">fonte</a>`:""}</span></div>`).join(""):'<div class="empty">Sem eventos futuros em agenda.json. Atualize o arquivo.</div>')}
  if(tab==="fontes")h=`<h2>Fontes</h2><div class="box"><ul>${FONTES.map(([n,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`).join("")}</ul></div>`;

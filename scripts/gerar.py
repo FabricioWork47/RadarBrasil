@@ -187,7 +187,9 @@ def tema(t):
 
 def anexar(itens, pool):
     saida = []
-    for it in itens or []:
+    if not isinstance(itens, list): return saida
+    for it in itens:
+        if not isinstance(it, dict): continue
         idx = [i for i in it.get("indices", []) if isinstance(i, int) and 0 <= i < len(pool)]
         fontes, vistos = [], set()
         for i in idx:
@@ -199,6 +201,20 @@ def anexar(itens, pool):
         it["imagem"] = next((pool[i].get("imagem") for i in idx if pool[i].get("imagem")), "")
         saida.append(it)
     return saida
+
+def normalizar_resumo(valor, itens, limite):
+    if isinstance(valor, str):
+        linhas = [valor.strip()] if valor.strip() else []
+    elif isinstance(valor, list):
+        linhas = [str(x).strip() for x in valor if isinstance(x, str) and x.strip()]
+        if len(linhas) > 1 and all(len(x) <= 1 for x in linhas):
+            linhas = []
+    else:
+        linhas = []
+    if not linhas:
+        linhas = [f"{i['tag']}: {i['titulo']}" if i.get("tag") else i["titulo"]
+                  for i in itens if i.get("titulo")]
+    return linhas[:limite]
 
 def lista_limitada(linhas, limite):
     out, tot = [], 0
@@ -222,7 +238,8 @@ def _gerar_dia(cands, limite):
         "nacional e agrupe duplicatas. Formato: {\"resumo30s\":[3 a 5 frases curtas],\"itens\":[{\"tag\":\"um único tema curto, "
         "ex.: Juros e inflação, Fiscal, Congresso, Judiciário, Mercado\",\"titulo\":\"...\",\"resumo\":\"fato em 2-3 frases\","
         "\"contexto\":\"por que importa, específico desta notícia; sem base na lista, deixe vazio\",\"impacto\":\"possível efeito (hipótese)\",\"indices\":[0]}]}")
-    return {"resumo30s": [str(x) for x in r.get("resumo30s", [])][:5], "itens": anexar(r.get("itens"), pool), "ia": True}
+    itens = anexar(r.get("itens"), pool)
+    return {"resumo30s": normalizar_resumo(r.get("resumo30s"), itens, 5), "itens": itens, "ia": True}
 
 def dia_sem_ia(cands):
     its = [{"tag": c["fonte"], "titulo": c["titulo"], "resumo": c["resumo"], "contexto": "", "impacto": "",
@@ -333,9 +350,10 @@ def gerar_semana(hoje):
     r = chamar_ia(REGRAS, "Itens publicados nos últimos 7 dias:\n" + "\n".join(linhas) + "\n\nFaça a retrospectiva da semana. "
         "Formato: {\"resumo\":[4 a 6 frases],\"destaques\":[{\"tag\":\"...\",\"titulo\":\"...\",\"resumo\":\"o que aconteceu\","
         "\"contexto\":\"consequências possíveis\",\"impacto\":\"hipótese\",\"indices\":[0]}]} com 5 a 8 destaques.")
+    destaques = anexar(r.get("destaques"), pool)
     ini, fim = hoje - timedelta(days=7), hoje - timedelta(days=1)
     return {"intervalo": f"{ini.strftime('%d/%m')} a {fim.strftime('%d/%m/%Y')}",
-            "resumo": [str(x) for x in r.get("resumo", [])][:6], "destaques": anexar(r.get("destaques"), pool)}
+            "resumo": normalizar_resumo(r.get("resumo"), destaques, 6), "destaques": destaques}
 
 def main():
     agora = datetime.now(timezone.utc); hoje = agora.astimezone(BRT).date()
