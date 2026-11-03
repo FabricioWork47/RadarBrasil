@@ -1,0 +1,219 @@
+{
+ "data": "2026-11-03",
+ "geradoEm": "03/11/2026 09:04",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O",
+   " ",
+   "m",
+   "e",
+   "r"
+  ],
+  "itens": [
+   {
+    "tag": "Juros e Inflação",
+    "titulo": "Mercado eleva projeções de inflação, Selic e dólar para 2026",
+    "resumo": "O Boletim Focus indicou que o mercado elevou a projeção de inflação para 5,22% em 2026. As estimativas para a taxa Selic e para o dólar também foram revisadas para cima. A projeção para o PIB caiu.",
+    "contexto": "As revisões refletem as expectativas do mercado financeiro após as eleições, com incertezas sobre a condução da política econômica.",
+    "impacto": "Pode indicar um cenário de maior pressão inflacionária e juros mais altos no médio prazo, além de um câmbio mais desvalorizado.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/mercado-eleva-projecao-de-inflacao-para-522-em-2026/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-03112026/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/efeito-eleicao-economistas-revisam-quase-todas-as-projecoes-veja-o-focus-desta-segunda-feira-3/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/03/apos-reeleicao-de-lula-mercado-financeiro-ve-inflacao-mais-alta-e-piora-previsao-para-taxa-de-juros.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/2rIaQ2wiBqrOP0Obgn3HFFYXJug=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/b/A8IGA6SdAAIsLKWtdgOg/imagem-destaque-g1-dinheiro.png"
+   },
+   {
+    "tag": "Política Fiscal e Monetária",
+    "titulo": "Proposta de mudanças nas políticas fiscal e monetária é defendida",
+    "resumo": "O coordenador do programa de governo de Lula defendeu a proposta de Lara Resende para reduzir juros. José Sérgio Gabrielli propôs mudanças na coordenação das políticas fiscal e monetária. Ele rejeitou cortes em programas sociais.",
+    "contexto": "A discussão sobre a coordenação das políticas fiscal e monetária é central para a estabilidade econômica e o crescimento.",
+    "impacto": "Pode haver debates sobre a autonomia do Banco Central e a forma como as políticas fiscal e monetária serão geridas, impactando a confiança dos investidores.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/coordenador-do-programa-de-lula-defende-proposta-de-lara-resende-para-reduzir-juros/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/ChvJldDk0ZWpc6fWlti1Z22nqhI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/Y/tzvofAQwiA20TOJ40rPQ/2026-06-25t044420z-1057932595-rc2q0ma2y8ua-rtrmadp-3-china-brazil.jpg"
+   },
+   {
+    "tag": "Congresso",
+    "titulo": "PEC da Segurança Pública pode ser votada no Senado",
+    "resumo": "O Senado Federal deve votar a Proposta de Emenda à Constituição (PEC) da Segurança Pública. A proposta aborda temas como maioridade penal e polícia municipal. A votação estava prevista para antes do segundo turno das eleições.",
+    "contexto": "A segurança pública tem sido um tema de destaque para o governo federal, que busca avançar em pautas legislativas.",
+    "impacto": "A aprovação da PEC pode alterar legislações relacionadas à segurança e ao sistema penal, com possíveis impactos na sociedade.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/maioridade-penal-e-policia-municipal-pec-da-seguranca-pode-ser-votada-no-senado/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/maioridade-penal-e-policia-municipal-estao-na-pec-da-seguranca-que-pode-ser-votada-no-senado/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/pec-seguranca-publica-senado.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/03/senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/3jv2rvzX4c-lXnKvz9STUPIP_Sk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/j/0JeAj8TviyAgO2oxpRcg/captura-de-tela-2026-10-15-140745.png"
+   },
+   {
+    "tag": "Educação",
+    "titulo": "Projeto estende piso salarial da educação básica para rede privada",
+    "resumo": "Um projeto em tramitação no Senado visa estender o piso salarial nacional da educação básica para professores da rede privada. Atualmente, o piso para a rede pública é de R$ 5.13.",
+    "contexto": "A equiparação salarial entre professores da rede pública e privada busca valorizar a carreira docente.",
+    "impacto": "Pode gerar aumento de custos para as instituições de ensino privadas e impactar a negociação salarial da categoria.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/projeto-estende-piso-da-educacao-basica-para-professores-da-rede-privada"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Privatizações",
+    "titulo": "Governo inclui 13 aeroportos regionais em plano de privatização",
+    "resumo": "Um decreto presidencial estabeleceu a inclusão de 13 aeroportos regionais no plano de privatização. A incorporação aos contratos de concessão ocorrerá por meio de processo competitivo simplificado.",
+    "contexto": "A medida faz parte da estratégia do governo de atrair investimentos privados para a infraestrutura.",
+    "impacto": "Pode resultar em melhorias na infraestrutura aeroportuária e na prestação de serviços, além de gerar receita para o governo.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-infra/governo-inclui-13-aeroportos-reginais-no-plano-de-privatizacao/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Empresas anunciam pagamento de dividendos",
+    "resumo": "Petrobras (PETR4), Itaú (ITUB4) e Caixa Seguridade (CXSE3) estão entre as empresas da bolsa brasileira que pagarão dividendos em novembro. Outras companhias como Bradesco (BBDC4) e Taesa (TAEE11) também distribuirão lucros.",
+    "contexto": "O pagamento de dividendos é uma prática comum de empresas de capital aberto para remunerar seus acionistas.",
+    "impacto": "Pode atrair investidores que buscam renda passiva e influenciar o desempenho das ações dessas empresas no curto prazo.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/proventos-jcpdividendos-de-novembro-petrobras-petr4-itau-itub4-caixa-seguridade-cxse3-mlem/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Fundo imobiliário vende carteira de imóveis por R$ 530 milhões",
+    "resumo": "O fundo imobiliário Zagros Renda (GGRC11) assinou um compromisso para vender 10 empreendimentos de seu portfólio por R$ 530 milhões. A operação prevê um lucro de R$ 0,22 por cota.",
+    "contexto": "A venda de ativos por fundos imobiliários pode indicar reajustes de portfólio ou estratégias de otimização de resultados.",
+    "impacto": "Pode afetar a rentabilidade do fundo e a liquidez de suas cotas no mercado.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/fundo-imobiliario-vende-carteira-de-imoveis-por-r-530-milhoes-e-preve-lucro-de-r-022-por-cota-igdl/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "BB Investimentos recomenda ações para o cenário pós-eleições",
+    "resumo": "O BB Investimentos ajustou sua carteira recomendada de ações para novembro, retirando BTG Pactual (BPAC11) e Tenda (TEND3) para incluir outras opções. A análise considera o cenário pós-eleições.",
+    "contexto": "As recomendações de investimento buscam orientar os investidores em relação às melhores oportunidades no mercado acionário.",
+    "impacto": "Pode influenciar as decisões de compra e venda de ações por parte dos investidores.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/10-acoes-para-investir-no-cenario-pos-eleicoes-segundo-bb-investimentos-lmrs/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Consumidor",
+    "titulo": "Novas regras de atendimento ao consumidor entram em vigor",
+    "resumo": "A partir desta segunda-feira (2), empresas devem oferecer atendimento humano para o consumidor em seus canais telefônicos e eletrônicos (SAC). As mudanças visam aprimorar a qualidade do serviço.",
+    "contexto": "As novas regras buscam garantir um atendimento mais eficaz e humanizado aos clientes.",
+    "impacto": "Pode levar as empresas a investir em treinamento e tecnologia para cumprir as exigências, impactando custos operacionais e a satisfação do cliente.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/novas-regras-de-atendimento-ao-consumidor-comecam-valer-hoje"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Consumidor",
+    "titulo": "Máquinas de vale-tíquete terão de aceitar todos os cartões",
+    "resumo": "A partir de 7 de novembro, as máquinas que operam o vale-tíquete deverão aceitar todos os cartões. A medida, conhecida como 'interoperabilidade plena', faz parte do Programa de Alimentação do Trabalhador (PAT).",
+    "contexto": "A padronização das máquinas de vale-tíquete visa facilitar o uso pelos trabalhadores e ampliar a aceitação em estabelecimentos.",
+    "impacto": "Pode otimizar o uso do benefício por parte dos trabalhadores e simplificar a operação para os estabelecimentos comerciais.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/02/vale-tiquete-maquinas-terao-de-aceitar-todos-os-cartoes-a-partir-de-7-de-novembro-diz-ministerio-do-trabalho.ghtml"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Tributário",
+    "titulo": "Prazo para cancelar opções de IBS e CBS no Simples Nacional começa nesta terça",
+    "resumo": "O prazo para que empresas optantes pelo Simples Nacional cancelem suas opções relativas ao Imposto sobre Bens e Serviços (IBS) e à Contribuição sobre Bens e Serviços (CBS) inicia nesta terça-feira.",
+    "contexto": "A medida se refere a ajustes no sistema tributário nacional e na forma como as empresas se enquadram nas novas contribuições.",
+    "impacto": "Pode afetar a carga tributária de pequenas e médias empresas e exigir adaptações nos seus planejamentos fiscais.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/empreendedorismo/noticia/2026/11/03/simples-nacional-prazo-para-cancelar-opcoes-de-ibs-e-cbs.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/DIILVism1SSwTaUd3ZW9V52Hylw=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/e/hiO7y9SXKi0oruhw3PBA/prazo-dasn-mei-2022-1170x780.jpg-p28303-cover-image-resized-1-.jpg"
+   },
+   {
+    "tag": "Tributário",
+    "titulo": "Aumento do ICMS sobre combustíveis em SP a partir de 2027",
+    "resumo": "Estados brasileiros terão reajuste do ICMS sobre combustíveis a partir de 1º de fevereiro de 2027. Em São Paulo, haverá aumento na gasolina, gás de cozinha e diesel.",
+    "contexto": "A decisão dos governadores, formalizada no Conselho Nacional de Política Fazendária (Confaz), impacta diretamente o preço final dos combustíveis.",
+    "impacto": "Pode gerar aumento nos custos de transporte e logística, com possível repasse para o preço de outros produtos e serviços.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/02/icms-sobre-os-combustiveis-veja-quanto-sera-o-aumento-na-gasolina-gas-de-cozinha-e-diesel-a-partir-de-1-de-fevereiro-de-2027-em-sp.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/a8AIeTDLFSbMvqy6b-PHWnNoMbQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/1/e3DVk4SFyeqAQlp5jGew/fotojet-2026-11-02t122915.931.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
