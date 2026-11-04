@@ -1,0 +1,141 @@
+{
+ "data": "2026-11-04",
+ "geradoEm": "04/11/2026 14:21",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "A vitória democrata nas eleições de meio de mandato nos EUA impactou os mercados financeiros brasileiros, com o Ibovespa em alta e juros futuros em queda. A derrota de Donald Trump pode influenciar a política externa americana em relação à América Latina e a relação com o Brasil. No cenário nacional, o governo Lula sinaliza a intenção de discutir ajuste fiscal e pacificação política, enquanto o Congresso avança em pautas como proteção a povos indígenas e regras para construtoras inadimplentes. O STF julga loterias municipais e a CNC pede adiamento de novas jornadas de trabalho."
+  ],
+  "itens": [
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Mercados reagem à vitória democrata nos EUA",
+    "resumo": "O Ibovespa subiu e os juros futuros caíram após a vitória democrata nas eleições de meio de mandato nos EUA. O dólar também cedeu. A XP reforçou posições em pós-fixados e aumentou a aposta em ações no exterior. Gestores desmontaram o 'kit Brasil' e apostaram no dólar antes do Copom, com a maioria vendo a Selic estável.",
+    "contexto": "A vitória democrata nos EUA é vista como um fator de redução de incerteza nos mercados globais, o que pode ter reflexos positivos em mercados emergentes como o Brasil. A expectativa em relação às decisões do Copom também influencia o comportamento dos investidores.",
+    "impacto": "Pode haver continuidade da valorização da bolsa brasileira e queda nos juros futuros no curto prazo. A alocação de recursos por gestores pode se manter cautelosa em relação a ativos brasileiros até a definição das próximas políticas monetárias.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/apos-eleicao-xp-reforca-pos-fixados-e-eleva-aposta-em-acoes-no-exterior/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/estrangeiros-trouxeram-r-82-bi-para-a-bolsa-em-outubro/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/empresas-de-musk-tem-queda-na-bolsa-apos-vitoria-democrata/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/obGfKTQ1pd_wU6psFVikOXhPCvE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/R/A/B90uNBTCC2LahROFZyBw/04int-110-trump-a16-img01.jpg"
+   },
+   {
+    "tag": "Política Externa",
+    "titulo": "Derrota de Trump pode alterar relações com América Latina e Brasil",
+    "resumo": "A derrota de Donald Trump nas eleições de meio de mandato nos EUA, que resultou na perda da maioria republicana no Congresso, pode frear políticas de intervenção na América Latina. O governo brasileiro espera uma 'mudança de 180 graus' na relação com os EUA. Um eventual ação de Lula contra 'big techs' é visto como risco à relação bilateral.",
+    "contexto": "A política externa de Donald Trump foi marcada por uma postura mais intervencionista e relações tensas com alguns países. A mudança de cenário político nos EUA pode levar a uma reconfiguração das relações diplomáticas e comerciais.",
+    "impacto": "Possível alteração na dinâmica das relações diplomáticas e comerciais entre Brasil e EUA. Pode haver maior cooperação em temas de interesse mútuo e menor intervenção americana em assuntos regionais.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/derrota-de-trump-pode-frear-politica-de-intervencoes-na-america-latina"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/04/eventual-acao-de-lula-contra-big-techs-e-principal-risco-a-relacao-com-os-eua-apos-derrota-republicana-diz-garman.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-internacional/governistas-reagem-a-vitoria-democrata-e-citam-influencia-de-lula-nos-eua/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/04/ministro-de-lula-espera-mudanca-de-180-graus-na-relacao-do-brasil-com-eua-apos-derrota-de-trump.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/-XvbfLH1m2Hj5Yb052S5NhKWM5U=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/s/o/vZEllRRkGV00sdQvIveg/081026congressoibgc8.jpg"
+   },
+   {
+    "tag": "Congresso Nacional",
+    "titulo": "Avançam projetos sobre povos indígenas e construtoras inadimplentes",
+    "resumo": "A Comissão da Câmara aprovou medidas especiais para proteger povos indígenas em situações de desastres. Outra comissão aprovou projeto que suspende a licença de construtoras inadimplentes. A CDH aprovou regras para internação de adolescentes com dependência química e o Estatuto da Pessoa Intersexo.",
+    "contexto": "O Congresso Nacional tem pautado discussões sobre temas sociais e econômicos relevantes, buscando aprimorar a legislação em áreas como proteção a minorias e regulação do mercado.",
+    "impacto": "A aprovação dessas propostas pode resultar em novas leis com impacto direto na vida de grupos vulneráveis e no setor da construção civil. A tramitação de projetos como o Estatuto da Pessoa Intersexo pode gerar debates sobre direitos e inclusão.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1315694-comissao-da-camara-aprova-medidas-especiais-para-proteger-povos-indigenas-em-situacoes-de-desastres"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1315709-comissao-aprova-projeto-que-suspende-licenca-de-construtoras-inadimplentes"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/04/cdh-aprova-regras-para-internacao-de-adolescentes-com-dependencia-quimica"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1315247-comissao-aprova-estatuto-da-pessoa-intersexo-com-regras-para-cirurgias-registro-e-reparacao"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Política Interna e Fiscal",
+    "titulo": "Governo Lula sinaliza ajuste fiscal e pacificação",
+    "resumo": "O presidente Lula deve fazer um pronunciamento prometendo trabalhar pela pacificação e garantir que não haverá 'estelionato eleitoral', além de realizar ajuste fiscal. O governo também convidou Boulos para discutir aproveitamento de resíduos no CNPE. O Ministério da Justiça colocou sigilo sobre documentos da MP das Bets.",
+    "contexto": "O governo busca consolidar sua base de apoio e sinalizar compromisso com a responsabilidade fiscal após o período eleitoral. A gestão de temas como a MP das Bets e a política energética são pontos de atenção.",
+    "impacto": "A discussão sobre ajuste fiscal pode levar a medidas de contenção de gastos ou aumento de receitas, com possíveis impactos na economia. A pacificação política tende a reduzir a polarização e criar um ambiente mais estável para a governabilidade.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/propostas-andre-lara-resende-juros-divida-publica-analise-carla-beni-fgv/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/ajuste-fiscal-bruno-funchal-juros-orcamento/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/ministerio-da-justica-coloca-sigilo-sobre-documentos-da-mp-das-bets/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/governo-convida-boulos-ao-cnpe-para-discutir-aproveitamento-de-residuos/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/6z920Vngas93YM-BKHXZ0gdH2XU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/A/9NWkr2Rg24VkYtr7PGGQ/55372840605-b8f203a344-k.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF julga loterias municipais e CNC pede adiamento de jornada de trabalho",
+    "resumo": "O plenário do STF julga a legalidade das loterias municipais. A Confederação Nacional do Comércio (CNC) acionou o STF para adiar o fim da escala 6x1 e a implementação de novas jornadas de trabalho.",
+    "contexto": "O Judiciário tem um papel importante na interpretação e aplicação das leis, e suas decisões podem impactar diretamente a economia e a vida dos trabalhadores.",
+    "impacto": "A decisão do STF sobre loterias municipais definirá a legalidade desses serviços. O adiamento das novas jornadas de trabalho pode manter as regras atuais por mais tempo, impactando empresas e trabalhadores do setor de comércio.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/ao-vivo-plenario-do-stf-julga-loterias-municipais/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/cnc-aciona-stf-para-adiar-fim-da-escala-6x1/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/04/cnc-pede-no-supremo-adiamento-das-novas-jornadas-de-trabalho.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/LPnWupFdQtVXFgJW2yxeO10Bv1w=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/v/W/PSWi8ATKCxvffsHJwtlg/stf-1908200971.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
