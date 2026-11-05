@@ -1,0 +1,251 @@
+{
+ "data": "2026-11-05",
+ "geradoEm": "05/11/2026 14:28",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "A reforma tributária avança com a definição das alíquotas do Imposto Seletivo para 2027, com o governo afirmando que a carga tributária atual será mantida. O setor agroexportador pode receber socorro fiscal e renegociação de dívidas. O IBGE abriu seleção para mais de 27 mil vagas temporárias para o Censo Agro. O fim da violência contra a mulher é tema de campanha nacional. O Judiciário mantém mandatos de mulheres eleitas em chapas com fraude à cota de gênero, abrindo precedente."
+  ],
+  "itens": [
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Imposto Seletivo regulamentado para 2027",
+    "resumo": "Medida provisória estabelece as alíquotas e regras de cobrança do Imposto Seletivo (IS) para 2027, com o governo afirmando que a carga tributária atual será mantida no primeiro ano de cobrança. O Imposto do Pecado pode elevar preços de cigarros e cervejas.",
+    "contexto": "A regulamentação do Imposto Seletivo é parte da reforma tributária em andamento.",
+    "impacto": "Possível repasse de custos para o consumidor em produtos como cigarros e cervejas.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/reforma-tributaria-2027/imposto-do-pecado-pode-elevar-preco-do-cigarro-e-da-cerveja/"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/05/mp-define-as-aliquotas-do-imposto-seletivo-para-2027"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1316363-medida-provisoria-regulamenta-o-imposto-seletivo-para-2027"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/05/perguntas-e-respostas-imposto-seletivo.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/25CkNR73f6ajY_1imOzasyOQ7CQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/m/3/DbGxepSxSEbviAShAuMA/canva-2025-09-20t143742.713.png"
+   },
+   {
+    "tag": "Fiscal e Dívida",
+    "titulo": "Socorro fiscal para agroexportadores",
+    "resumo": "Comissão aprova proposta de socorro fiscal e renegociação de dívidas para agroexportadores. O texto segue em análise na Câmara dos Deputados.",
+    "contexto": "O setor de exportação agrícola pode se beneficiar de medidas de apoio.",
+    "impacto": "Pode aliviar a situação financeira de empresas do setor agroexportador.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1316203-comissao-aprova-socorro-fiscal-e-renegociacao-de-dividas-para-agroexportadores"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/medida-de-apoio-a-exportadores-pode-incluir-extrativistas"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado de Trabalho",
+    "titulo": "IBGE abre seleção para Censo Agro",
+    "resumo": "O IBGE lançou edital para mais de 27 mil vagas temporárias para atuar no 12º Censo Agro. A seleção visa preencher 27.279 postos de recenseador.",
+    "contexto": "A contratação temporária é necessária para a realização do Censo Agropecuário.",
+    "impacto": "Gera oportunidades de trabalho temporário em todo o país.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/concursos-publicos/post/2026/11/ibge-lana-seleo-com-mais-de-27-mil-vagas-temporrias-para-recenseador-do-censo-agro.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-abre-selecao-para-mais-de-27-mil-recenseadores-temporarios"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/KOd_Kr8XEy7QR1Po2V6O81GMzEc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/d/i/3JcBBQRLSbyhG9hOFEpg/imagem-materia-6-.jpg"
+   },
+   {
+    "tag": "Violência contra a Mulher",
+    "titulo": "Campanha pelo Fim da Violência contra a Mulher",
+    "resumo": "O governo federal inicia a campanha \"Conectadas, Seguras e Vivas\" para o Fim da Violência contra a Mulher. Paralelamente, uma comissão aprovou projeto que obriga agressor a pagar pensão a vítima.",
+    "contexto": "Ações visam combater e dar suporte a vítimas de violência doméstica.",
+    "impacto": "Pode aumentar a conscientização e o apoio às mulheres em situação de violência.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1316321-comissao-aprova-projeto-que-obriga-agressor-a-pagar-pensao-a-vitima-de-violencia-domestica"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/ministra-convoca-campanha-pelo-fim-da-violencia-contra-mulher"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário e Cota de Gênero",
+    "titulo": "TSE mantém mandato em chapas com fraude à cota de gênero",
+    "resumo": "O TSE decidiu manter o mandato de mulheres eleitas em chapas que apresentaram fraude à cota de gênero, alterando entendimento anterior da Corte. A decisão analisou caso específico de eleições estaduais.",
+    "contexto": "A decisão abre precedente sobre a aplicação das regras de cotas de gênero em eleições.",
+    "impacto": "Pode influenciar futuras decisões sobre a validade de mandatos em casos semelhantes.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-eleicoes-2026/tse-mantem-mandato-de-mulheres-em-chapas-com-fraude-a-cota-no-amapa/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/05/tse-permite-manter-mandato-de-mulher-eleita-em-chapa-com-fraude-a-cota-de-genero.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/nTB3Mfu34g6G1fzWygS4p-gihoQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/a/YFFsPlS9OkI33qjTKwYg/55590321262-d32cb36898-k.jpg"
+   },
+   {
+    "tag": "Política Monetária",
+    "titulo": "Juros e Insegurança",
+    "resumo": "O ministro da Fazenda defende que é preciso dar condições para a queda dos juros. O Goldman Sachs prevê que a Selic pode permanecer em 13,75% até meados de 2028, com o BC sem espaço para cortes em 2027.",
+    "contexto": "A manutenção da taxa básica de juros em patamar elevado impacta a economia.",
+    "impacto": "Juro alto pode ser principal influência para resultado negativo da indústria em 2026 e dificulta o acesso ao crédito.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/selic-em-1375-ate-meados-de-2028-goldman-ve-bc-sem-espaco-para-cortar-juros-em-2027-jcav/"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-diz-que-e-preciso-dar-condicoes-para-queda-dos-juros"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/05/juro-alto-pode-ser-principal-influencia-para-resultado-negativo-da-industria-em-2026-diz-ibge.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/0UmAKJl58Lm76rxWo38P0zT3-LE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/U/8/xqn4kxTKSCgOfwNlAMow/48afb75f75d9ceecd320dced4bc2ef96.jpg"
+   },
+   {
+    "tag": "Economia Internacional",
+    "titulo": "Impacto do cenário político dos EUA na indústria brasileira",
+    "resumo": "A Comissão de Relações Exteriores do Senado vai debater os impactos da mudança política nos Estados Unidos sobre a indústria brasileira. A vitória democrata nas eleições americanas traz de volta o debate sobre o teto da dívida nos EUA.",
+    "contexto": "Eventos políticos e econômicos nos EUA podem ter reflexos na economia global e brasileira.",
+    "impacto": "Possível influência nos mercados e na confiança dos investidores brasileiros.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/vitoria-democrata-nas-midterms-traz-de-volta-debate-sobre-teto-da-divida-nos-eua/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/investidores-temem-impasse-sobre-teto-da-divida-apos-vitoria-democrata-nos-eua/"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/cre-discutira-impacto-do-cenario-politico-dos-eua-na-industria-brasileira"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Empresas e Finanças",
+    "titulo": "Axia Energia e dividendos",
+    "resumo": "Aposentados da Eletrobras propuseram acordo de R$ 1,37 bilhão à Axia Energia para solucionar déficits previdenciários. A Axia Energia não prevê pagamento de dividendos além do mínimo de 25% do lucro líquido.",
+    "contexto": "A proposta de acordo busca resolver pendências financeiras relacionadas a planos de previdência.",
+    "impacto": "Pode afetar a distribuição de lucros e a saúde financeira da empresa.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/05/aposentados-da-eletrobras-propem-acordo-de-r-137-bi-axia-energia.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/05/axia-nao-preve-pagamento-de-dividendos-alem-do-minimo-de-25percent-do-lucro-liquido.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/2psdEUZDlDWE5iJ-xxjf3feRN-Q=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/B/6/UGBEvlSaGUrYVUggh31Q/axia-energia.png"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Reforma tributária começa em janeiro de 2027",
+    "resumo": "O Ministro da Fazenda afirma que a reforma tributária não será adiada e começará em 2027, embora prazos e multas possam ser flexibilizados para empresas durante a transição. O governo avalia programa de conformidade.",
+    "contexto": "O cronograma da reforma tributária é mantido, com foco na adaptação das empresas.",
+    "impacto": "Pode gerar insegurança para empresários, mas com possibilidade de flexibilização.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/durigan-apesar-da-inseguranca-previsao-e-comecar-em-janeiro-a-reforma-tributaria/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/reforma-tributaria-2027/governo-zera-imposto-sobre-minerais-para-2027/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/reforma-tributaria-2027/reforma-tributaria-nao-sera-adiada-e-comeca-em-2027-diz-durigan/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Imobiliário",
+    "titulo": "Preço dos imóveis residenciais sobe",
+    "resumo": "O preço dos imóveis residenciais subiu 0,48% em outubro, com a alta acumulada em 12 meses ainda superando a inflação, segundo o Índice FipeZAP.",
+    "contexto": "O mercado imobiliário apresenta valorização, mesmo com desaceleração nas cotações.",
+    "impacto": "Pode impactar o custo de moradia e o poder de compra.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/minhas-financas/preco-dos-imoveis-residenciais-sobe-048-em-outubro-veja-as-cidades-mais-caras/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Crise no Paraguai",
+    "titulo": "Presidente do Paraguai renuncia após crise bancária",
+    "resumo": "O presidente do Paraguai, Santiago Peña, renunciou ao cargo em meio a uma crise desatada pelo colapso do Ueno Bank, que administrava mais de US$ 800 milhões em dinheiro público. O impeachment contra ele era discutido no Congresso.",
+    "contexto": "A crise bancária e a gestão de fundos públicos levaram à renúncia e ao processo de impeachment.",
+    "impacto": "Instabilidade política no país vizinho pode ter repercussões regionais.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/mundo/noticia/2026/11/05/com-renuncia-santiago-pena-ganha-cargo-de-senador-vitalicio-no-paraguai.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/sob-ameaca-de-impeachment-presidente-do-paraguai-renuncia-em-meio-a-crise-desatada-pelo-colapso-do-ueno-bank/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/mundo/noticia/2026/11/05/presidente-do-paraguai-santiago-pena-renuncia-apos-crise-bancaria.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-internacional/impeachment-de-pena-e-unanime-na-camara-do-paraguai-diz-jornal/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/931fvwvhca_M4XOgqnybEMDgDR8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/9/tvjNW7SseODUS6B9GLtQ/2026-11-05t162617z-2095193189-rc28k9aom5wk-rtrmadp-3-paraguay-politics.jpg"
+   },
+   {
+    "tag": "Endividamento",
+    "titulo": "Endividamento e inadimplência recuam",
+    "resumo": "O endividamento e a inadimplência dos consumidores recuaram em outubro, segundo dados da CNC.",
+    "contexto": "A queda nesses indicadores pode sinalizar melhora na capacidade de pagamento das famílias.",
+    "impacto": "Pode indicar uma recuperação gradual do poder de compra e da confiança do consumidor.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/05/endividamento-e-inadimplencia-recuam-em-outubro-mostra-cnc.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/gxDhwkpl2NfToiQYLKFlAVQTeIE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/C/c/LDer4MR0CEi1tfYPRFFw/photo-1646766509831-bb330d97648d.avif"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
