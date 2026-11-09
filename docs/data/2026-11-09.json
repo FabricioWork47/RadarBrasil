@@ -1,0 +1,417 @@
+{
+ "data": "2026-11-09",
+ "geradoEm": "09/11/2026 16:54",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "A balança comercial brasileira registrou superávit de US$ 1,38 bilhão na primeira semana de novembro. Commodities em queda contribuíram para frear a inflação no IGP-DI. O governo adiou o decreto da escala 6x1 e elevou a tarifa de importação de pneus. O Banco Central passou a divulgar a lista de empresas que pediram autorização para atuar com criptoativos."
+  ],
+  "itens": [
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Balança comercial brasileira registra superávit em novembro",
+    "resumo": "A balança comercial brasileira registrou um superávit de US$ 1,38 bilhão na primeira semana de novembro. Este resultado foi informado pela Secretaria de Comércio Exterior (Secex) do Ministério do Desenvolvimento, Indústria, Comércio e Serviços.",
+    "contexto": "O superávit comercial é um indicador da saúde das exportações em relação às importações.",
+    "impacto": "Pode indicar uma melhora na competitividade dos produtos brasileiros no mercado internacional.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/09/balanca-comercial-brasileira-tem-superavit-de-us-138-bi-na-1a-semana-de-novembro.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ZRedYDQnCO5kYVo-iO1PmIw17kI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/6/T/AWtT6XT66gYMn4rBg5wA/porto-containers-penjaringan-daerah-khusus-ibukota-jakarta-indonesia-tom-fisk-pexels.jpg"
+   },
+   {
+    "tag": "Inflação",
+    "titulo": "Queda de commodities freia inflação no IGP-DI",
+    "resumo": "A inflação apurada pelo Índice Geral de Preços – Disponibilidade Interna (IGP-DI) foi enfraquecida pela queda nos preços de commodities no atacado. A FGV apontou que essa redução nos preços contribuiu para frear o índice.",
+    "contexto": "O IGP-DI é um importante indicador da inflação no atacado.",
+    "impacto": "Pode aliviar a pressão sobre os custos de produção e, eventualmente, sobre os preços ao consumidor.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/09/commodities-em-queda-ajudaram-a-frear-inflao-no-igp-di-diz-fgv.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/UomNt-axtaU1qKsg4iYusOCTEJ0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/X/u/sy3EeZT7ATny3tr3diKg/380156515.jpg"
+   },
+   {
+    "tag": "Trabalho",
+    "titulo": "Decreto sobre escala 6x1 é adiado pelo governo",
+    "resumo": "A publicação do decreto que regulamenta o fim da escala de trabalho 6x1 foi adiada pelo governo federal. A expectativa é que o texto seja divulgado após a viagem do presidente à Ásia, prevista para retornar em 16 de novembro.",
+    "contexto": "A escala 6x1 é um modelo de jornada de trabalho que tem gerado debates sobre seus impactos.",
+    "impacto": "O adiamento pode gerar incertezas para empresas e trabalhadores sobre a regulamentação futura.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/lula-adia-decreto-da-escala-6-x-1-para-depois-de-viagem-a-asia/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/09/decreto-que-regulamenta-fim-da-escala-6x1-adiado.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/LdV8qrBnzP7hdOvkgYWUMO7bfd0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/Z/V/kBWnHqRbuCRnlrSCVHxg/scott-graham-oqmzwnd3thu-unsplash.jpg"
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Governo eleva tarifa de importação de pneus",
+    "resumo": "O governo federal aumentou a tarifa de importação de pneus para carros, elevando-a de 16% para 30%.",
+    "contexto": "A medida afeta a competitividade de pneus importados frente aos nacionais.",
+    "impacto": "Pode resultar em aumento de preços para o consumidor final e beneficiar a indústria nacional de pneus.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/carros/noticia/2026/11/09/governo-eleva-tarifa-de-importacao-de-pneus-de-carros.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/_AFJbND-d50Wmo8NxbCKXrd-ZXs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/1/WfoUV8SfOiti8jhRsKJQ/continental.jpeg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "BC divulga lista de empresas que pediram autorização para atuar com criptoativos",
+    "resumo": "O Banco Central (BC) passou a divulgar em seu site a lista de 120 empresas que solicitaram autorização para prestar serviços com ativos virtuais no Brasil. A iniciativa visa aumentar a transparência no setor.",
+    "contexto": "A regulamentação de criptoativos é um tema em desenvolvimento no Brasil.",
+    "impacto": "Pode trazer mais segurança e clareza para investidores e para o mercado de criptoativos no país.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/09/bc-divulga-lista-de-empresas-que-pediram-autorizacao-para-atuar-com-criptoativos.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/hU1v21COOACgBWyQD2PY7XCaGVo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/P/t/fAsRwtR0edDEYLnD70iw/gold-3080552-1920.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "PGR pede arquivamento do inquérito das fake news ao STF",
+    "resumo": "A Procuradoria-Geral da República (PGR) solicitou ao Supremo Tribunal Federal (STF) o arquivamento definitivo do inquérito das fake news, que está em andamento desde 2019. Ministros do STF veem a medida como forma de 'virar a página'.",
+    "contexto": "O inquérito das fake news investiga a disseminação de notícias falsas e ataques a instituições democráticas.",
+    "impacto": "O arquivamento pode encerrar uma investigação de longa data e ter implicações na forma como desinformação é tratada no país.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-ao-supremo-arquivamento-do-inquerito-das-fake-news"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/09/ministros-do-stf-dizem-que-encerrar-inquerito-das-fake-news-servira-para-virar-pagina-no-pais.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/09/pgr-defende-arquivamento-do-inqurito-das-fake-news-aberto-desde-2019-pelo-stf.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/fyg47X71j-9c40nKRu8whCRTsV8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/R/X/4APWJaT0ANik5ovIvb4w/50969871752-3ac84c4596-k.jpg"
+   },
+   {
+    "tag": "Política",
+    "titulo": "Lula busca apoio para 2027 e enfrenta impasses no Congresso",
+    "resumo": "O presidente Lula busca articulações para o cenário político de 2027, mas enfrenta resistências de líderes do Congresso, como os presidentes da Câmara e do Senado. A indicação de Jorge Messias ao STF também é um ponto de atrito.",
+    "contexto": "A relação entre o Executivo e o Legislativo é crucial para a governabilidade e a agenda política.",
+    "impacto": "Pode dificultar a aprovação de pautas importantes para o governo e influenciar a composição de futuras indicações.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/lula-busca-apoio-para-2027-mas-enfrenta-impasses-com-motta-e-alcolumbre/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Ibovespa sobe com cenário externo positivo e política econômica de Lula",
+    "resumo": "O Ibovespa apresentou alta, com o dólar operando próximo à estabilidade, impulsionado por um cenário externo favorável e pela política econômica do governo Lula. A possibilidade de fim da guerra entre EUA e Irã contribuiu para o otimismo.",
+    "contexto": "O desempenho da bolsa reflete a confiança dos investidores no cenário econômico e político.",
+    "impacto": "Pode atrair mais investidores estrangeiros e sinalizar um ambiente mais favorável para negócios.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ibovespa-o-gatilho-que-pode-fazer-o-gringo-voltar-a-comprar-brasil-segundo-andre-moor-do-bradesco-bbi-rnda/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/rrqKkUEYJIoj-o6oXqf7cfZsFo4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/b/E/J0pEcDSK6Wuif89drIHA/422019592.jpg"
+   },
+   {
+    "tag": "Empresas",
+    "titulo": "Petrobras se preocupa com transição na reforma tributária",
+    "resumo": "A Petrobras manifestou preocupação sobre a transição entre regimes com a reforma tributária no Brasil. A empresa, assim como outras companhias, busca compreender as mudanças e seus impactos.",
+    "contexto": "A reforma tributária visa simplificar o sistema de impostos do país.",
+    "impacto": "Pode influenciar a estratégia de investimentos da Petrobras e de outras grandes empresas durante o período de transição.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petrobras-se-preocupa-sobre-transicao-na-reforma-tributaria-diz-ceo-mlem/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/09/petrobras-pede-periodo-de-transicao-para-compreender-as-mudancas-da-reforma-tributaria.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/TaPnXt6-7ULoQ73J4utF43ztXUc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/F/y/oZQQpPTayoSSFHgE1qxQ/130326petrobras15.jpg"
+   },
+   {
+    "tag": "Economia Internacional",
+    "titulo": "Queda do petróleo alivia pressão inflacionária e impulsiona ouro",
+    "resumo": "A queda nos preços do petróleo reduziu as preocupações inflacionárias, levando o ouro a fechar em alta. A desvalorização do dólar também contribuiu para o movimento do metal precioso.",
+    "contexto": "O preço do petróleo é um fator importante na dinâmica inflacionária global.",
+    "impacto": "Pode moderar a inflação global e reduzir a pressão por aumentos de juros em algumas economias.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-queda-do-dolar-aliviando-temores-de-inflacao-davs/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/09/ouro-sobe-com-alivio-no-petroleo-reduzindo-pressao-inflacionaria.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/09/ataque-atinge-oleoduto-leste-oeste-da-arbia-saudita.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/-YI4BxII7aKk7wij83kDRD04uB4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/T/F/Y889CyQ6KbdaKDV8SpMA/403620285.jpg"
+   },
+   {
+    "tag": "Paraguai",
+    "titulo": "Novo presidente do Paraguai pede renúncia de ministros e autoridades",
+    "resumo": "O novo presidente do Paraguai, Pedro Alliana, solicitou a renúncia de todos os ministros e de outras autoridades do alto escalão do governo. O Paraguai também busca priorizar negociações com o Brasil sobre a tarifa de Itaipu.",
+    "contexto": "Mudanças de governo em países vizinhos podem impactar relações bilaterais e acordos econômicos.",
+    "impacto": "Pode levar a renegociações de acordos e a novas dinâmicas nas relações diplomáticas e comerciais com o Brasil.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/paraguai-novo-presidente-pede-renuncia-de-todos-os-ministros-e-de-autoridades/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/paraguai-quer-priorizar-negociacao-com-o-brasil-sobre-tarifa-de-itaipu/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/09/quebra-do-ueno-leva-professores-s-ruas-no-paraguai-por-risco-a-aposentadorias.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/09/ministrio-pblico-do-paraguai-diz-que-37-empresas-e-35-pessoas-so-investigadas-no-caso-do-ueno-bank.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/AoNX9K1SdADFPGyrp5BrVDLnlbI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/X/W/iKxszgTfOeSng6XZoTrQ/ap26313615647131.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": {
+  "intervalo": "02/11 a 08/11/2026",
+  "resumo": [
+   "A economia brasileira apresentou crescimento de 3,4% em 2024, segundo dados revisados do IBGE.",
+   "O governo sinalizou a busca por ajuste fiscal e a proteção aos mais pobres, enquanto o Congresso debate projetos importantes como a PEC da Segurança Pública e a regulamentação do Imposto Seletivo para 2027.",
+   "O cenário de juros altos continua a impactar o mercado imobiliário e a projeção da taxa Selic foi elevada por algumas instituições financeiras.",
+   "A reforma tributária está confirmada para 2027, com possíveis flexibilizações em prazos e multas.",
+   "Eventos políticos nos Estados Unidos, como as eleições de meio de mandato, geraram reações nos mercados financeiros brasileiros, com Ibovespa em alta e juros futuros em queda.",
+   "O fim da violência contra a mulher e a proteção a povos indígenas foram temas debatidos no Congresso."
+  ],
+  "destaques": [
+   {
+    "tag": "Economia",
+    "titulo": "Crescimento Econômico em 2024",
+    "resumo": "O IBGE confirmou que a economia brasileira cresceu 3,4% em 2024.",
+    "contexto": "O crescimento indica uma recuperação ou expansão da atividade econômica no período.",
+    "impacto": "Pode sinalizar um ambiente mais favorável para investimentos e geração de empregos.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-confirma-crescimento-de-34-da-economia-em-2024"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/06/ibge-confirma-alta-de-34-pontos-percentuais-do-pib-em-2024.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/0urnwlK8ZGLctVLhn8PsqKB2whQ=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/c/L/JRMCicRPWbwc8cgBtdIA/josh-redd-u-rirta-tty-unsplash.jpg"
+   },
+   {
+    "tag": "Política Fiscal",
+    "titulo": "Ajuste Fiscal e Proteção Social",
+    "resumo": "O presidente Lula sinalizou a busca por ajuste fiscal, alinhando o discurso com propostas de gestão e a defesa da proteção aos mais pobres.",
+    "contexto": "O governo busca equilibrar as contas públicas sem prejudicar programas sociais.",
+    "impacto": "Pode levar a um maior controle da dívida pública e a manutenção de políticas de assistência social.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/brasil/lula-rebate-e-diz-que-pobre-nao-pagara-sacrificio-de-ajuste-fiscal/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/06/pressionado-a-cortar-gastos-lula-diz-que-brasil-tem-responsabilidade-e-seriedade-fiscal-e-que-pobre-nao-vai-pagar-a-conta.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/06/lula-faz-primeiros-acenos-concretos-na-direcao-de-ajuste-fiscal-e-alinha-discurso-com-propostas-de-durigan.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/propostas-andre-lara-resende-juros-divida-publica-analise-carla-beni-fgv/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/IQVtDkUn_GPhsimsRXC2YO2IBI8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/e/xhd912SMSoZAw16dTyPw/captura-de-tela-2026-11-06-132903.png"
+   },
+   {
+    "tag": "Juros",
+    "titulo": "Projeção da Selic Elevada e Impacto no Mercado Imobiliário",
+    "resumo": "A XP Investimentos revisou a projeção da Selic, não descartando altas e projetando a taxa em 13,75% ao ano. Juros altos afetam clientes da Eztec e o financiamento imobiliário.",
+    "contexto": "A taxa básica de juros elevada encarece o crédito e desestimula o consumo e o investimento.",
+    "impacto": "Pode continuar a pressionar o setor imobiliário e outros setores que dependem de financiamento.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/sem-cortes-xp-abandona-previsao-de-queda-da-selic-ate-o-fim-de-2027-e-nao-descarta-altas/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/tesouro-selic-cdb-lci-lca-ou-poupanca-quanto-rendem-r-10-mil-com-juros-a-1375-mlim/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/06/cliente-da-eztec-sofre-com-juros-afirma-diretor-presidente.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/selic-em-1375-ate-meados-de-2028-goldman-ve-bc-sem-espaco-para-cortar-juros-em-2027-jcav/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/KOq6u44pk1KjYsStVMnAW1icnVE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/w/S/gMMngdR1qipMSrYXzHHw/apoio-1-crf-04-vista-coroamento-ef3.jpg"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Início da Reforma Tributária em 2027",
+    "resumo": "O Ministro da Fazenda afirmou que a reforma tributária começará em 2027, com a regulamentação do Imposto Seletivo para o mesmo ano.",
+    "contexto": "A reforma visa simplificar o sistema tributário brasileiro.",
+    "impacto": "Pode gerar mudanças significativas na carga tributária de diversos setores da economia.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/reforma-tributaria-2027/imposto-do-pecado-pode-elevar-preco-do-cigarro-e-da-cerveja/"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/05/mp-define-as-aliquotas-do-imposto-seletivo-para-2027"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1316363-medida-provisoria-regulamenta-o-imposto-seletivo-para-2027"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/05/perguntas-e-respostas-imposto-seletivo.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/25CkNR73f6ajY_1imOzasyOQ7CQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/m/3/DbGxepSxSEbviAShAuMA/canva-2025-09-20t143742.713.png"
+   },
+   {
+    "tag": "Mercados Internacionais",
+    "titulo": "Reação dos Mercados à Eleição nos EUA",
+    "resumo": "A vitória democrata nas eleições de meio de mandato nos EUA levou a uma alta do Ibovespa, queda dos juros futuros e desvalorização do dólar no Brasil.",
+    "contexto": "Mudanças políticas nos EUA podem afetar fluxos de capital e relações comerciais globais.",
+    "impacto": "Pode influenciar a política externa brasileira e a atratividade de investimentos no país.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/06/eua-criam-165-mil-vagas-de-trabalho-em-outubro-e-superam-projecoes.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/06/dolar-sobe-em-linha-com-movimento-externo-e-a-espera-do-payroll.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/vitoria-democrata-nas-midterms-traz-de-volta-debate-sobre-teto-da-divida-nos-eua/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/kBb4OmQ_nebWmtTaZ2p3V-S_d2U=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/v/J/JUQqJsQuiXaKPbFUXOLg/ap22123517413316.jpg"
+   },
+   {
+    "tag": "Segurança Pública",
+    "titulo": "Aprovação da PEC da Segurança Pública",
+    "resumo": "O Senado aprovou a PEC da Segurança Pública, com o objetivo de ampliar a integração entre os órgãos de segurança do país.",
+    "contexto": "A medida busca fortalecer a atuação conjunta das forças de segurança.",
+    "impacto": "Pode resultar em maior eficiência no combate à criminalidade.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/videos/2026/11/senado-aprova-pec-da-seguranca-publica-1"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1314944-comissao-aprova-divulgacao-de-notas-fiscais-de-compras-feitas-por-orgaos-publicos"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/11/03/bolsonaro-articula-eleicao-do-senado-de-olho-na-anistia-e-setores-do-pl-falam-em-esvaziar-rogerio-marinho.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/projeto-preve-prisao-e-multa-de-ate-20-do-faturamento-por-assedio-eleitoral"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/3jv2rvzX4c-lXnKvz9STUPIP_Sk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/j/0JeAj8TviyAgO2oxpRcg/captura-de-tela-2026-10-15-140745.png"
+   },
+   {
+    "tag": "Consumidor",
+    "titulo": "Recuo no Endividamento e Inadimplência",
+    "resumo": "O endividamento e a inadimplência dos consumidores recuaram em outubro, segundo dados da CNC.",
+    "contexto": "A queda pode indicar uma melhora na capacidade de pagamento das famílias.",
+    "impacto": "Pode sinalizar um ambiente mais positivo para o consumo e o varejo.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/05/endividamento-e-inadimplencia-recuam-em-outubro-mostra-cnc.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/gxDhwkpl2NfToiQYLKFlAVQTeIE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/C/c/LDer4MR0CEi1tfYPRFFw/photo-1646766509831-bb330d97648d.avif"
+   },
+   {
+    "tag": "Infraestrutura",
+    "titulo": "Expansão da Infraestrutura para Carros Elétricos e Aeroportos",
+    "resumo": "O governo federal criou um grupo de trabalho para expandir a infraestrutura de recarga para carros elétricos e incluiu 13 aeroportos regionais em plano de privatização.",
+    "contexto": "Iniciativas visam modernizar a infraestrutura do país e incentivar novas tecnologias.",
+    "impacto": "Pode impulsionar o setor de veículos elétricos e atrair investimentos em concessões.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/06/governo-cria-grupo-para-avanar-na-expenso-de-infraestrutura-de-recarga-de-carros-eltricos.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-energia/governo-avanca-no-desenho-da-estrategia-nacional-de-eletromobilidade/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/lula-quer-reduzir-combustiveis-fosseis-mesmo-com-expansao-do-pre-sal/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-infra/governo-inclui-13-aeroportos-reginais-no-plano-de-privatizacao/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/vdnYoM6Mu20BdbfShl4f1zZw5pY=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/5/M/Qm8fQdTBe8nZmk0sMwuA/400146901.jpg"
+   }
+  ]
+ }
+}
