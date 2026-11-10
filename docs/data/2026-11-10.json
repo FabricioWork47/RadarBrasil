@@ -1,0 +1,213 @@
+{
+ "data": "2026-11-10",
+ "geradoEm": "10/11/2026 14:08",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O dólar atingiu R$ 5,60 após a inflação nos EUA superar expectativas, reforçando apostas de alta de juros americanos. No Brasil, o Copom indica que a desaceleração econômica não conteve a inflação. O setor financeiro e o governo acordaram a tarifa do split payment, que deve cobrir 98% do mercado B2B em 2027. O STF analisa restrições a acordos do TCU e a validade de provas em e-mails corporativos. A PF refará relatórios sobre ministros do STF citados no caso Master."
+  ],
+  "itens": [
+   {
+    "tag": "Juros e Inflação",
+    "titulo": "Dólar sobe e juros nos EUA em foco após inflação acima do esperado",
+    "resumo": "O dólar avançou quase 2%, atingindo R$ 5,60, após a inflação nos EUA superar as expectativas em outubro. Números mais fortes que o previsto podem aumentar as apostas em elevações futuras da taxa de juros americana.",
+    "contexto": "A inflação nos EUA é um indicador chave para as decisões de política monetária do Federal Reserve (Fed). Dados acima do esperado tendem a levar a um aperto monetário mais prolongado, o que impacta mercados globais.",
+    "impacto": "O aumento dos juros nos EUA pode pressionar ainda mais a moeda brasileira e afetar o fluxo de investimentos para o país. O mercado já amplia apostas de alta de juros pelo Fed em dezembro.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-10112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/10/indice-de-precos-dos-eua-sobe-04percent-em-outubro-acima-do-previsto.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/10/mercado-amplia-apostas-de-alta-de-juros-pelo-fed-em-dezembro-e-considera-ajuste-maior.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/aFYTksvSJosSd2Wq1DRcgsM1F6E=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/d/w/vzvwTZS7avQRDFB2DjmQ/pepi-stojanovski-mjsfnz8baxw-unsplash.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Split payment: acordo para cobrir 98% do mercado B2B em 2027",
+    "resumo": "Setor financeiro e governo chegaram a um acordo sobre a tarifa preliminar do split payment, que será de R$ 0,39 por transação. A exigência legal plena para a cobertura de 98% do mercado B2B está prevista para outubro de 2027.",
+    "contexto": "O split payment é um sistema que permite a separação de impostos em transações comerciais, visando simplificar e agilizar o processo para empresas.",
+    "impacto": "A implementação do split payment tende a trazer mais eficiência para as operações B2B e pode reduzir custos de transação para as empresas.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/split-payment-deve-cobrir-98-do-mercado-b2b-em-outubro-de-2027/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/10/split-payment-98percent-das-operacoes-devem-estar-cobertas-ate-outubro-de-2027-estima-confederacao-dos-bancos.ghtml"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF analisa restrições a acordos do TCU e validade de provas digitais",
+    "resumo": "O Supremo Tribunal Federal (STF) está em análise sobre a possibilidade de restringir acordos feitos pelo Tribunal de Contas da União (TCU). A 2ª Turma também julga a validade de provas obtidas em e-mails e conversas corporativas entregues à polícia.",
+    "contexto": "As decisões do STF sobre a atuação do TCU e a admissibilidade de provas digitais têm implicações diretas na atuação de órgãos de controle e na condução de investigações.",
+    "impacto": "Possível impacto na autonomia do TCU e na forma como provas digitais podem ser utilizadas em processos judiciais e administrativos.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-analisa-se-restringe-acordos-feitos-pelo-tcu/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/pf-vai-refazer-relatorios-sobre-relacao-de-vorcaro-com-ministros-do-stf/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/10/apuracoes-ligadas-ao-inquerito-das-fake-news-terao-que-ser-analisadas-individualmente.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/defesa-de-vorcaro-recorre-a-comissao-interamericana-e-pede-que-stf-julgue-prisao/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/vOn0Q5dC3kA0TKA193vaK3UY6Zo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/K/3/LMUfqfQPGiXWyAu8lf8A/foto30pol-301-fachin-a12.jpg"
+   },
+   {
+    "tag": "Política Econômica",
+    "titulo": "Ata do Copom indica inflação persistente apesar da desaceleração",
+    "resumo": "A ata do Comitê de Política Monetária (Copom) sinaliza que a desaceleração da economia brasileira não foi suficiente para conter a inflação. A atividade econômica mostra sinais mais claros de desaceleração.",
+    "contexto": "A persistência da inflação, mesmo com a economia em desaceleração, pode influenciar as futuras decisões de política monetária do Banco Central.",
+    "impacto": "Pode indicar a necessidade de manter uma postura mais cautelosa em relação à política monetária, com possíveis impactos nas taxas de juros.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado de Varejo",
+    "titulo": "Magazine Luiza dispara com crise da Casas Bahia",
+    "resumo": "O Magazine Luiza (MGLU3) apresentou forte valorização, impulsionada pelas dificuldades financeiras da Casas Bahia. Analistas veem potencial de dobrar de valor nos próximos meses.",
+    "contexto": "Mudanças no cenário competitivo do varejo de bens duráveis podem beneficiar empresas com melhor posicionamento financeiro e estratégico.",
+    "impacto": "Possível consolidação no setor de varejo, com empresas mais fortes ganhando participação de mercado.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/magazine-luiza-mglu3-dispara-ate-12-com-crise-da-casas-bahia-e-pode-dobrar-de-valor-nos-proximos-meses-entenda-bdap/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Commodities",
+    "titulo": "Vale supera Petrobras em novembro; Ibovespa pressionado",
+    "resumo": "A Vale apresentou desempenho superior à Petrobras em novembro, influenciada pela recuperação do minério de ferro, dólar mais forte e queda do petróleo. O Ibovespa recuou, pressionado pela queda das ações da Vale.",
+    "contexto": "O desempenho relativo das gigantes da Bolsa brasileira é afetado por fatores como preços de commodities e câmbio.",
+    "impacto": "Analistas veem o movimento como mais um ajuste de curto prazo, mas a dinâmica pode influenciar o desempenho do Ibovespa.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/vale-vale3-supera-petrobras-petr4-novembro-2026-jogo-virou-gigantes-da-bolsa-brasileira/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/10/ibovespa-sobe-repercutindo-balancos-vale-e-petrobras-limitam-alta.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/jZ-lQub7SrhXjgtziwmujIb5R0g=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/V/Q/A5mGbKTCKeHFL6bJCGyA/foto03fin-201-crdcs-c6.jpg"
+   },
+   {
+    "tag": "Tecnologia e IA",
+    "titulo": "TSMC investe US$ 1 bilhão em IA e pode beneficiar fluxo para o Brasil",
+    "resumo": "A TSMC planeja investir até US$ 1 bilhão em desenvolvedoras de inteligência artificial (IA) como Anthropic e OpenAI. A incerteza em relação à IA nos EUA pode reverter o fluxo de capital para o Brasil e América Latina.",
+    "contexto": "Grandes investimentos em IA demonstram a confiança no setor, enquanto a volatilidade em gigantes de tecnologia pode redirecionar capital para mercados emergentes.",
+    "impacto": "Possível aumento do fluxo de investimentos para o Brasil e América Latina, caso a rotação de carteiras de investidores globais se confirme.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/10/tsmc-investir-at-us-1-bilho-na-anthropic-e-na-openai.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/10/rotao-de-carteiras-de-investidor-global-pode-voltar-a-beneficiar-fluxo-para-o-brasil-e-al.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/10/dona-dos-chips-da-nvidia-vai-investir-us-1-bilhao-nas-criadoras-do-chatgpt-e-do-claude.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/tsmc-tsmc34-investira-ate-us-1-bilhao-na-anthropic-e-na-openai-mlem/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/q_Aac9IuV1S0fKkGCtkaE2kZDqU=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/B/O/yiEShRQD6EF0zzoBsSaA/441969226.jpg"
+   },
+   {
+    "tag": "Infraestrutura",
+    "titulo": "Comissão de Infraestrutura pede auditoria em concessão rodoviária",
+    "resumo": "A Comissão de Infraestrutura (CI) aprovou requerimentos para auditoria no processo de concessão da Rota Agro Central, trecho rodoviário entre Rondônia e Mato Grosso.",
+    "contexto": "A fiscalização de concessões de infraestrutura é fundamental para garantir a correta aplicação de recursos e a eficiência dos serviços.",
+    "impacto": "A auditoria pode identificar irregularidades e propor ajustes no modelo de concessão, impactando futuros projetos.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/10/ci-pede-auditoria-em-concessao-rodoviaria-entre-ro-e-mt"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Combustíveis",
+    "titulo": "Governo prevê aumento da mistura de biodiesel no diesel",
+    "resumo": "O governo estuda a aprovação de um aumento na mistura de biodiesel ao diesel para 20%, com previsão de decisão em maio.",
+    "contexto": "A alteração na composição do diesel visa atender a metas de sustentabilidade e incentivar a produção de biocombustíveis.",
+    "impacto": "Pode impactar os custos de produção e o preço final do diesel para os consumidores, além de beneficiar o setor de biocombustíveis.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/carros/noticia/2026/11/10/diesel-tera-mais-biodiesel-governo-preve-aprovar-em-2027.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/GaI51aol6KDXdRDZBS9mgAJB6vA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/k/N2mBKSRdA28xgS5tP3ug/globo-canal-4-20261105-2000-frame-119806.jpeg"
+   },
+   {
+    "tag": "Mercado de Crédito",
+    "titulo": "BC: Brasileiros ainda têm R$ 6 bilhões em dinheiro esquecido nos bancos",
+    "resumo": "Segundo dados do Banco Central, os brasileiros ainda possuem R$ 6,03 bilhões esquecidos em instituições financeiras.",
+    "contexto": "A existência de valores esquecidos em bancos indica a necessidade de maior divulgação e facilidade para que os cidadãos recuperem seus recursos.",
+    "impacto": "Possível retorno de parte desses recursos para a economia, caso os detentores sejam localizados e resgatem os valores.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/10/brasileiros-ainda-tm-r-6-bilhes-em-dinheiro-esquecido-nos-bancos-diz-bc.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/jXLZ-ahOD_rOdxJnbuczDL9JeNw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/h/o/00kWfjRui9WDyg2nYARg/pexels-daniel-dan-7542641.jpg"
+   },
+   {
+    "tag": "Política",
+    "titulo": "Dino nega desejo de disputar Presidência em 2030",
+    "resumo": "O ministro Flávio Dino afirmou que não pretende voltar à política eleitoral e que está \"feliz\" no STF, negando planos de disputar a Presidência em 2030.",
+    "contexto": "Declarações de ministros e figuras políticas sobre futuras candidaturas são relevantes para o cenário eleitoral e a articulação política.",
+    "impacto": "A declaração pode influenciar o cenário de pré-candidaturas para as eleições de 2030.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-eleicoes/feliz-no-stf-dino-nega-desejo-de-disputar-presidencia-em-2030/"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
