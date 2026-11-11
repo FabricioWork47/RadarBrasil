@@ -1,0 +1,243 @@
+{
+ "data": "2026-11-11",
+ "geradoEm": "11/11/2026 14:15",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "A reforma tributária segue em debate, com a Receita Federal anunciando medidas para facilitar a transição e o setor produtivo pedindo adiamento dos testes. O governo descarta o adiamento. O Ibovespa sobe com o plano de ajuste fiscal, enquanto o dólar e os juros futuros caem. A Petrobras prioriza investimentos em detrimento de dividendos, o que impacta suas ações. O setor de veículos apresenta crescimento nas vendas."
+  ],
+  "itens": [
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Receita Federal anuncia medidas para facilitar transição da reforma tributária",
+    "resumo": "A Receita Federal anunciou medidas para amenizar problemas na transição da reforma tributária. O governo apresentará um texto para facilitar a adaptação e adiará a emissão de notas fiscais do Simples Nacional para março, exceto para prestação de serviço. Sem benefícios aprovados pelo Congresso, o imposto do governo cairia de 11,3% para 8,5% em 2027.",
+    "contexto": "A reforma tributária é um tema central na agenda econômica, com impactos significativos sobre a carga tributária e a operação das empresas. A Receita busca mitigar dificuldades e garantir uma transição mais suave.",
+    "impacto": "A facilitação da transição pode reduzir a resistência e os custos de adaptação para as empresas. O adiamento da emissão de notas fiscais para alguns setores pode aliviar a pressão imediata sobre o Simples Nacional.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/receita-anuncia-medidas-para-facilitar-transicao-da-reforma-tributaria/"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresentara-texto-para-facilitar-adaptacao"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/11/reforma-tributaria-governo-adia-para-marco-emissao-de-notas-fiscais-do-simples-nacional-exceto-de-prestacao-de-servico.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/11/reforma-tributaria-sem-beneficios-aprovados-pelo-congresso-imposto-do-governo-cairia-de-113percent-para-85percent-estima-receita-federal.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/LVu7D4LScyYCR8g6lnAfBIeHlsc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/n/JMz6ACQcGjAolHR4v9BQ/edicao-imagens-g1-56-.png"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Setor produtivo pede prorrogação dos testes da reforma tributária",
+    "resumo": "75 entidades do setor produtivo assinaram uma carta pedindo a prorrogação dos testes da reforma tributária para 2028, alegando falhas. A proposta de prolongar o período de testes da CBS também foi defendida.",
+    "contexto": "O setor produtivo busca mais tempo para se adaptar às novas regras tributárias, indicando preocupações com a complexidade e os possíveis impactos negativos de uma implementação apressada.",
+    "impacto": "O adiamento dos testes pode gerar um prejuízo de pelo menos R$ 60 bilhões, segundo a Receita Federal. A prorrogação pode aliviar a pressão sobre as empresas, mas atrasa a modernização do sistema tributário.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/bernard-appy-volta-a-defender-prolongar-periodo-de-testes-da-cbs/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/setor-produtivo-pede-prorrogacao-dos-testes-da-reforma-tributaria/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/11/adiar-a-reforma-tributaria-geraria-prejuizo-de-pelo-menos-r-60-bi-diz-barreirinhas.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/yeWEVhULia6DhJaKH5qxXsfwp3g=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/K/qb7amSRtAKCx3xxAyEXw/pexasdaskfjaskdjls.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "Ibovespa sobe, dólar e juros futuros caem com plano de ajuste fiscal",
+    "resumo": "O Ibovespa subiu, enquanto o dólar e os juros futuros caíram, impulsionados pelo plano de ajuste fiscal do governo Lula. A liquidez pode ser reduzida pelo feriado nos EUA.",
+    "contexto": "O mercado financeiro reage positivamente a sinais de responsabilidade fiscal, que tendem a reduzir a percepção de risco e atrair investimentos. No entanto, a desconfiança persiste em parte do mercado.",
+    "impacto": "A percepção de melhora na gestão fiscal pode atrair capital estrangeiro e reduzir a volatilidade da moeda. A queda nos juros futuros pode sinalizar expectativas de controle da inflação ou de uma política monetária mais branda.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/intraday/post/2026/11/na-faria-lima-plano-fiscal-nao-dissipa-desconfianca-e-e-visto-como-mais-do-mesmo.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-11112026/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/1QyYuyUgz96FnQU_TZE6ayAJoBU=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/W/3/LBNEv1RAOSRRCBPWvKPg/captura-de-tela-2026-11-11-082027.png"
+   },
+   {
+    "tag": "Empresas",
+    "titulo": "Petrobras prioriza investimentos em vez de dividendos, gerando queda nas ações",
+    "resumo": "A Petrobras priorizou investimentos em detrimento de dividendos no terceiro trimestre, o que gerou decepção no mercado e levou a ações a liderarem as quedas do Ibovespa. Uma entidade ligada a petroleiros considera a decisão acertada.",
+    "contexto": "A política de dividendos da Petrobras é um fator importante para investidores. A mudança de foco para investimentos pode indicar uma estratégia de longo prazo, mas afeta o retorno financeiro imediato dos acionistas.",
+    "impacto": "A redução no pagamento de dividendos pode desestimular alguns investidores no curto prazo, mas a priorização de investimentos pode fortalecer a empresa e gerar valor a longo prazo. As ações tendem a reagir negativamente a essa notícia.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ineep-diz-que-petrobras-acerta-em-priorizar-investimentos-em-vez-de-maximizar-dividendos/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petrobras-petr4-vai-pagar-menos-dividendos-acoes-lideram-quedas-do-ibovespa-apos-aumento-do-capex-no-3t26-bdap/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Setor Automotivo",
+    "titulo": "Venda de veículos cresce 16,1% no ano e setor discute política com o governo",
+    "resumo": "A venda de veículos cresceu 16,1% no ano. A Anfavea pretende discutir políticas para o setor com o governo.",
+    "contexto": "O setor automotivo é um importante termômetro da atividade econômica. O crescimento nas vendas indica uma recuperação ou aquecimento do mercado, e a discussão de políticas visa manter esse ímpeto.",
+    "impacto": "O crescimento contínuo nas vendas pode impulsionar a produção e o emprego no setor. A discussão de políticas com o governo pode resultar em incentivos ou regulamentações que afetem o futuro do mercado automotivo.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/11/venda-de-veiculos-cresce-161percent-no-ano-e-anfavea-fala-em-discutir-politica-para-o-setor-com-o-governo-reeleito.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/x9kVspyADUr6TfrmNM61LiKJEI4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/P/x/5i3ckERAWdJyzdponBug/carross-.jpg"
+   },
+   {
+    "tag": "Congresso",
+    "titulo": "Comissões aprovam projetos sobre BNDES, segurança e acessibilidade",
+    "resumo": "Comissões da Câmara aprovaram o uso de recursos do BNDES para financiar energia renovável na agricultura familiar, restrições à prisão preventiva de agentes de segurança em serviço e exigência de recursos de acessibilidade em totens de autoatendimento. As propostas seguem em análise.",
+    "contexto": "A atividade legislativa em comissões avança em temas diversos, desde o financiamento de setores específicos até questões de segurança pública e inclusão.",
+    "impacto": "A aprovação desses projetos pode direcionar recursos para setores estratégicos, alterar procedimentos de segurança e promover maior acessibilidade.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1318335-comissao-aprova-projeto-que-restringe-prisao-preventiva-de-agentes-de-seguranca-em-servico"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1318323-comissao-aprova-projeto-que-exige-recursos-de-acessibilidade-em-totens-de-autoatendimento"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF define aplicação do piso salarial aos docentes públicos",
+    "resumo": "O Supremo Tribunal Federal (STF) avalia a constitucionalidade de decisão que concedeu a equiparação do salário-base do professor da educação básica em São Paulo.",
+    "contexto": "A decisão do STF sobre o piso salarial docente tem implicações diretas para a remuneração dos professores da educação básica em todo o país, podendo gerar impacto nos orçamentos públicos.",
+    "impacto": "A decisão do STF pode estabelecer um precedente para a aplicação do piso salarial em outras localidades e para outras categorias de servidores públicos.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-define-aplicacao-do-piso-salarial-aos-docentes-publicos/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "PF e Justiça",
+    "titulo": "Crise na PF: Senado ouve ministro da Justiça e diretor da corporação",
+    "resumo": "O Senado aprovou convites para ouvir o ministro da Justiça e o diretor-geral da Polícia Federal sobre o afastamento de delegados. O Ministério da Justiça pediu esclarecimentos à PF sobre o caso.",
+    "contexto": "O afastamento de delegados da Polícia Federal gerou questionamentos e está sob investigação, envolvendo o Ministério da Justiça e o STF.",
+    "impacto": "As oitivas no Senado podem trazer mais clareza sobre os motivos do afastamento e as relações entre os envolvidos. A crise na PF pode afetar a confiança nas instituições de segurança.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/11/relatorios-sobre-ministros-citados-em-celular-de-vorcaro-e-afastamento-de-delegados-entenda-a-crise-na-pf.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/11/comissoes-do-senado-devem-ouvir-ministro-da-justica-sobre-afastamento-de-delegados-do-caso-master.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/11/relatorio-da-pf-deve-identificar-indicio-de-crime-e-nao-fazer-juizo-sobre-relacao-de-ministros-com-vorcaro-indica-fachin-a-auxiliares.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/11/senado-aprova-convites-para-ouvir-diretor-da-pf-e-ministro-da-justica-sobre-troca-de-delegados.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/n315OGeCVdtOz-_8dr0KBWzYXlY=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/J/S/MFl7fWRdKXZkoZshOlag/54932075303-b0012e5bc1-o.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Dólar sobe no exterior com apostas em alta de juros nos EUA",
+    "resumo": "O dólar subiu no exterior para seu maior nível desde março de 2025, impulsionado por apostas em juros mais altos nos Estados Unidos.",
+    "contexto": "A política monetária dos Estados Unidos tem forte influência nos mercados globais, afetando o fluxo de capitais e a cotação de moedas de outros países.",
+    "impacto": "A valorização do dólar no exterior pode pressionar o câmbio no Brasil, tornando as importações mais caras e potencialmente influenciando a inflação. Juros mais altos nos EUA tendem a atrair capital para aquele país.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/11/dlar-no-exterior-sobe-ao-maior-nvel-desde-maro-de-2025-com-apostas-em-alta-de-juros-nos-eua.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/BE4ZedPhHIRFN_b0oPcWOeI8Okw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/B/x/YNs8mUQjGDUmm11Iy2Cw/384690839.jpg"
+   },
+   {
+    "tag": "Serviços",
+    "titulo": "Serviços de informação e comunicação desaceleram",
+    "resumo": "Os serviços de informação e comunicação desaceleraram, registrando a menor taxa de crescimento desde novembro de 2023. A guerra no Oriente Médio é apontada como fator de pressão.",
+    "contexto": "O setor de serviços é um componente importante do PIB. A desaceleração em um segmento específico pode indicar tendências macroeconômicas mais amplas.",
+    "impacto": "A desaceleração pode afetar o desempenho geral do setor de serviços e, consequentemente, o crescimento econômico. A pressão de custos devido a conflitos internacionais pode impactar a rentabilidade das empresas.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/11/ibge-servicos-de-informacao-e-comunicacao-desaceleram-e-tem-menor-taxa-desde-novembro-de-2023.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/11/ibge-guerra-no-oriente-medio-e-importante-para-explicar-pressao-em-servicos.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/GckrzBs89MJrqWEQQXkA5owgkIg=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/6/1/uovwhIT9yv53dTCnYeCg/publicador-api-valor-pulse-brand-100-7a008c3a-528b-4424-adae-787447252984-20251219110503.jpeg"
+   },
+   {
+    "tag": "Regulamentação",
+    "titulo": "Congresso prorroga MP que proíbe bets no país",
+    "resumo": "O Congresso prorrogou por 60 dias a vigência da Medida Provisória que proíbe a exploração, oferta, intermediação e publicidade de apostas esportivas online (bets). Influenciadores que divulgavam bets tiveram contas derrubadas no Instagram.",
+    "contexto": "A regulamentação do mercado de apostas esportivas online tem sido um tema de debate, com o governo buscando controlar a atividade e combater irregularidades.",
+    "impacto": "A prorrogação da MP mantém a proibição em vigor, adiando a definição sobre a regulamentação do setor. A derrubada de contas de influenciadores visa coibir a publicidade ilegal.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-pais"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/11/influenciadores-que-divulgavam-bets-tem-contas-derrubadas-no-instagram-apos-pedido-do-governo.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/G3Mgu0EQrja6wjNWhxRLVKkX1Js=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/U/1h8BscR7SHLUIJACOEBQ/fotojet-12-.jpg"
+   },
+   {
+    "tag": "Energia Renovável",
+    "titulo": "BNDES poderá financiar energia renovável na agricultura familiar",
+    "resumo": "Comissão da Câmara aprovou projeto que permite o uso de recursos do BNDES para financiar energia renovável na agricultura familiar. A proposta segue em análise.",
+    "contexto": "O financiamento de energias renováveis é estratégico para a transição energética e para o desenvolvimento sustentável, especialmente na agricultura familiar.",
+    "impacto": "A medida pode impulsionar a adoção de energias limpas no campo, reduzindo custos para os agricultores e promovendo a sustentabilidade.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1318363-comissao-aprova-uso-de-recursos-do-bndes-para-financiar-energia-renovavel-na-agricultura-familiar"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
