@@ -1,0 +1,139 @@
+{
+ "data": "2026-11-12",
+ "geradoEm": "12/11/2026 14:38",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O Congresso Nacional aprovou diversas medidas fiscais e orçamentárias, incluindo um reforço para ministérios e o Judiciário, além de autorizar remanejamentos significativos no orçamento. O pacote fiscal visa estabilizar a dívida pública. No mercado, o dólar subiu e a bolsa caiu, influenciados por fatores externos e pelo pacote fiscal. A Petrobras avalia mudanças na política de preços de combustíveis e anunciou a compra de uma empresa de transporte de etanol. O IBGE indicou que a Black Friday tende a não afetar a inflação geral."
+  ],
+  "itens": [
+   {
+    "tag": "Congresso",
+    "titulo": "Congresso aprova pacote fiscal e reforços orçamentários",
+    "resumo": "O Congresso Nacional aprovou um pacote de medidas fiscais com o objetivo de estabilizar a dívida pública e preservar compromissos. Foram aprovados reforços orçamentários para ministérios e o Judiciário, além da autorização para remanejo de R$ 152 bilhões no Orçamento de 2026 e R$ 32,8 milhões para o Ministério da Saúde. Também foi aprovada a possibilidade de novas nomeações de servidores em 2026 e a dispensa de regras fiscais para a Copa do Mundo Feminina de 2027.",
+    "contexto": "A aprovação dessas medidas pelo Congresso demonstra a articulação entre os poderes para lidar com as finanças públicas e atender a demandas específicas, como eventos esportivos e nomeações de servidores.",
+    "impacto": "Pode haver maior clareza sobre as finanças públicas e a execução orçamentária para os próximos anos. A dispensa de regras fiscais para a Copa pode gerar gastos adicionais.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/12/congresso-aprova-reforco-orcamentario-para-ministerios-e-judiciario"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/12/congresso-nacional-aprova-r-32-8-milhoes-para-o-ministerio-da-saude"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/12/governo-espera-aprovar-pec-do-ajuste-fiscal-ate-17-de-dezembro-diz-fonte.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/FsaCkaNrvzDObWrAm4694kxKQAA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/1/n/gRgCj4S1SazEYjZMAIgg/real-moedadinheiro-jfcrz-abr-1701220049-1.webp"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Dólar sobe e Ibovespa cai com pacote fiscal e cenário externo",
+    "resumo": "O dólar subiu mais de 1% e o Ibovespa caiu, refletindo o mau humor externo e o foco no pacote fiscal do governo. O pacote fiscal, que o Congresso deve votar, é considerado por analistas como um passo inicial para a agenda econômica. O IPCA de outubro surpreendeu para baixo, mas a inflação acumulada e de alimentos ainda geram cautela.",
+    "contexto": "A volatilidade no mercado financeiro é influenciada tanto por fatores domésticos, como o pacote fiscal, quanto por eventos internacionais, evidenciando a sensibilidade dos ativos a notícias econômicas e políticas.",
+    "impacto": "A alta do dólar tende a encarecer importados e pode pressionar a inflação. A queda do Ibovespa pode afetar o desempenho de fundos de investimento e a confiança dos investidores.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-12112026/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/ipca-surpreende-para-baixo-mas-inflacao-ainda-preocupa-economistas/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Petrobras",
+    "titulo": "Petrobras avalia política de preços e compra empresa de etanol",
+    "resumo": "A Petrobras está em discussão interna sobre possíveis mudanças conjunturais na estratégia comercial relacionada a preços de combustíveis. A estatal também anunciou a compra de 100% da empresa Logum Logística, que atua no transporte, movimentação e armazenamento de etanol, por R$ 620 milhões.",
+    "contexto": "As decisões da Petrobras sobre preços de combustíveis e aquisições têm impacto direto nos custos de energia e no setor de biocombustíveis, além de sinalizar os rumos estratégicos da empresa estatal.",
+    "impacto": "A alteração na política de preços pode influenciar a inflação e os custos para consumidores e empresas. A aquisição da Logum pode otimizar a logística de etanol da Petrobras.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petrobras-avalia-alterar-regras-para-atender-politica-de-precos-de-combustiveis/"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-faz-acordo-para-deter-100-da-transportadora-de-etanol-logum"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/12/petrobras-anuncia-compra-de-empresa-de-transporte-de-etanol-por-r-620-milhoes.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/9V54EvW-XTYPVGdJhxCmUBWBz2M=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/9/fflVw1Q0iXb0XKJdVUhg/2026-11-12t112106z-1-lynxnpemab13b-rtroptp-4-brazil-petrobras.jpg"
+   },
+   {
+    "tag": "Trabalho",
+    "titulo": "Decisão sobre jornada de trabalho e acordos em SP e RS",
+    "resumo": "O ministro Flávio Dino autorizou a distribuição de 42 horas semanais em 5 dias de trabalho, flexibilizando a escala 6x1. Em São Paulo e no Rio Grande do Sul, acordos em comércio estabelecem a escala 5x2, com redução da jornada semanal e duas folgas.",
+    "contexto": "A flexibilização da jornada de trabalho e a busca por novas escalas refletem as negociações entre empregadores e empregados, visando adaptar as condições de trabalho às demandas atuais e à legislação.",
+    "impacto": "Pode haver mudanças nas rotinas de trabalho e nos custos para as empresas, além de impacto no bem-estar dos trabalhadores com jornadas mais concentradas e mais dias de folga.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/12/fim-da-escala-6x1-dino-autoriza-distribuicao-de-42-horas-semanais-em-5-dias-de-trabalho.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/comercio-de-sp-e-rs-fecha-acordos-para-escala-5-x-2/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF julga fim de isenção de pena e Fachin discute reforma do sistema de Justiça",
+    "resumo": "O Supremo Tribunal Federal (STF) analisa uma regra que impede a punição de determinados crimes patrimoniais cometidos entre cônjuges. O presidente do STF, Edson Fachin, também se reunirá com ministros da Corte e representantes do Superior Tribunal de Justiça (STJ) para discutir a reforma do sistema de Justiça.",
+    "contexto": "As decisões do STF e as discussões sobre a reforma do sistema de Justiça têm potencial para alterar a aplicação da lei e a eficiência do aparato judiciário no país.",
+    "impacto": "O julgamento sobre crimes patrimoniais pode impactar a forma como esses delitos são tratados legalmente. A reforma do sistema de Justiça pode levar a mudanças processuais e administrativas.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/12/fachin-marca-reuniao-com-stj-e-do-tse-para-discutir-a-proposta-de-reforma-do-sistema-de-justica.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-julga-fim-de-isencao-de-pena-em-crimes-contra-mulheres/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/5PA600aLwbfQ7RdbAEelnbPukuU=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/i/rSi4FWTVmVuQP6CYBtHg/55518635084-8a79024e70-k.jpg"
+   },
+   {
+    "tag": "Inflação",
+    "titulo": "Black Friday não deve impactar inflação geral, diz IBGE",
+    "resumo": "As promoções de Black Friday tendem a ter influência localizada e não devem afetar o resultado geral do Índice de Preços ao Consumidor Amplo (IPCA), segundo o IBGE. O resultado de outubro do IPCA ficou abaixo das expectativas, mas alimentos e a inflação acumulada acima da meta reforçam a cautela dos economistas.",
+    "contexto": "A análise do IBGE sobre o impacto da Black Friday na inflação é relevante para entender a dinâmica de preços no varejo. A cautela com a inflação persistente indica desafios para a política monetária.",
+    "impacto": "A ausência de impacto significativo da Black Friday na inflação geral pode ser um alívio para o controle de preços. A persistência da inflação em alimentos pode afetar o poder de compra das famílias.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/12/black-friday-tende-a-no-ter-efeito-sobre-inflao-geral-diz-ibge.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/ipca-surpreende-para-baixo-mas-inflacao-ainda-preocupa-economistas/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/KOd_Kr8XEy7QR1Po2V6O81GMzEc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/d/i/3JcBBQRLSbyhG9hOFEpg/imagem-materia-6-.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
