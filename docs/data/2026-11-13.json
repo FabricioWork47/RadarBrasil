@@ -1,0 +1,237 @@
+{
+ "data": "2026-11-13",
+ "geradoEm": "13/11/2026 14:16",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O governo avança na articulação para aprovar o ajuste fiscal, com o Senado já tendo aprovado o texto-base. O projeto visa equilibrar as contas públicas e é visto como compatível com as promessas de campanha do presidente Lula. A expectativa é que o ajuste contribua para a redução dos juros e traga previsibilidade à economia. Paralelamente, o Banco do Brasil busca renegociar dívidas no agronegócio, apesar da alta na inadimplência.",
+   "O Senado aprovou o fim da escala de trabalho 6x1, garantindo dois dias de descanso semanal. Em outra frente, o governo adiou prazos para a emissão de documentos fiscais eletrônicos relacionados ao IBS e à CBS, com novas datas previstas para 2027. O Judiciário, por meio do STF, tem decisões em pauta sobre regras de escala de trabalho e a validade de investigações.",
+   "O mercado financeiro reage positivamente a notícias sobre o pacote fiscal, com o Ibovespa em alta e o dólar e juros futuros em queda. Analistas divergem sobre a viabilidade de reformas políticas no Congresso, enquanto o ministro Gilmar Mendes defende cautela em relação a mudanças no Judiciário. O Banco Central sinaliza que a redução dos juros depende de maior rigor fiscal."
+  ],
+  "itens": [
+   {
+    "tag": "Fiscal",
+    "titulo": "Ajuste Fiscal Avança no Congresso",
+    "resumo": "O Senado aprovou o texto-base do projeto de ajuste fiscal com 45 votos a 31. O governo busca viabilizar a votação na Câmara, com o objetivo de melhorar o resultado primário em até R$ 56,1 bilhões. O ajuste fiscal é visto como compatível com as promessas de campanha de Lula e pode contribuir para a redução dos juros.",
+    "contexto": "A aprovação do ajuste fiscal é crucial para o governo demonstrar compromisso com a disciplina fiscal, o que pode influenciar a percepção de risco e a confiança dos investidores. A negociação e votação no Congresso refletem a capacidade do Executivo em articular apoio para suas pautas econômicas.",
+    "impacto": "Pode levar à redução da percepção de risco fiscal, influenciando positivamente o comportamento de ativos como dólar, juros futuros e Bolsa. Tende a aumentar a previsibilidade econômica, conforme defendido por diretores de bancos como o BNDES.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/ajuste-fiscal-e-compativel-com-promessas-de-lula-diz-andre-esteves/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/moretti-governo-fara-qualquer-medida-em-acrescimo-para-ter-cenario-fiscal-benigno/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/risco-fiscal-como-as-contas-publicas-podem-influenciar-dolar-juros-bolsa/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Juros e Inflação",
+    "titulo": "Redução de Juros Depende de Rigor Fiscal",
+    "resumo": "André Esteves, do BTG Pactual, afirma que o Brasil tem condições de reduzir os juros para 7%, desde que haja maior rigor fiscal. O ministro do Planejamento, Bruno Moretti, corrobora que o pacote de ajuste fiscal contribuirá para a redução dos juros. O Banco Central, por sua vez, menciona aumento de incertezas como fator para a manutenção da política monetária.",
+    "contexto": "A relação entre a política fiscal e a taxa de juros é um ponto central para a estabilidade econômica. A percepção de risco fiscal afeta diretamente as expectativas do mercado sobre a trajetória futura dos juros.",
+    "impacto": "Um cenário fiscal benigno pode reforçar a expectativa de queda nos juros, impactando positivamente o custo do crédito e o investimento. A persistência de juros altos, como projetado pelo Santander, pode desacelerar o crescimento econômico.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/santander-ve-pib-mais-fraco-e-inflacao-mais-teimosa-no-brasil-ate-2027-selic-vai-sofrer-jcav/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ubs-rebaixa-brasil-entre-acoes-emergentes-e-destaca-paises-mais-atrativos-para-2027/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/brasil-tem-condicoes-de-reduzir-juros-para-7-diz-andre-esteves/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Agronegócio",
+    "titulo": "Banco do Brasil Renegocia Dívidas no Agro",
+    "resumo": "O Banco do Brasil identificou 31 mil devedores no agronegócio e abriu portas para renegociação. A presidente do banco afirma que a relação com o setor é inabalável e que a inadimplência, embora em alta, mostra sinais de inflexão. O BB esclarece que a inadimplência não é atribuída a todo o setor.",
+    "contexto": "O agronegócio é um setor relevante para a economia brasileira, e a inadimplência pode gerar preocupações sobre a saúde financeira do setor e das instituições que o financiam.",
+    "impacto": "A renegociação de dívidas pode ajudar a mitigar os efeitos da inadimplência no setor e nas contas do banco. A recuperação da confiança pode ser positiva para o fluxo de crédito futuro.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/bb-ceo-afirma-que-ha-31-mil-devedores-do-agro-e-abre-portas-para-renegociacao/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/relacao-com-o-agro-e-inabalavel-presidente-do-banco-do-brasil-explica-avanco-da-inadimplencia-no-campo-pads/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/13/inadimplencia-no-agro-segue-em-alta-mas-curva-vai-inflexionando-diz-caixa.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/unvTLh1sQgkiqeEsRpXGhtRMSn8=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/O/X/2SPFiPRmm1hxEWiX8JnQ/predio-da-caixa-economica-federal-170120182643.jpg"
+   },
+   {
+    "tag": "Trabalho",
+    "titulo": "Fim da Escala 6x1 e Prazo para Verba de Internet",
+    "resumo": "O Senado aprovou o fim da escala de trabalho 6x1, garantindo dois dias de descanso semanal. Em outra frente, o prazo para uso de verba destinada à internet nas escolas está em pauta no Senado, com possível ampliação. O STF tem decisões sobre a escala 5x2, com ministros acompanhando o voto de Flávio Dino.",
+    "contexto": "Mudanças nas leis trabalhistas e na destinação de verbas públicas podem impactar diretamente trabalhadores e instituições de ensino, além de gerar debates sobre a aplicação de recursos federais.",
+    "impacto": "A garantia de dois dias de descanso semanal pode melhorar as condições de trabalho. A ampliação do prazo para verbas de internet pode facilitar a execução de projetos educacionais.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/prazo-de-uso-de-verba-para-internet-nas-escolas-esta-em-pauta"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/13/camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino-para-escala-5x2.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senado-aprova-fim-da-6x1-e-garante-dois-dias-de-descanso-semanal"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/13/plenario-virtual-do-stf-comeca-a-analisar-regras-da-escala-5x2-placar-esta-em-2-a-0.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/F5kLWZW57wQ5PypB5c1b-TKzFJs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/A/LDKotmSA2jdLrNxE6g3A/plenario-camara-deputados.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Decisões do STF em Pauta",
+    "resumo": "O ministro Gilmar Mendes relaciona disputas sobre o Orçamento federal a conflitos entre Executivo e Legislativo que chegam ao Judiciário. A Câmara dos Deputados se manifestou no STF contra parte da decisão do ministro Flávio Dino sobre a escala 5x2. Mendes também comentou sobre o fim do inquérito das fake news e a reforma do Judiciário.",
+    "contexto": "A atuação do Supremo Tribunal Federal (STF) em questões que envolvem outros poderes e a interpretação de leis é fundamental para o equilíbrio institucional e a definição de regras.",
+    "impacto": "As decisões do STF podem influenciar a relação entre os Poderes e a aplicação de normas em diversas áreas, como trabalho e investigações.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/13/agu-se-manifesta-contra-acao-do-psd-no-stf-que-pede-segundo-turno-no-rio-de-janeiro.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/gilmar-mendes-diz-que-emendas-impositivas-causam-embates-entre-poderes/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/13/camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino-para-escala-5x2.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/inquerito-das-fake-news-terminou-no-tempo-certo-diz-gilmar/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/XNgNun9Dh3rMKh3R-V4xIr836NU=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/a/o/FKpDSORYWV3Q08hiiqkA/montagem-1790885890967.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Mercado Reage Positivamente ao Ajuste Fiscal",
+    "resumo": "O Ibovespa subiu, enquanto o dólar e os juros futuros caíram, em reação a notícias sobre o pacote fiscal, balanços e varejo no Brasil. Analistas internacionais revisam projeções para o Brasil, com alguns vendo o país como desafiador devido à incerteza fiscal e juros altos.",
+    "contexto": "O comportamento dos indicadores financeiros reflete a percepção do mercado sobre a saúde econômica do país e as perspectivas futuras, influenciado por fatores internos e externos.",
+    "impacto": "A melhora na percepção de risco fiscal tende a atrair investimentos e reduzir o custo de capital. A incerteza fiscal e juros altos podem continuar a ser um desafio para o crescimento.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/santander-ve-pib-mais-fraco-e-inflacao-mais-teimosa-no-brasil-ate-2027-selic-vai-sofrer-jcav/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/risco-fiscal-como-as-contas-publicas-podem-influenciar-dolar-juros-bolsa/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ubs-rebaixa-brasil-entre-acoes-emergentes-e-destaca-paises-mais-atrativos-para-2027/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Economia Digital",
+    "titulo": "Prazos Fiscais e Proibição de Apostas",
+    "resumo": "O governo adiou prazos para a emissão de documentos fiscais eletrônicos relacionados ao IBS e à CBS para 2027. A proibição de apostas online (bets) é vista pela Caixa como uma medida que alivia a pressão no orçamento de parte dos clientes, embora psicólogos a considerem insuficiente.",
+    "contexto": "A digitalização de obrigações fiscais e a regulamentação de novos mercados, como o de apostas online, são temas relevantes para a arrecadação e o controle governamental.",
+    "impacto": "O adiamento dos prazos fiscais pode dar mais tempo para as empresas se adaptarem às novas obrigações. A proibição das bets pode ter impactos em receitas e no controle de atividades.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/governo-adia-prazos-para-emissao-de-documentos-fiscais-eletronicos/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/13/proibicao-de-bets-parece-tirar-pressao-do-orcamento-de-parte-dos-clientes-diz-caixa.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/psicologa-diz-que-proibicao-de-bets-e-um-comeco-mas-insuficiente"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/B2gbBKBrS1Dz2lHycuMCPa9f7CQ=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/I/5/DT9OcHQeK3KBsmowBsyw/439453173.jpg"
+   },
+   {
+    "tag": "Reformas",
+    "titulo": "Debate sobre Reforma Política e do Judiciário",
+    "resumo": "Parlamentares divergem sobre a viabilidade da reforma política no Congresso. O ministro Gilmar Mendes, por sua vez, considera equivocada a pressa em reformar o Judiciário, defendendo mais tempo para reflexão.",
+    "contexto": "Reformas estruturais, como a política e a do Judiciário, são complexas e envolvem diferentes interesses e visões sobre o funcionamento do Estado.",
+    "impacto": "A falta de consenso pode adiar ou inviabilizar a implementação de reformas importantes. A discussão sobre a reforma do Judiciário pode impactar a eficiência e a credibilidade do sistema.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/13/parlamentares-divergem-sobre-viabilidade-da-reforma-poltica-no-congresso.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/13/gilmar-mendes-espera-solucao-para-emendas-parlamentares-impositivas-que-reduza-intervencao-do-stf.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/63xfiX__Da9-SJaD0Wgp_L3xXRA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/i/JPoGVARxqWPcAEkEvdjQ/foto09pol-101-kassab-a16.jpg"
+   },
+   {
+    "tag": "PIB",
+    "titulo": "PIB Cresce em Quase Todos os Estados",
+    "resumo": "O Produto Interno Bruto (PIB) cresceu em 25 das 27 unidades da federação em 2024, com uma alta média brasileira de 3,4%. Apenas Mato Grosso do Sul e Mato Grosso registraram queda.",
+    "contexto": "O desempenho do PIB regional é um indicador importante da distribuição do crescimento econômico pelo país e da força de diferentes setores em cada estado.",
+    "impacto": "O crescimento generalizado do PIB indica uma recuperação econômica, mas a análise por estado pode revelar disparidades regionais e setores mais dinâmicos.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/13/pib-cresceu-em-todos-os-estados-em-2024-menos-em-ms-e-mt-diz-ibge.ghtml"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Segurança Pública",
+    "titulo": "Enfraquecimento Econômico de Facções",
+    "resumo": "O ministro da Justiça e Segurança Pública defendeu o enfraquecimento econômico de facções criminosas como estratégia para combater o crime organizado.",
+    "contexto": "O combate ao crime organizado envolve diversas frentes, incluindo a repressão policial e a desarticulação de suas bases financeiras.",
+    "impacto": "O sucesso dessa estratégia pode levar à redução da capacidade operacional e da influência das facções criminosas.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ministro-da-justica-defende-enfraquecimento-economico-de-faccoes"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
