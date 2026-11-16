@@ -1,0 +1,423 @@
+{
+ "data": "2026-11-16",
+ "geradoEm": "16/11/2026 16:41",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O dólar atingiu R$ 5,80, refletindo preocupações com a política fiscal do governo Lula. O Ibovespa caiu significativamente, e os juros futuros subiram. A saída de capital estrangeiro da bolsa brasileira aumentou, com o Morgan Stanley rebaixando ações do país. A balança comercial registrou superávit em novembro, mas a atividade econômica mostrou estagnação no terceiro trimestre. A Inteligência Artificial é vista como um impulsionador do PIB, mas exige reformas."
+  ],
+  "itens": [
+   {
+    "tag": "Câmbio e Mercado Financeiro",
+    "titulo": "Dólar se aproxima de R$ 5,80 e Ibovespa cai com foco na política fiscal",
+    "resumo": "O dólar avançou mais de 2%, aproximando-se de R$ 5,80, enquanto o Ibovespa despencou e os juros futuros atingiram máximas. Agentes financeiros reagem a preocupações com a política fiscal do governo Lula. A aversão ao risco e a avaliação do pacote fiscal pelo mercado contribuem para a volatilidade.",
+    "contexto": "A instabilidade cambial e a queda na bolsa refletem a percepção do mercado sobre os riscos fiscais associados às políticas econômicas em discussão.",
+    "impacto": "Pode aumentar a pressão inflacionária e o custo de importação, além de desestimular investimentos de longo prazo no país.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16112026/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/dolar-a-vista-ganha-folego-e-ultrapassa-os-r-578-davs/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/dolar-sobe-mais-de-2-e-vai-a-r-577-bolsa-cai-183/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/SDCg4_sODdx-z92JQNIXptTkIuE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/o/XcV21UStOMEttYzPzjSg/55636418501-268275a04d-o.jpg"
+   },
+   {
+    "tag": "Fluxo de Capital",
+    "titulo": "Saída de capital estrangeiro da bolsa brasileira se intensifica",
+    "resumo": "O posicionamento comprado em dólar por não residentes atingiu o maior nível desde o fim de 2024, indicando uma aposta contra o real. O Morgan Stanley rebaixou as ações brasileiras para venda diante da forte saída de capital da bolsa.",
+    "contexto": "A saída de capital estrangeiro é um indicador de menor confiança dos investidores internacionais na economia brasileira ou em seus ativos.",
+    "impacto": "Pode pressionar ainda mais a taxa de câmbio e afetar a liquidez do mercado de capitais doméstico.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/intraday/post/2026/11/aposta-do-estrangeiro-contra-o-real-sobe-us-20-bi-desde-as-eleicoes.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/16/morgan-stanley-rebaixa-aes-brasileiras-para-venda-diante-de-forte-sada-de-capital-da-bolsa.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/P1CTc5SyHe_DYKAyUPFEDQEn8LM=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/s/Y/0P5opmSAeMfYtHypp3MA/dollarr2.jpeg"
+   },
+   {
+    "tag": "Política Fiscal",
+    "titulo": "Ajuste fiscal em debate no Congresso",
+    "resumo": "O senador Humberto Costa defendeu que o ajuste fiscal proposto não compromete as políticas sociais. Há discussões sobre a aprovação de pacotes fiscais e suas implicações para a economia.",
+    "contexto": "A gestão das contas públicas e a sustentabilidade da dívida são pontos cruciais para a confiança dos agentes econômicos e a estabilidade macroeconômica.",
+    "impacto": "A aprovação de medidas fiscais que garantam a sustentabilidade das contas públicas tende a gerar mais confiança no mercado.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/16/ajuste-fiscal-nao-compromete-politicas-sociais-garante-humberto-costa"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/dolar-a-vista-ganha-folego-e-ultrapassa-os-r-578-davs/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/dolar-sobe-mais-de-2-e-vai-a-r-577-bolsa-cai-183/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/SDCg4_sODdx-z92JQNIXptTkIuE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/o/XcV21UStOMEttYzPzjSg/55636418501-268275a04d-o.jpg"
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Balança comercial registra superávit em novembro",
+    "resumo": "A balança comercial apresentou um superávit de US$ 1,98 bilhão na segunda semana de novembro. No acumulado do mês, o saldo está positivo em US$ 3,26 bilhões, e no ano, o totaliza US$ 74,30 bilhões.",
+    "contexto": "O desempenho da balança comercial é um indicador da força das exportações brasileiras frente às importações.",
+    "impacto": "Um superávit consistente pode contribuir positivamente para o saldo da balança de pagamentos e para a formação de reservas internacionais.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/16/balanca-tem-superavit-de-us-198-bi-na-segunda-semana-de-novembro.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/balanca-comercial-tem-superavit-de-us-1979-bilhao-na-2a-semana-de-novembro/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/2s2ni8K-apW3Fy2UGR57LrWPmBA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/l/y/36sSdGTDqolSXLB8Weog/terminal-de-containers-no-porto-de-santos-sp-divulgacao-antaq.png"
+   },
+   {
+    "tag": "Atividade Econômica",
+    "titulo": "Atividade econômica estagnada no terceiro trimestre",
+    "resumo": "A retração de 0,2% do Índice de Atividade Econômica do Banco Central (IBC-Br) em setembro confirma um cenário de estagnação da economia brasileira no terceiro trimestre. Essa estagnação não compromete, contudo, a perspectiva de crescimento do PIB para 2026.",
+    "contexto": "A estagnação da atividade econômica pode indicar desafios para o crescimento e a geração de empregos no curto prazo.",
+    "impacto": "Pode levar a uma revisão das projeções de crescimento do PIB para o ano corrente e influenciar decisões de política monetária.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/16/atividade-estagnada-no-3o-trimestre-nao-compromete-perspectiva-de-crescimento-do-pib-de-2026-diz-fgv-ibre.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/bC5uK7_jZQBJELcHxx032OuVyOE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/O/3/tGnYqfQMWXWUVohCQiQg/close-up-1853057-1920.jpg"
+   },
+   {
+    "tag": "Inteligência Artificial",
+    "titulo": "IA como motor de crescimento e risco à estabilidade financeira",
+    "resumo": "A Inteligência Artificial (IA) pode impulsionar o PIB do Brasil e da América Latina em 5,1% em uma década, mas exige reformas. O vice-presidente do BCE e o presidente do Fed alertam que IA e dívida são riscos à estabilidade financeira, mas que a tecnologia terá impacto significativo na economia.",
+    "contexto": "A IA representa uma nova fronteira tecnológica com potencial transformador para a economia, mas também apresenta desafios regulatórios e de segurança.",
+    "impacto": "Pode gerar ganhos de produtividade e crescimento econômico, mas requer atenção aos riscos de concentração de mercado, desemprego e instabilidade financeira.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/16/ia-e-divida-se-tornaram-riscos-a-estabilidade-financeira-diz-vice-presidente-do-bce.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/chair-do-fed-diz-que-tecnologias-emergentes-terao-impacto-significativo-mas-que-e-preciso-ficar-atento-a-riscos-rens/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/16/fed-deve-reconhecer-que-ia-tera-impacto-na-economia-e-implicacoes-para-politica-monetaria-diz-warsh.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/16/ia-pode-impulsionar-pib-do-brasil-e-da-al-em-51-pontos-percentuais-em-uma-dcada-mas-exige-reformas-diz-bid.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/FqixNMsH0sjQzoGkcNPPb_ZV0J0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/K/M/T9AbBxTRCyafkVZkOTwg/434441460.jpg"
+   },
+   {
+    "tag": "Biodiesel",
+    "titulo": "Setor defende aceleração do biodiesel no Brasil",
+    "resumo": "Representantes do setor defendem a troca de impostos por produção nacional para acelerar a implementação do biodiesel no Brasil. Há discussões sobre o atraso na implementação do B16 e incertezas na política de biocombustíveis.",
+    "contexto": "A política de biocombustíveis é relevante para a matriz energética brasileira e para a indústria nacional.",
+    "impacto": "Acelerar a produção de biodiesel pode ter impactos positivos na balança comercial e na geração de empregos no setor.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/trocar-fiscal-por-producao-nacional-a-defesa-do-setor-para-acelerar-o-biodiesel-no-brasil-pads/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Tecnologia e Telecomunicações",
+    "titulo": "XP mantém avaliação para Vivo e TIM em cenário de juros elevados",
+    "resumo": "A XP mantém sua avaliação para as empresas de telecomunicações Vivo e TIM, atualizando números após o terceiro trimestre. As novas estimativas reforçam a visão para o cenário macroeconômico com juros elevados por mais tempo.",
+    "contexto": "O setor de telecomunicações é sensível às condições macroeconômicas, como taxas de juros e poder de compra da população.",
+    "impacto": "Juros elevados por mais tempo podem impactar o custo de capital e a demanda por serviços de telecomunicações.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/telecomunicacoes-xp-mantem-avaliacao-e-atualiza-numeros-para-vivo-e-tim-apos-3o-tri/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Legislação e Direitos",
+    "titulo": "Senado discute bloqueio de chamadas de números desconhecidos",
+    "resumo": "Um projeto de lei em análise no Senado propõe obrigar celulares comercializados no Brasil a oferecerem funcionalidade para bloquear chamadas de números desconhecidos. A proposta visa combater telemarketing abusivo e golpes.",
+    "contexto": "A regulamentação de serviços de telecomunicações busca proteger o consumidor e melhorar a experiência de uso.",
+    "impacto": "Pode reduzir o incômodo com chamadas indesejadas e aumentar a segurança dos usuários de telefonia móvel.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/senado-discute-bloqueio-de-chamadas-de-numeros-desconhecidos-em-celulares"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia Circular",
+    "titulo": "Economia circular movimenta R$ 90,7 bilhões no Brasil",
+    "resumo": "A economia circular movimenta até R$ 90,7 bilhões no Brasil, segundo dados da CNI. Este modelo econômico busca otimizar o uso de recursos e reduzir o desperdício.",
+    "contexto": "A economia circular é um modelo que ganha relevância como alternativa ao modelo linear de produção e consumo, com potencial para sustentabilidade e geração de valor.",
+    "impacto": "Pode impulsionar novos negócios, gerar empregos e reduzir o impacto ambiental da atividade econômica.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economia-circular-movimenta-ate-r-907-bilhoes-no-brasil-aponta-cni"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Segurança Alimentar",
+    "titulo": "Comissão aprova ampliação da Política de Agricultura Urbana",
+    "resumo": "Uma comissão aprovou proposta que amplia a Política de Agricultura Urbana para fortalecer a segurança alimentar. O texto segue em análise na Câmara dos Deputados.",
+    "contexto": "A agricultura urbana pode ser uma ferramenta importante para diversificar a produção de alimentos e melhorar o acesso a eles, especialmente em áreas urbanas.",
+    "impacto": "Pode contribuir para a segurança alimentar, a geração de renda e a sustentabilidade em centros urbanos.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1319667-comissao-aprova-proposta-que-amplia-politica-de-agricultura-urbana-para-fortalecer-seguranca-alimentar"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF analisa julgamento sobre escala 5x2 e mandado de segurança contra decisão de Fachin",
+    "resumo": "O presidente do STF, Edson Fachin, indicou que pretende pautar o julgamento da escala 5x2. Paralelamente, a defesa de Daniel Vorcaro entrou com mandado de segurança no STF contra decisão de Fachin de assumir um processo.",
+    "contexto": "Decisões e julgamentos no âmbito do Supremo Tribunal Federal têm impacto direto sobre a interpretação e aplicação das leis no país.",
+    "impacto": "O andamento desses processos pode gerar efeitos sobre questões trabalhistas e investigações financeiras.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/16/fachin-indica-a-colegas-que-deve-dar-prioridade-para-julgamento-sobre-escala-5x2.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/16/defesa-de-vorcaro-entra-com-mandado-de-seguranca-no-stf-contra-decisao-de-fachin-de-assumir-processo-da-compliance-zero.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/d-72ou9Tvt8Xt3GTA6Q4oIq0asI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/8/e/8skjt5SduQPf8MxirHWA/55528543966-09fd5c3439-k.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": {
+  "intervalo": "09/11 a 15/11/2026",
+  "resumo": [
+   "O Congresso Nacional aprovou um pacote de medidas fiscais, com o Senado avançando no texto-base do ajuste fiscal. A aprovação busca estabilizar a dívida pública e preservar compromissos, com o objetivo de viabilizar a votação na Câmara.",
+   "O mercado reagiu positivamente ao plano de ajuste fiscal, com o Ibovespa subindo e o dólar e os juros futuros caindo. A redução de juros para 7% é vista como possível, desde que haja maior rigor fiscal.",
+   "O Senado aprovou o fim da escala de trabalho 6x1, garantindo dois dias de descanso semanal, embora a publicação do decreto regulamentador tenha sido adiada. O ministro Flávio Dino autorizou a distribuição de 42 horas semanais em 5 dias de trabalho.",
+   "O Produto Interno Bruto (PIB) cresceu em 25 das 27 unidades da federação em 2024, com uma alta média brasileira de 3,4%.",
+   "O governo adiou prazos para a emissão de documentos fiscais eletrônicos relacionados ao IBS e à CBS para 2027 e prorrogou a vigência da Medida Provisória que proíbe apostas online.",
+   "O Banco Central divulgou a lista de empresas que pediram autorização para atuar com criptoativos e informou que brasileiros ainda possuem R$ 6 bilhões em dinheiro esquecido nos bancos."
+  ],
+  "destaques": [
+   {
+    "tag": "Ajuste Fiscal",
+    "titulo": "Congresso aprova pacote fiscal e reforços orçamentários",
+    "resumo": "O Congresso Nacional aprovou um pacote de medidas fiscais com o objetivo de estabilizar a dívida pública e preservar compromissos. O Senado aprovou o texto-base do projeto de ajuste fiscal com 45 votos a 31.",
+    "contexto": "A aprovação do ajuste fiscal é vista como um passo importante para a credibilidade da política econômica do governo. A expectativa é que a medida contribua para a redução da inflação e para a melhora do ambiente de negócios.",
+    "impacto": "Pode levar a uma redução da taxa de juros, atrair investimentos estrangeiros e melhorar a percepção de risco do país.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/ajuste-fiscal-e-compativel-com-promessas-de-lula-diz-andre-esteves/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/moretti-governo-fara-qualquer-medida-em-acrescimo-para-ter-cenario-fiscal-benigno/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/risco-fiscal-como-as-contas-publicas-podem-influenciar-dolar-juros-bolsa/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Mercado reage positivamente ao ajuste fiscal",
+    "resumo": "O Ibovespa subiu, enquanto o dólar e os juros futuros caíram, em reação a notícias sobre o pacote fiscal, balanços e varejo no Brasil.",
+    "contexto": "A reação positiva do mercado demonstra otimismo com as medidas fiscais adotadas pelo governo. A queda do dólar e dos juros futuros indica uma maior confiança na economia brasileira.",
+    "impacto": "Tende a estimular o consumo e o investimento, além de reduzir o custo da dívida pública.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/santander-ve-pib-mais-fraco-e-inflacao-mais-teimosa-no-brasil-ate-2027-selic-vai-sofrer-jcav/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/risco-fiscal-como-as-contas-publicas-podem-influenciar-dolar-juros-bolsa/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ubs-rebaixa-brasil-entre-acoes-emergentes-e-destaca-paises-mais-atrativos-para-2027/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/CusBGqEaHQnfl-dArU5byXHwi2M=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/c/j/3RpDGnQdADuoxHpkuMcg/algebra-1238600-1920.jpg"
+   },
+   {
+    "tag": "Trabalho",
+    "titulo": "Fim da escala 6x1 e prazo para verba de internet",
+    "resumo": "O Senado aprovou o fim da escala de trabalho 6x1, garantindo dois dias de descanso semanal. Em outra frente, o prazo para uso de verba destinada à internet foi adiado.",
+    "contexto": "A mudança na escala de trabalho 6x1 visa melhorar as condições de trabalho dos empregados. O adiamento do prazo para verbas de internet pode indicar a necessidade de ajustes na alocação de recursos.",
+    "impacto": "Pode gerar mudanças nas relações de trabalho e na dinâmica do setor de telecomunicações.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/prazo-de-uso-de-verba-para-internet-nas-escolas-esta-em-pauta"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/13/camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino-para-escala-5x2.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/13/senado-aprova-fim-da-6x1-e-garante-dois-dias-de-descanso-semanal"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/13/plenario-virtual-do-stf-comeca-a-analisar-regras-da-escala-5x2-placar-esta-em-2-a-0.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/F5kLWZW57wQ5PypB5c1b-TKzFJs=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/A/LDKotmSA2jdLrNxE6g3A/plenario-camara-deputados.jpg"
+   },
+   {
+    "tag": "Economia Regional",
+    "titulo": "PIB cresce em quase todos os estados",
+    "resumo": "O Produto Interno Bruto (PIB) cresceu em 25 das 27 unidades da federação em 2024, com uma alta média brasileira de 3,4%.",
+    "contexto": "O crescimento generalizado do PIB indica uma recuperação econômica em diversas regiões do país. Apenas Mato Grosso do Sul e Roraima apresentaram queda.",
+    "impacto": "Pode resultar em aumento da geração de empregos e renda em nível regional.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/13/pib-cresceu-em-todos-os-estados-em-2024-menos-em-ms-e-mt-diz-ibge.ghtml"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Receita Federal anuncia medidas para facilitar transição da reforma tributária",
+    "resumo": "A Receita Federal anunciou medidas para amenizar problemas na transição da reforma tributária. O governo apresentará um texto para facilitar a adaptação das empresas.",
+    "contexto": "O setor produtivo pediu a prorrogação dos testes da reforma tributária para 2028, alegando falhas. A Petrobras também manifestou preocupação sobre a transição.",
+    "impacto": "Possível adiamento ou ajustes na implementação da reforma tributária, buscando mitigar impactos negativos.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/receita-anuncia-medidas-para-facilitar-transicao-da-reforma-tributaria/"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresentara-texto-para-facilitar-adaptacao"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/11/reforma-tributaria-governo-adia-para-marco-emissao-de-notas-fiscais-do-simples-nacional-exceto-de-prestacao-de-servico.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/11/reforma-tributaria-sem-beneficios-aprovados-pelo-congresso-imposto-do-governo-cairia-de-113percent-para-85percent-estima-receita-federal.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/LVu7D4LScyYCR8g6lnAfBIeHlsc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/n/JMz6ACQcGjAolHR4v9BQ/edicao-imagens-g1-56-.png"
+   },
+   {
+    "tag": "Setor Produtivo",
+    "titulo": "Venda de veículos cresce e setor discute política com o governo",
+    "resumo": "A venda de veículos cresceu 16,1% no ano. A Anfavea pretende discutir políticas para o setor com o governo.",
+    "contexto": "O aumento nas vendas de veículos indica uma recuperação do setor automotivo. A discussão de políticas com o governo pode visar a manutenção desse crescimento.",
+    "impacto": "Pode impulsionar a produção industrial e a geração de empregos no setor.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/11/venda-de-veiculos-cresce-161percent-no-ano-e-anfavea-fala-em-discutir-politica-para-o-setor-com-o-governo-reeleito.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/x9kVspyADUr6TfrmNM61LiKJEI4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/P/x/5i3ckERAWdJyzdponBug/carross-.jpg"
+   },
+   {
+    "tag": "Criptoativos",
+    "titulo": "BC divulga lista de empresas que pediram autorização para atuar com criptoativos",
+    "resumo": "O Banco Central (BC) passou a divulgar em seu site a lista de 120 empresas que solicitaram autorização para prestar serviços com ativos virtuais.",
+    "contexto": "A divulgação visa aumentar a transparência e a segurança no mercado de criptoativos. O setor financeiro e o governo chegaram a um acordo sobre a tarifa preliminar do split payment.",
+    "impacto": "Pode aumentar a confiança dos investidores e impulsionar a adoção de criptoativos no Brasil.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/split-payment-deve-cobrir-98-do-mercado-b2b-em-outubro-de-2027/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/10/split-payment-98percent-das-operacoes-devem-estar-cobertas-ate-outubro-de-2027-estima-confederacao-dos-bancos.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/09/bc-divulga-lista-de-empresas-que-pediram-autorizacao-para-atuar-com-criptoativos.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/hU1v21COOACgBWyQD2PY7XCaGVo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/P/t/fAsRwtR0edDEYLnD70iw/gold-3080552-1920.jpg"
+   },
+   {
+    "tag": "Inflação",
+    "titulo": "Queda de commodities freia inflação no IGP-DI",
+    "resumo": "A inflação apurada pelo Índice Geral de Preços – Disponibilidade Interna (IGP-DI) foi enfraquecida pela queda nos preços de commodities no atacado.",
+    "contexto": "A ata do Copom indica inflação persistente apesar da desaceleração econômica. A queda do petróleo alivia preocupações inflacionárias.",
+    "impacto": "Pode levar a uma desaceleração da inflação geral, mas a persistência em alguns setores pode manter a cautela do Banco Central.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/12/black-friday-tende-a-no-ter-efeito-sobre-inflao-geral-diz-ibge.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/ipca-surpreende-para-baixo-mas-inflacao-ainda-preocupa-economistas/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/11/ibge-servicos-de-informacao-e-comunicacao-desaceleram-e-tem-menor-taxa-desde-novembro-de-2023.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/11/ibge-guerra-no-oriente-medio-e-importante-para-explicar-pressao-em-servicos.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/KOd_Kr8XEy7QR1Po2V6O81GMzEc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/d/i/3JcBBQRLSbyhG9hOFEpg/imagem-materia-6-.jpg"
+   }
+  ]
+ }
+}
