@@ -1,0 +1,263 @@
+{
+ "data": "2026-11-17",
+ "geradoEm": "17/11/2026 15:40",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O governo federal busca aprovação do Congresso para um pacote fiscal, com o Centrão indicando apoio. Paralelamente, discute-se a regulamentação de mercados digitais e a reforma tributária, com o ministro da Fazenda defendendo a sua implementação sem adiamentos. O Judiciário atua em diversas frentes, com o STF arquivando inquéritos e o STJ suspendendo decisões sobre taxas de aplicativos. O setor de energia elétrica tem decisões importantes sobre usinas nucleares e a concessão da Enel em São Paulo."
+  ],
+  "itens": [
+   {
+    "tag": "Fiscal",
+    "titulo": "Congresso debate pacote fiscal do governo",
+    "resumo": "O Centrão se posicionou a favor do pacote fiscal do governo na Câmara dos Deputados. O Senado deve votar destaques ao texto-base do projeto. O ministro da Fazenda defende o ajuste fiscal como um 'primeiro passo' para baixar juros, pregando um ajuste gradual.",
+    "contexto": "O pacote fiscal é uma iniciativa do governo para equilibrar as contas públicas e sinalizar responsabilidade fiscal aos mercados e investidores. A aprovação no Congresso é crucial para sua implementação.",
+    "impacto": "A aprovação do pacote fiscal tende a gerar otimismo no mercado financeiro, com possível impacto positivo na confiança dos investidores e na trajetória de juros. A falta de diálogo sobre o ajuste fiscal pode dificultar a comunicação com a sociedade.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/centrao-se-posiciona-a-favor-de-pacote-fiscal-do-governo-na-camara-dos-deputados/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/randolfe-diz-que-faltou-dialogo-da-esquerda-sobre-ajuste-fiscal/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/17/ministro-da-fazenda-que-pacote-e-so-o-primeiro-passo-e-prega-ajuste-gradual-sem-negacionismo-para-baixar-juro.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/CvZFyFXgPBVZoMsW3hAcdjrPnMQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/w/nmrPtYRlOquPE3T9GPQQ/55649695989-636e0aaabd-k.jpg"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Debate sobre alíquota da CBS e prazos da reforma tributária",
+    "resumo": "O relator do projeto que regulamenta mercados digitais na Câmara fez mudanças para destravar a votação. Na reforma tributária, o TCU estimou a alíquota da Contribuição sobre Bens e Serviços (CBS) em 11,3%, dividindo opiniões no Senado. O ministro da Fazenda rejeita adiamento da reforma para 2028 e afirma que ela pode ter 'pequeno impacto' na inflação. A Receita Federal liberará a declaração pré-preenchida para empresas.",
+    "contexto": "A reforma tributária é uma das principais pautas econômicas do governo, visando simplificar o sistema de impostos. A definição da alíquota da CBS e a manutenção dos prazos são pontos de atenção.",
+    "impacto": "A definição da alíquota da CBS pode impactar o custo de bens e serviços. A manutenção da reforma em 2028 pode trazer mais previsibilidade ao ambiente de negócios. A declaração pré-preenchida tende a facilitar o cumprimento das obrigações fiscais pelas empresas.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/17/relator-apresenta-mudana-em-parecer-que-regulamenta-mercados-digitais.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/videos/2026/11/reforma-tributaria-aliquota-da-cbs-divide-opinioes-em-debate-na-cae"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/vital-do-rego-senadores-de-diferentes-matizes-na-cae-rejeitaram-adiamento-da-reforma/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/reforma-tributaria-fica-para-2028-durigan-rejeita-adiamento-e-rebate-criticas-saimos-do-pior-sistema-do-mundo/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MfsLWZnsL-5MfakaYWNXKmfLzjo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/Z/1/w0xtU2RG2plBclc6YBxg/29opin-200-col-op1-a14-img01.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Decisões judiciais impactam diferentes setores",
+    "resumo": "Alexandre de Moraes arquivou inquérito contra Daniel Silveira e autorizou visita de técnicos da Vivo à casa de Bolsonaro. O STJ suspendeu decisão que impedia a cobrança de taxa da Uber para motoristas. O Congresso pediu a Moraes o julgamento da Lei da Dosimetria.",
+    "contexto": "O Judiciário tem um papel ativo na interpretação e aplicação das leis, com decisões que afetam tanto indivíduos quanto empresas e o próprio funcionamento das instituições.",
+    "impacto": "O arquivamento de inquéritos pode encerrar processos judiciais. A suspensão da taxa da Uber pode afetar a rentabilidade dos motoristas e a política de preços do aplicativo. O julgamento da Lei da Dosimetria pode trazer clareza sobre a aplicação de penas.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/17/moraes-arquiva-inquerito-contra-daniel-silveira-por-desobedecer-medidas-cautelares-ex-deputado-cumpre-pena-por-atacar-stf-e-ministros-da-corte.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/moraes-autoriza-visita-de-tecnicos-da-vivo-a-casa-de-bolsonaro/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/17/alcolumbre-e-motta-pedem-a-alexandre-de-moraes-julgamento-da-lei-da-dosimetria.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/17/stj-cobranca-taxa-uber-motoristas.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/9WUMbl5IPm-zBWOcVnGMXs1kh-U=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/R/l/Wo9NiISaWHB3WWZPrVIg/ap22117800546621.jpg"
+   },
+   {
+    "tag": "Energia Elétrica",
+    "titulo": "Aneel decide sobre fundo nuclear e concessão da Enel",
+    "resumo": "A Aneel analisou proposta para que consumidores não precisem fazer novos aportes para o fundo de desativação de usinas nucleares. A agência também avalia a recomendação de encerramento da concessão da Enel em São Paulo. A decisão sobre compartilhamento de postes foi adiada.",
+    "contexto": "As decisões da Aneel sobre o setor elétrico têm impacto direto nos custos para consumidores e na operação das empresas distribuidoras.",
+    "impacto": "A dispensa de novos aportes para o fundo nuclear pode aliviar o custo para os consumidores. A saída da Enel de São Paulo pode levar a mudanças na gestão da distribuição de energia na região. O adiamento da decisão sobre postes pode gerar incerteza nas regras do setor.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/17/consumidores-nao-precisarao-fazer-novos-aportes-para-fundo-de-desativacao-de-usinas-nucleares-preve-aneel.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-energia/ao-vivo-aneel-decide-se-recomenda-saida-da-enel-em-sao-paulo/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/17/aneel-diverge-e-adia-deciso-sobre-compartilhamento-de-postes-s-vsperas-de-votao-no-senado.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/-0igo4ZufjG_6pS89fTNZ0YuMQw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/A/8/faP4scTqqdv68c7iEqpw/aneel.png"
+   },
+   {
+    "tag": "Salário Mínimo e Trabalho",
+    "titulo": "Ajustes na regulamentação do trabalho e valorização do salário mínimo",
+    "resumo": "O presidente Lula se reuniu para ajustes finais no decreto que regulamentará o fim da escala 6x1. O senador Paulo Paim relembrou a comissão que propôs a política de valorização do salário mínimo.",
+    "contexto": "A regulamentação de jornadas de trabalho e a política de valorização do salário mínimo são temas centrais para a relação entre empregadores e empregados, e para o poder de compra da população.",
+    "impacto": "O fim da escala 6x1 pode alterar a organização da jornada de trabalho em alguns setores. A política de valorização do salário mínimo tende a impactar a renda dos trabalhadores e o consumo.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/17/lula-se-reune-com-ministro-do-trabalho-para-ajustes-no-decreto-que-regulamentara-fim-da-escala-6x1.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/17/paim-relembra-comissao-que-propos-politica-de-valorizacao-do-salario-minimo"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Bolsas reagem a notícias fiscais e internacionais",
+    "resumo": "O Ibovespa subiu e os juros futuros recuaram com o governo Lula 4 no foco, enquanto o dólar operou estável. Bolsas europeias tiveram forte queda, pressionadas por empresas de tecnologia e bancos, em parte devido a restrições dos EUA a chips.",
+    "contexto": "O desempenho dos mercados financeiros reflete a percepção dos investidores sobre a economia e as políticas governamentais, além de eventos globais.",
+    "impacto": "A alta do Ibovespa e a queda dos juros futuros podem indicar maior confiança na economia brasileira. A queda nas bolsas europeias pode ter reflexos no mercado local, especialmente em ações de empresas ligadas a tecnologia.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/17/bolsa-da-europa-tem-forte-queda-com-peso-de-techs-e-bancos.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-com-novas-restricoes-dos-eua-a-chips-davs/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/XjJkDv16Q2Z8hhgzTk9temR_IQE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/P/zUXTgKTwSkudyILbBidg/2ed979aa04f945c49e0c42c0ac56415f-0-d28cc3e31b894f6b8f9f8e98897b7495.jpg"
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Brasil questiona decisão da UE sobre exportação de aves",
+    "resumo": "O Ministério da Agricultura questionou o adiamento de uma decisão da União Europeia sobre a exportação de aves, alegando que o Brasil cumpriu as exigências técnicas.",
+    "contexto": "A capacidade de exportar produtos agropecuários é fundamental para a balança comercial brasileira e para a economia do setor.",
+    "impacto": "A resolução favorável pode abrir ou manter o acesso do produto brasileiro ao mercado europeu. O impasse pode gerar perdas para os exportadores brasileiros.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-agro/governo-questiona-adiamento-de-decisao-da-ue-sobre-exportacao-de-aves/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Tecnologia e Inovação",
+    "titulo": "Debate sobre chips de IA e regulamentação de mercados digitais",
+    "resumo": "O Congresso dos EUA convocou o ex-CEO da Nvidia para depor sobre chips de IA e China. A China ameaça retaliar contra os EUA por restrições a chips que também afetam o Brasil. O projeto que regulamenta mercados digitais na Câmara avança.",
+    "contexto": "As tensões geopolíticas em torno da tecnologia de semicondutores e a regulamentação do ambiente digital são temas de crescente importância global e com impacto no Brasil.",
+    "impacto": "Restrições a chips podem afetar a cadeia produtiva de tecnologia no Brasil. A regulamentação de mercados digitais pode alterar a dinâmica de atuação de empresas de tecnologia no país.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/17/relator-apresenta-mudana-em-parecer-que-regulamenta-mercados-digitais.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ex-ceo-da-nvidia-ira-ao-congresso-dos-eua-em-dezembro/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/eua-investigam-megaspeed-desde-2024-por-suspeitas-ligadas-a-chips-da-nvidia-rens/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/17/china-ameaca-retaliar-contra-eua-por-restricoes-a-chips-de-ia-que-tambem-afetam-o-brasil.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MfsLWZnsL-5MfakaYWNXKmfLzjo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/Z/1/w0xtU2RG2plBclc6YBxg/29opin-200-col-op1-a14-img01.jpg"
+   },
+   {
+    "tag": "Ciência e Inovação",
+    "titulo": "Defesa de investimento em ciência e inovação",
+    "resumo": "A SBPC e a ABC defendem o aumento progressivo do investimento nacional em ciência e inovação, propondo 3% do PIB e cota regional.",
+    "contexto": "O investimento em ciência e tecnologia é visto como essencial para o desenvolvimento econômico e social de um país.",
+    "impacto": "Um maior investimento em ciência e inovação tende a impulsionar o desenvolvimento tecnológico e a competitividade do país a longo prazo.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/sbpc-e-abc-defendem-3-do-pib-e-cota-regional-para-ciencia-e-inovacao"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Seguros",
+    "titulo": "Celebração dos 75 anos da CNseg",
+    "resumo": "O Senado Federal celebrou os 75 anos da Confederação Nacional das Seguradoras (CNseg), destacando o papel dos seguros na proteção de famílias e empresas.",
+    "contexto": "O setor de seguros desempenha um papel importante na mitigação de riscos e na estabilidade financeira de indivíduos e empresas.",
+    "impacto": "A atuação do setor de seguros tende a aumentar a resiliência de famílias e empresas diante de imprevistos.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/debatedores-destacam-papel-dos-seguros-na-protecao-de-familias-e-empresas"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/17/senado-celebra-os-75-anos-da-cnseg-pelo-desenvolvimento-dos-seguros-privados"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado de Capitais",
+    "titulo": "Combate à fraude contábil e novos BDRs",
+    "resumo": "Um projeto de lei em análise no Senado visa tipificar o crime de fraude contábil no mercado de capitais. A B3 terá BDR da Anthropic.",
+    "contexto": "O combate a fraudes e a expansão de produtos de investimento são importantes para a saúde e o desenvolvimento do mercado de capitais.",
+    "impacto": "O endurecimento das punições para fraude contábil tende a aumentar a segurança e a confiança no mercado. A oferta de novos BDRs pode diversificar as opções de investimento para os brasileiros.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/fraude-contabil-no-mercado-de-capitais-e-tema-de-projeto-de-lei-1"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/menos-de-r-100-b3-vai-lancar-bdr-da-anthropic-anth34-na-estreia-da-companhia-na-nasdaq-veja-como-comprar-mlem/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Transporte e Infraestrutura",
+    "titulo": "Retomada de voos comerciais em Macaé e taxas de aplicativos",
+    "resumo": "A cidade de Macaé, polo petrolífero, voltará a receber voos comerciais em fevereiro de 2027. O STJ suspendeu decisão que impedia a cobrança de taxa da Uber para motoristas.",
+    "contexto": "A infraestrutura de transporte e a regulamentação de serviços de aplicativo impactam a economia local e a vida dos trabalhadores.",
+    "impacto": "A retomada dos voos em Macaé pode impulsionar o turismo e os negócios na região. A suspensão da taxa da Uber pode afetar a rentabilidade dos motoristas e a política de preços do aplicativo.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/17/stj-cobranca-taxa-uber-motoristas.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/polo-petrolifero-macae-voltara-receber-voos-comerciais"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/hyyrlZHUvRAqCnEBuSRuDveBqdc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/W/hCDNTCTfGzYSA4oBs8IA/appp.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
