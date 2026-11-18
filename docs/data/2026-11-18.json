@@ -1,0 +1,234 @@
+{
+ "data": "2026-11-18",
+ "geradoEm": "18/11/2026 15:10",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O governo federal discute um novo ajuste fiscal estrutural, com propostas em análise no Senado, visando conciliar políticas sociais e trajetória fiscal. O ministro da Fazenda descarta recessão, mas prevê crescimento em patamar menor.",
+   "O nome de Alckmin para o Ministério da Fazenda é elogiado por economistas, que avaliam que sua presença pode melhorar a expectativa do mercado. O ministro Durigan defende equilíbrio entre políticas sociais e a trajetória fiscal.",
+   "O TCU vê indícios de irregularidades em pronunciamento de Lula na TV. Relatórios da PF sobre ministros do STF geram tensão no tribunal, que aciona o TCU para apurar falhas de BC e CVM no caso Master.",
+   "A reforma tributária segue em discussão, com o Senado analisando mudanças no texto do governo. Há dificuldades para adequação, mas a mudança de modelo é vista como necessária. O ministro da Fazenda não espera arrecadação extra."
+  ],
+  "itens": [
+   {
+    "tag": "Fiscal",
+    "titulo": "Ajuste Fiscal em Discussão no Senado",
+    "resumo": "O Senado deve discutir propostas de mudanças ao texto do governo sobre ajuste fiscal. O pacote em discussão visa um alívio de até R$ 56,1 bilhões e é visto como o início de uma agenda de medidas para conter despesas.",
+    "contexto": "O ajuste fiscal é uma pauta importante para a gestão econômica do governo, buscando equilibrar as contas públicas.",
+    "impacto": "Pode haver impacto na trajetória da dívida pública e nos gastos governamentais.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/ao-vivo-senado-vota-destaques-do-ajuste-fiscal/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/durigan-diz-que-governo-fara-novo-ajuste-fiscal-estrutural/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/rXGW6tnO81wtbn2E2J57_OveuOA=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/q/giVdNNSYOevke6vWnAYw/55659207299-4d29323d5f-k.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "Ministro da Fazenda defende equilíbrio fiscal e social",
+    "resumo": "O ministro da Fazenda, Dario Durigan, reforçou a prioridade de conciliar equilíbrio fiscal com a manutenção de programas sociais. Ele também afirmou que o governo não espera arrecadação adicional com a Reforma Tributária.",
+    "contexto": "A gestão fiscal e a manutenção de programas sociais são pontos centrais do debate econômico e político.",
+    "impacto": "Pode influenciar a percepção do mercado sobre a sustentabilidade das contas públicas e o impacto das políticas sociais.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/18/durigan-defende-equilbrio-entre-polticas-sociais-e-trajetria-fiscal.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/durigan-diz-que-reforma-tributaria-nao-deve-gerar-arrecadacao-extra-para-o-governo-mlem/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/18/durigan-ve-economia-deve-crescer-em-patamar-menor-em-2027-descarta-recessao-e-diz-acreditar-em-aprovacao-de-pacote-fiscal.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/tiw52qi5JYJhIf8-8NSok78wrhQ=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/S/R/JM9TbmShud4VAp5KH4jA/foto25bra-101-ploa-a8.jpg"
+   },
+   {
+    "tag": "Mercado",
+    "titulo": "Nome de Alckmin para Fazenda é elogiado",
+    "resumo": "O nome de Geraldo Alckmin para o Ministério da Fazenda é elogiado por economistas e analistas. A avaliação é que sua presença pode ajudar a melhorar a expectativa do mercado sobre o governo.",
+    "contexto": "A escolha de nomes para ministérios chave, como a Fazenda, tem impacto direto na confiança do mercado financeiro.",
+    "impacto": "Possível melhora na expectativa do mercado e na percepção de estabilidade econômica.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/nome-de-alckmin-para-fazenda-e-elogiado-por-economistas-e-analistas-em-evento/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Discussão e Adequação à Reforma Tributária",
+    "resumo": "Apesar das dificuldades para se adequar, a reforma tributária segue em discussão no Senado, com propostas de mudanças ao texto do governo. Há relatos de que 68% dos CSCs não possuem modelo de rateio.",
+    "contexto": "A reforma tributária é um processo complexo que envolve adaptações em diversos setores da economia.",
+    "impacto": "Pode haver impacto na estrutura de tributação e na forma como as empresas operam.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/18/dificuldades-para-se-adequar-nao-sao-impeditivos-para-virada-de-chave-da-reforma-tributaria-diz-barreirinhas.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/patrocinado/dino/noticia/2026/11/18/reforma-tributaria-deixa-68-dos-cscs-sem-modelo-de-rateio-1.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/an-mxcMx91mqi8LmvbrvWIVb3uk=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/V/A/VOoiIwS0GuGOIzRRa3pw/capturar.png"
+   },
+   {
+    "tag": "Judiciário e PF",
+    "titulo": "Tensão entre STF, PF e TCU",
+    "resumo": "Relatórios da Polícia Federal sobre ministros do STF no caso Master provocam tensão no tribunal. A Comissão de Transparência do Senado acionou o TCU para apurar eventuais falhas de BC e CVM no caso.",
+    "contexto": "A relação entre os poderes Executivo, Legislativo e Judiciário, e a atuação de órgãos de controle, são cruciais para a estabilidade institucional.",
+    "impacto": "Pode gerar instabilidade política e questionamentos sobre a atuação de órgãos de controle e investigação.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/18/relatorios-da-policia-federal-sobre-ministros-do-stf-no-caso-master-provocam-tensao-no-tribunal.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/18/comissao-do-senado-aciona-tcu-para-apurar-eventuais-falhas-de-bc-e-cvm-no-caso-master.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/videos/2026/11/ao-vivo-ccj-ouve-o-ministro-da-justica-e-o-diretor-geral-da-pf-2013-18-11-26"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/diretor-pf-andrei-rodrigues-senado-crise-policia-federal-troca-delegados.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/N1Fw1tfeTqEXfFPjByZGLKYqMu8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/N/0/BcVeo4RwazJfZ1nRMgUA/fotojet-7-.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "CCJ aprova punição para fraude em mercado de capitais",
+    "resumo": "A Comissão de Constituição e Justiça (CCJ) do Senado aprovou um projeto de lei que cria um tipo penal para punir crimes de fraude no mercado de capitais, visando evitar casos como o da Americanas.",
+    "contexto": "A segurança jurídica e a prevenção de fraudes são importantes para a confiança dos investidores no mercado financeiro.",
+    "impacto": "Pode aumentar a segurança jurídica e inibir práticas fraudulentas no mercado de capitais.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ccj-aprova-punicao-a-crime-de-fraude-no-mercado-de-capitais-para-evitar-caso-americanas-mlem/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Desemprego em Mínima Histórica",
+    "resumo": "O número de trabalhadores desempregados há dois anos ou mais atingiu o menor patamar em 14 anos no terceiro trimestre de 2026. O dado foi divulgado nesta quarta-feira.",
+    "contexto": "A taxa de desemprego é um indicador chave da saúde da economia e do mercado de trabalho.",
+    "impacto": "Pode indicar melhora na geração de empregos e na recuperação econômica.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia",
+    "titulo": "BlackRock compra SulAmérica Investimentos",
+    "resumo": "A gestora global BlackRock anunciou a compra da SulAmérica Investimentos por R$ 850 milhões. A transação depende de aprovação do Banco Central e do Cade.",
+    "contexto": "A movimentação de grandes players no mercado financeiro pode indicar tendências de consolidação e expansão.",
+    "impacto": "Pode aumentar a concentração no setor de gestão de ativos e expandir a presença de investidores globais no Brasil.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/blackrock-compra-sulamerica-investimentos-por-r-850-mi/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Governo",
+    "titulo": "TCU vê irregularidades em pronunciamento de Lula",
+    "resumo": "A área técnica do TCU identificou indícios de irregularidades em um pronunciamento do presidente Lula na TV, que foi ao ar após sua vitória na disputa pela reeleição.",
+    "contexto": "A fiscalização de atos governamentais por órgãos de controle é fundamental para a transparência e legalidade.",
+    "impacto": "Pode gerar questionamentos sobre a conduta do governo e a utilização de recursos públicos.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/area-tecnica-do-tcu-ve-indicios-de-irregularidades-em-pronunciamento-de-lula-na-tv/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Congresso",
+    "titulo": "Senado atualiza aplicativo 'Senado Notícias'",
+    "resumo": "O aplicativo 'Senado Notícias' foi atualizado com novos recursos de acesso à cobertura do Senado, oferecendo mais conteúdo e navegação simplificada.",
+    "contexto": "A modernização das ferramentas de comunicação do Congresso visa ampliar o acesso à informação para o público.",
+    "impacto": "Pode facilitar o acompanhamento das atividades legislativas pela população.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/18/aplicativo-senado-noticias-amplia-recursos-de-acesso-a-cobertura-do-senado"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/aplicativo-senado-noticias-ganha-mais-conteudo-e-navegacao-simples"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Gol negocia financiamento e pode reduzir oferta de assentos",
+    "resumo": "A Abra, controladora da Gol, negocia financiamento com o governo e prevê reduzir em até 3% a oferta de assentos da companhia no Brasil em 2027. A liquidez da Gol é ponto de atenção do mercado.",
+    "contexto": "A situação financeira de empresas aéreas pode ter impacto no setor de transporte e na economia em geral.",
+    "impacto": "Pode afetar a oferta de voos e os preços das passagens aéreas.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/18/liquidez-da-gol-e-ponto-de-atencao-do-mercado-e-abra-diz-que-negocia-financiamento-com-governo.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/18/abra-preve-reduzir-ate-3percent-oferta-de-assentos-da-gol-no-brasil-em-2027-ante-crise-do-petroleo.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/d6-BwntOdGwd2V008gzIKZrXLkI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/m/u/35G79MR6C3KuuNAhUN4A/737maxsdu-101.jpg"
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Dólar forte e juros nos EUA pressionam Ibovespa",
+    "resumo": "O Ibovespa caiu, enquanto o dólar e os juros futuros subiram, com o mercado atento ao governo Lula 4 e à política monetária americana. A TS Lombard reduziu exposição ao Brasil devido ao dólar forte e juros nos EUA.",
+    "contexto": "Fatores externos, como a política monetária dos EUA e a força do dólar, influenciam diretamente o mercado financeiro brasileiro.",
+    "impacto": "Pode levar a uma maior volatilidade no mercado financeiro e afetar o fluxo de investimentos estrangeiros.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/18/dlar-forte-e-juros-nos-eua-levam-ts-lombard-a-reduzir-exposio-ao-brasil.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/meG6DfI6jmztK5f3JEUofmDxTHA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/e/f/CQAyqyS16sWg3OrYXgdg/ministerio-da-fazenda-rafa-neddermeyer-agencia-brasil.webp"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
