@@ -1,0 +1,294 @@
+{
+ "data": "2026-11-19",
+ "geradoEm": "19/11/2026 15:23",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O dólar superou R$ 5,90 e o Banco Central interveio no câmbio com leilão de US$ 1 bilhão. Juros futuros atingiram máximas e a Bolsa caiu. O Tesouro Direto suspendeu a negociação de títulos prefixados e IPCA+ após a taxa do Prefixado 2029 superar 15%.",
+   "O governo propõe um ajuste fiscal com economia de R$ 70 bilhões, mas medidas anunciadas elevam despesas em R$ 40,1 bilhões e reduzem receitas em R$ 6,4 bilhões, segundo a IFI. O pacote fiscal visa dar segurança ao mercado, mas admite possíveis novas medidas para cumprir metas.",
+   "O PT retirou o projeto que previa taxar lucros de MEIs em até 25%. A proposta previa Imposto de Renda sobre lucros e dividendos acima de R$ 5 mil mensais. Novos estudos sobre a tributação serão feitos.",
+   "O presidente Lula exonerou Wellington Dias do Ministério de Desenvolvimento Social a pedido do próprio ministro, que retornará ao mandato de senador. Lula também afirmou que vai criar o Ministério das Pessoas Idosas."
+  ],
+  "itens": [
+   {
+    "tag": "Juros e Câmbio",
+    "titulo": "Dólar sobe e BC intervém; Juros e Tesouro Direto reagem",
+    "resumo": "O dólar voltou a superar R$ 5,90, levando o Banco Central a intervir com leilão de US$ 1 bilhão. Os juros futuros atingiram máximas e o Ibovespa caiu. O Tesouro Direto suspendeu a negociação de títulos prefixados e IPCA+ após o Prefixado 2029 superar 15%.",
+    "contexto": "A volatilidade cambial e a alta dos juros ocorrem em meio a declarações do presidente Lula e a preocupações com o cenário fiscal e a inflação.",
+    "impacto": "A instabilidade pode afetar o custo de importação e exportação, além de encarecer o crédito e desestimular investimentos de longo prazo.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/juros-disparam-e-tesouro-direto-suspende-negociacao-de-prefixados-e-ipca/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/19/analise-discurso-de-lula-amplia-tensao-e-bc-entra-no-cambio.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/dolar-nas-alturas-banco-central-intervem-em-leilao-de-us-1-bilhao/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/Kg_ZnNtwSD6gOaqZfPc6FmIciUI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/0/1/2wu17qT2yK5Snc50oLAg/336641520.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "Ajuste fiscal e aumento de despesas",
+    "resumo": "A Câmara deve votar ajuste fiscal com proposta do governo para economizar R$ 70 bilhões. No entanto, medidas anunciadas elevam despesas em R$ 40,1 bilhões e reduzem receitas em R$ 6,4 bilhões, segundo a IFI. O ministro afirma que o pacote fiscal dará segurança ao mercado, mas admite possíveis novas medidas para cumprir metas.",
+    "contexto": "A IFI alerta que 'bondades' do governo apertam a máquina pública e pede ajuste 'profundo'.",
+    "impacto": "O descompasso entre o objetivo de economia e o aumento de despesas pode gerar desconfiança no mercado e pressionar a inflação e os juros.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321186-camara-deve-votar-ajuste-fiscal-proposta-do-governo-pretende-economizar-r-70-bilhoes"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/19/orgao-do-senado-alerta-que-bondades-de-lula-nas-eleicoes-apertam-maquina-publica-e-pede-ajuste-fiscal-profundo.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/19/medidas-anunciadas-pelo-governo-elevam-despesas-em-r-401-bi-e-reduzem-receitas-em-r-64-bi-diz-ifi.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/blog/camila-bomfim/post/2026/11/19/moreti-fiscal-mercado.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/5GCwV5E3g-pohUhYCh7q_jE7Dfk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/A/GjD23IT86Bv4kn8xL25Q/55649135842-76af97ee3a-k.jpg"
+   },
+   {
+    "tag": "Tributação MEI",
+    "titulo": "PT retira projeto de taxação de lucros de MEIs",
+    "resumo": "O PT retirou o projeto que previa a taxação de lucros de Microempreendedores Individuais (MEIs) em até 25%. A proposta previa a cobrança de Imposto de Renda sobre lucros e dividendos acima de R$ 5 mil mensais. A bancada fará novos estudos sobre a tributação.",
+    "contexto": "A proposta gerou preocupação entre os MEIs.",
+    "impacto": "A retirada do projeto pode trazer alívio para os MEIs, mas a discussão sobre a tributação de lucros e dividendos deve continuar.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/pt-recua-e-retira-projeto-que-poderia-taxar-lucros-de-meis-em-ate-25/"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321031-comissao-especial-pode-votar-parecer-sobre-ampliacao-do-limite-de-faturamento-para-o-mei"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado de Trabalho",
+    "titulo": "Regulamentação da escala 5x2 e transporte gratuito",
+    "resumo": "Lula assinou o fim da escala 6x1 e regulamentou a escala 5x2. O presidente alertou sobre a judicialização e cobrou atenção à aplicação da nova escala. Ele também afirmou que o governo defenderá a gratuidade no transporte público aos domingos.",
+    "contexto": "A mudança na escala de trabalho visa adequar as jornadas às novas realidades e evitar passivos trabalhistas.",
+    "impacto": "A regulamentação da escala 5x2 e a possível gratuidade no transporte público podem impactar os custos das empresas e o orçamento público, respectivamente.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/19/escala-5x2-saiba-quando-entra-em-vigor-apos-o-fim-da-6x1.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/transporte-gratuito-no-fim-de-semana-complementa-escala-5x2-diz-lula"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/prevendo-judicializacao-lula-cobra-atencao-aplicacao-da-escala-5x2"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/PV2lS12kUQk7UUaw1N1n4LjaBmo=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/Y/g/Q4oRU2TCaybwgqQuw3JQ/mcm-7925.jpg.jpg"
+   },
+   {
+    "tag": "Segurança Cibernética",
+    "titulo": "Ataques cibernéticos a empresas e fortalecimento da polícia",
+    "resumo": "Visa, Mastercard e JPMorgan informaram que fornecedores foram alvo de ataque cibernético. O iFood também sofreu ataque hacker que expôs dados de clientes, entregadores e representantes de restaurantes. Uma comissão aprovou projeto que fortalece a inteligência policial contra crimes cibernéticos.",
+    "contexto": "A crescente sofisticação dos ataques cibernéticos exige medidas de proteção e investigação mais eficazes.",
+    "impacto": "Ataques cibernéticos podem gerar perdas financeiras, danos à reputação e exposição de dados sensíveis. O fortalecimento da polícia pode ajudar a coibir essas ações.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/19/instituicoes-financeiras-ataque-cibernetico.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/19/ifood-sofre-invasao-que-expoe-dados-de-clientes-entregadores-e-representantes-de-restaurantes.ghtml"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321041-comissao-aprova-projeto-que-fortalece-inteligencia-policial-contra-crimes-ciberneticos"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/gbaGTTlkDBpRdwOoBWMh71eYUew=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/B/76KAYWT3SB2VBfcCAhCA/2026-11-16t191120z-1557206292-rc26fja9sj2a-rtrmadp-3-visa-mastercard-settlement.jpg"
+   },
+   {
+    "tag": "Governo e Ministério",
+    "titulo": "Exoneração no Desenvolvimento Social e novo Ministério",
+    "resumo": "Lula exonerou Wellington Dias do Ministério de Desenvolvimento Social a pedido do próprio ministro, que retornará ao seu mandato de senador. O presidente também afirmou que vai criar o Ministério das Pessoas Idosas, visando dar mais respeito à população idosa.",
+    "contexto": "A mudança ministerial pode indicar reajustes na política social do governo.",
+    "impacto": "A criação do Ministério das Pessoas Idosas pode representar um foco maior nas demandas dessa parcela da população.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/lula-exonera-wellington-dias-do-ministerio-de-desenvolvimento-social-a-pedido/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/19/lula-exonera-wellington-dias-ministro-do-desenvolvimento-social.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/lula-diz-que-vai-criar-o-ministerio-das-pessoas-idosas/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/bqLPjzNDeKJ-eEtFRYu5g-ynkZE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/A/Ba9kfqQZCcCNfQrtWqjg/wellington-lula-1-.jpg"
+   },
+   {
+    "tag": "Congresso",
+    "titulo": "Aprovações e debates em comissões",
+    "resumo": "Comissões do Congresso aprovaram medidas para garantir acessibilidade de idosos em atividades esportivas, regras de prevenção e enfrentamento ao bullying, e custeio de cursos para profissionais de segurança privada. Também foi aprovada política nacional para equidade racial e ampliação do limite de faturamento para o MEI.",
+    "contexto": "O Congresso Nacional tem pautado discussões sobre temas sociais e econômicos relevantes.",
+    "impacto": "As aprovações em comissões indicam avanços em diversas áreas, mas os projetos ainda precisam passar por outras instâncias de votação.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321181-comissao-aprova-medida-para-garantir-acessibilidade-de-idosos-em-atividades-esportivas"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321149-comissao-aprova-regras-de-prevencao-e-enfrentamento-ao-bullying-e-ao-cyberbullying"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/comissao-de-educacao-aprova-politica-nacional-para-equidade-racial"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321031-comissao-especial-pode-votar-parecer-sobre-ampliacao-do-limite-de-faturamento-para-o-mei"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Decisões judiciais sobre gastos e crimes",
+    "resumo": "A Justiça autorizou o Senado a retomar gasto de R$ 6 milhões com iPhones e celulares para parlamentares. O STJ manteve regime de separação de bens após fim de união estável envolvendo maior de 70 anos. A CCJ pode votar projeto que amplia o acesso à Justiça gratuita para vítimas de violações de direitos.",
+    "contexto": "Decisões judiciais impactam tanto o uso de recursos públicos quanto o acesso à justiça.",
+    "impacto": "A autorização para gastos no Senado pode gerar controvérsia. A ampliação do acesso à justiça gratuita pode beneficiar grupos vulneráveis.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/19/justica-autoriza-senado-a-retomar-licitacao-de-r-6-milhoes-para-comprar-iphones-para-parlamentares.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/ccj-pode-ampliar-acesso-a-justica-gratuita-para-vitimas-de-violacoes-de-direitos"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/19/stj-mantem-separacao-obrigatoria-em-uniao-estavel-de-maior-de-70-anos-extinta-antes-de-tese-do-stf.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/7rLUE0xLmYcTWYIANxKaGBc7u_U=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/Y/f/YnpbALR9enA8kNDCDJEg/couple-6653517-1920.jpg"
+   },
+   {
+    "tag": "Economia e Empresas",
+    "titulo": "Reforma Tributária e privatização",
+    "resumo": "A Reforma Tributária promete simplificar, mas a conta pode sobrar para as empresas. A Copel foi privatizada e seu CEO afirmou que não sofrerá interferência de governos e que a empresa está pronta para fusões e aquisições. O BNDES reduziu sua exposição à Petrobras.",
+    "contexto": "A privatização da Copel e a reforma tributária são movimentos importantes para o cenário econômico brasileiro.",
+    "impacto": "A reforma tributária pode alterar a carga tributária das empresas. A privatização da Copel pode atrair investimentos e melhorar a gestão da companhia.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/19/reforma-tributaria-a-promessa-e-simplificar-mas-a-conta-pode-sobrar-para-as-empresas-1.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-energia/copel-e-privada-e-nao-sofrera-interferencia-de-governos-diz-ceo/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bndes-reduz-exposicao-a-petrobras-petr4-para-20-do-patrimonio-liquido-do-banco-pads/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/19/estamos-prontos-para-fusoes-e-aquisicoes-que-gerem-valor-a-companhia-diz-copel.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/HSCojYO4d4EQ23bI1o8kSTba1ts=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/4/q/Bt69Z6R2y8PbLZUMVAWg/publicador-api-valor-pressworks-100-42c603cd-9c16-4dcc-a884-3a3035589755-20261119150218.jpeg-20261119150223"
+   },
+   {
+    "tag": "Criminalidade",
+    "titulo": "Custo da criminalidade e crimes cibernéticos",
+    "resumo": "Estudo aponta que a criminalidade custa R$ 440 bilhões ao Brasil e consome 3,5% do PIB, com perdas de R$ 10 trilhões em três décadas. O peso da violência chega a 9% do PIB em alguns estados. Ataques cibernéticos a empresas como iFood, Visa e Mastercard também foram registrados.",
+    "contexto": "A criminalidade, em suas diversas formas, representa um alto custo para a sociedade e a economia.",
+    "impacto": "A redução da criminalidade pode liberar recursos para investimentos em áreas sociais e produtivas. A segurança cibernética é crucial para a proteção de dados e a continuidade dos negócios.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/brasil/criminalidade-custa-r-440-bilhoes-ao-brasil-e-consome-35-do-pib-diz-estudo/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/19/ifood-sofre-invasao-que-expoe-dados-de-clientes-entregadores-e-representantes-de-restaurantes.ghtml"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321041-comissao-aprova-projeto-que-fortalece-inteligencia-policial-contra-crimes-ciberneticos"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/jEVlGIIEWTsoE2BNmRE5z8SOQJI=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/z/t/B62wQURuG7CITWLbL2DA/proteto-motoboys-080920-11.jpg"
+   },
+   {
+    "tag": "Inteligência Artificial",
+    "titulo": "IA e seu impacto na economia",
+    "resumo": "A inteligência artificial (IA) impulsiona a inflação, mas pode elevar a produtividade no futuro, segundo o vice-chair do Fed. A empresa Anthropic, focada em IA, estreou na bolsa americana com valor de mercado de US$ 2 trilhões. A atração de capital da indústria de IA compete com a diversificação de investimentos para fora dos EUA.",
+    "contexto": "A IA é uma tecnologia disruptiva com potencial para transformar a economia global.",
+    "impacto": "O avanço da IA pode gerar ganhos de produtividade, mas também levanta questões sobre inflação e segurança. A estreia da Anthropic na bolsa reflete o interesse do mercado nesse setor.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/19/anthropic-deve-romper-us-2-trilhes-em-valor-de-mercado-na-estreia-na-bolsa-americana.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/19/anthropic-valor-de-mercado.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/19/acoes-anthropic-nasdaq.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/19/anthropic-tem-responsabilidade-pela-seguranca-dos-modelos-diz-presidente.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/nvlg9IykSHvRT-uJOcBhQOkkuwc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/A/P/JmCIR0Qqq6C5rkO7JOdw/foto19fin-101-ipo-c1.jpg"
+   },
+   {
+    "tag": "Meio Ambiente e COP",
+    "titulo": "Brasil na COP e proteção animal",
+    "resumo": "O Brasil tem cinco pontos importantes para a COP31. Debatedores na Comissão Mista de Orçamento defenderam recursos permanentes para proteção animal no Orçamento da União de 2027.",
+    "contexto": "A participação em eventos como a COP é fundamental para as discussões sobre mudanças climáticas e sustentabilidade.",
+    "impacto": "A definição de recursos para proteção animal pode garantir a continuidade de programas e ações voltadas para a causa.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/19/os-cinco-pontos-importantes-para-o-brasil-na-cop31.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/19/na-cmo-debatedores-defendem-recursos-permanentes-para-protecao-animal"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/8hlzzYdOWHDOZ7APOLu4pXJnPbA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/D/S/H9j7wvS0SQXZCiliIuNg/2026-11-08t135734z-2008179015-rc2pjoap5ed7-rtrmadp-3-climate-cop31.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
