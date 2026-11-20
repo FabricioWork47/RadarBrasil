@@ -1,0 +1,251 @@
+{
+ "data": "2026-11-20",
+ "geradoEm": "20/11/2026 14:52",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O Judiciário brasileiro segue central na agenda econômica e política, com decisões do STF impactando desde dívidas trabalhistas até investigações envolvendo figuras públicas. Paralelamente, o debate sobre inteligência artificial ganha contornos globais e locais, com a estreia de empresas do setor na bolsa e discussões sobre desinformação. A economia brasileira, por sua vez, é influenciada por fatores como a política monetária dos EUA e a produção de commodities."
+  ],
+  "itens": [
+   {
+    "tag": "Judiciário",
+    "titulo": "STF e Dívidas Trabalhistas",
+    "resumo": "O Pão de Açúcar obteve autorização judicial para parcelar uma dívida trabalhista de R$ 140 milhões em 72 vezes, com pagamentos corrigidos pela Selic. O STF também reduziu em 55% o estoque de ações constitucionais em 10 anos, com arquivamentos superando entradas desde 2018.",
+    "contexto": "A decisão sobre o Pão de Açúcar reflete a busca por soluções para grandes passivos trabalhistas no país. A redução no estoque de ações constitucionais no STF indica uma maior eficiência ou mudança nos fluxos processuais da corte.",
+    "impacto": "O parcelamento da dívida pode aliviar o fluxo de caixa da empresa, mas o impacto total dependerá da capacidade de pagamento e das condições econômicas futuras. A diminuição do estoque de ações no STF pode agilizar a resolução de outros casos.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/justica-autoriza-pao-de-acucar-a-parcelar-divida-trabalhista-em-72-vezes/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/stf-reduz-em-55-estoque-de-acoes-constitucionais-em-10-anos/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Investigações e Restrições no STF",
+    "resumo": "O ministro Alexandre de Moraes votou para manter restrições ao senador Flávio Bolsonaro, incluindo a proibição de passaportes, e considerou sua fuga para os EUA como tentativa de obstruir investigações. O STF também julgará a aplicação da Lei da Dosimetria, que pode reduzir penas de políticos.",
+    "contexto": "As ações no STF envolvem investigações de supostas tramas golpistas e a aplicação de leis que podem beneficiar figuras políticas. A decisão sobre Flávio Bolsonaro está ligada a processos em andamento.",
+    "impacto": "A manutenção das restrições pode impactar a atuação política de Flávio Bolsonaro. A decisão sobre a Lei da Dosimetria pode ter implicações para diversos políticos envolvidos em processos judiciais.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/lindbergh-ve-acordao-para-reduzir-penas-de-bolsonaro/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/moraes-vota-para-deixar-flavio-bolsonaro-sem-passaportes-e-proibido-de-contatar-willer-tomaz-pads/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/moraes-diz-que-fuga-de-flavio-para-os-eua-e-tentativa-de-obstruir-investigacao-e-vota-para-manter-restricoes-a-senador.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/trama-golpista-stf-julgara-aplicacao-da-lei-da-dosimetria-em-dezembro-veja-quem-pode-ter-pena-reduzida.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/xxiKPwiQLBS-BWcsnEFTqqf0nfQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/w/OAz8r3RBWAoAuuUK0dvw/2026-10-28t133344z-931556810-rc2dcoanfocy-rtrmadp-3-brazil-usa.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Caso Master e Relatórios da PF",
+    "resumo": "O presidente do STF, Edson Fachin, retirou o sigilo de relatórios da PF sobre o caso Master, que mencionam o ministro André Mendonça e o ex-banqueiro Daniel Vorcaro. Fachin manteve a prisão de Vorcaro, e a PF informou não haver indícios de diálogos diretos entre Mendonça e Vorcaro.",
+    "contexto": "O caso Master envolve investigações da Polícia Federal e decisões do STF sobre figuras públicas. A quebra de sigilo de relatórios busca dar transparência ao processo.",
+    "impacto": "A divulgação dos relatórios pode gerar novas discussões e desdobramentos no caso. A manutenção da prisão de Vorcaro indica a continuidade das medidas cautelares.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/20/campos-neto-diz-pf-que-btg-levantou-inconsistncias-em-operaes-do-master-em-reunio-em-2024.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/20/ao-pedir-fim-do-sigilo-de-relatorio-mendonca-tenta-se-antecipar-a-criticas-sobre-sua-relatoria-no-caso-master.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/20/pf-diz-no-haver-indcios-de-dilogos-diretos-entre-mendona-e-vorcaro.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-manda-quebrar-sigilo-de-relatorio-da-pf-com-mencoes-mendonca"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/f3P5EQlIWSbkOqqabh4QhHAqQE8=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/A/B/u0Fu7CQ3qVHuNyUmLQCA/411755981.jpg"
+   },
+   {
+    "tag": "Inteligência Artificial",
+    "titulo": "IA e Mercado de Tecnologia",
+    "resumo": "A estreia da empresa de IA Anthropic na Nasdaq gerou volatilidade nos mercados globais, com quedas nas bolsas europeias e em Nova York. Ataques baseados em IA, supostamente de modelos chineses, foram classificados como perigosos. O TikTok lançou ferramenta para denunciar deepfakes de políticos.",
+    "contexto": "O setor de inteligência artificial está em rápida expansão, atraindo investimentos e gerando preocupações sobre segurança e desinformação. A rivalidade entre empresas como Anthropic e OpenAI é um símbolo dessa corrida.",
+    "impacto": "A volatilidade no setor de IA pode afetar o desempenho de empresas de tecnologia e fundos de investimento. A ferramenta do TikTok visa combater a desinformação, mas sua eficácia ainda será testada. Ataques cibernéticos baseados em IA representam um risco crescente.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/bessent-diz-que-ataques-com-base-em-ia-vem-de-modelos-chineses-e-sao-perigosos/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-firme-com-selloff-tech-mesmo-apos-estreia-da-anthropic-em-ny-pads/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/20/bolsas-da-europa-tem-queda-forte-com-pressao-sobre-acoes-de-ia-apos-estreia-da-anthropic.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/business/tiktok-lanca-recurso-que-permite-denunciar-deepfakes-de-politicos/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MkShCk9i7uX588W9w_j0hBHvI1I=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/u/M2ao8ETjun9q5UOfSqjQ/ap26323517703173.jpg"
+   },
+   {
+    "tag": "Economia Global",
+    "titulo": "Mercados Globais e Commodities",
+    "resumo": "As bolsas europeias e asiáticas fecharam em queda, pressionadas pela venda de ações de tecnologia e IA. Os preços do petróleo caíram com melhora na oferta e sinais de Trump sobre o Irã. O dólar segue elevado com expectativas de alta de juros pelo Fed.",
+    "contexto": "Fatores como a política monetária dos EUA, tensões geopolíticas e a oferta de commodities influenciam os mercados globais. A queda nos preços do petróleo pode ter impacto em economias produtoras e consumidoras.",
+    "impacto": "A queda nas bolsas pode afetar o apetite por risco globalmente. A valorização do dólar pode encarecer importações e pressionar moedas de outros países. A queda do petróleo pode impactar a inflação e os custos de produção.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-firme-com-selloff-tech-mesmo-apos-estreia-da-anthropic-em-ny-pads/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/20/bolsas-da-europa-tem-queda-forte-com-pressao-sobre-acoes-de-ia-apos-estreia-da-anthropic.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/bolsas-da-europa-fecham-em-queda-com-sell-off-tech-mesmo-apos-estreia-da-anthropic/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/europa-bolsas-caem-com-tecnologia-apos-relatos-de-juros-de-8-em-financiamento-de-chips-de-ia-igdl/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MkShCk9i7uX588W9w_j0hBHvI1I=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/u/M2ao8ETjun9q5UOfSqjQ/ap26323517703173.jpg"
+   },
+   {
+    "tag": "Governo e Congresso",
+    "titulo": "Nomeações e Articulações Políticas",
+    "resumo": "O governo aguarda a definição de uma vaga no STF para enviar nomeações de agências reguladoras ao Senado. Disputas políticas internas na direita e na esquerda expõem divergências sobre os rumos do governo Lula.",
+    "contexto": "A composição de órgãos chave e as articulações políticas são cruciais para a governabilidade. A demora nas nomeações pode gerar incertezas sobre a atuação das agências.",
+    "impacto": "A definição das vagas no STF e nas agências pode influenciar a agenda regulatória e econômica do país. Divergências políticas podem dificultar a aprovação de pautas no Congresso.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/governo-espera-definir-vaga-no-stf-para-soltar-nomeacoes-de-agencias/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/briga-entre-nikolas-marinho-e-tereza-cristina-favorece-lula-diz-analista/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/20/psd-apresenta-novo-recurso-ao-stf-para-realizao-de-segundo-turno-ao-governo-do-rio.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/briga-na-esquerda-e-governo-lula-4.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ICRZi1vhv2-dHeNk5VwjEraYFuk=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/J/n/zVqnl3SVeOd5D5TS7FAg/design-sem-nome-4-.png"
+   },
+   {
+    "tag": "Trabalho",
+    "titulo": "Regulamentação de Jornada de Trabalho",
+    "resumo": "O decreto que regulamentou o fim da escala 6x1 deixou brechas e abriu margem para judicialização, segundo especialistas. A regulamentação da escala 5x2 para jornadas especiais não esclareceu todos os pontos necessários.",
+    "contexto": "Mudanças na legislação trabalhista buscam modernizar as relações de trabalho, mas a falta de clareza em decretos pode gerar insegurança jurídica.",
+    "impacto": "As brechas na regulamentação podem levar a litígios trabalhistas e incertezas para empregadores e empregados. A judicialização pode atrasar a efetivação das novas regras.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/20/decreto-do-fim-da-escala-6x1-deixa-brechas-e-abre-margem-para-judicializacao.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/20/decreto-do-fim-da-escala-6-x-1-nao-regula-tres-pontos-principais-dizem-especialistas.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/PjOWpPfmXoDXEgwbB7Sx9VvRCb0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/G/M/4EPM4aQ9AByF8aoXwHAA/jorge-matsumoto.jpg"
+   },
+   {
+    "tag": "Economia Brasileira",
+    "titulo": "Produção e Consumo no Brasil",
+    "resumo": "A produção mundial de vinho deve cair em 2026, aproximando-se do menor nível em 65 anos, devido a secas e calor na Europa. No Brasil, um salário mínimo compra menos carne bovina do que em 2007, apesar do aumento da produção.",
+    "contexto": "Fatores climáticos afetam a produção global de alimentos, enquanto a dinâmica de produção e consumo interno no Brasil mostra uma perda do poder de compra da população para certos itens.",
+    "impacto": "A queda na produção de vinho pode afetar o mercado global e a oferta no Brasil. A redução no poder de compra de carne bovina indica pressões inflacionárias ou estagnação salarial.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/producao-mundial-de-vinho-deve-ficar-perto-do-menor-nivel-em-65-anos-com-seca-e-calor-na-europa.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/um-salario-minimo-compra-23-kg-de-acem-a-menos-do-que-em-2007-entenda-o-preco-da-carne.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/xehRaOhn0sHarpWnVMzKX0ufDNE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/y/JPEUBIQ0OX5npBLZhAbw/interna-1-cor-vinho-1400px.jpg"
+   },
+   {
+    "tag": "Governo e Sociedade",
+    "titulo": "Diversidade na Administração Pública",
+    "resumo": "Pessoas negras representaram 45% dos novos servidores públicos federais nos últimos quatro anos. Há pressão de setores da sociedade civil e de parlamentares por uma indicação inédita de ministra negra ao STF.",
+    "contexto": "A busca por maior representatividade em cargos públicos e no Judiciário é um tema relevante no debate social e político.",
+    "impacto": "O aumento da diversidade na administração pública pode refletir mudanças sociais. A pressão por uma ministra negra no STF pode influenciar futuras indicações e a composição da corte.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/mulheres-retomam-defesa-de-indicacao-inedita-de-ministra-negra-ao-stf"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/opiniao/assis-moreira/coluna/lula-e-o-brasil-que-envelhece.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/pessoas-negras-representaram-45percent-dos-novos-servidores-publicos-nos-ultimos-quatro-anos.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/marina-silva-fachin-e-erika-hilton-lula-ministra-negra-no-stf.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/SDCg4_sODdx-z92JQNIXptTkIuE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/o/XcV21UStOMEttYzPzjSg/55636418501-268275a04d-o.jpg"
+   },
+   {
+    "tag": "Economia Global",
+    "titulo": "Acordos Internacionais",
+    "resumo": "O Reino Unido e a União Europeia fecharam acordos sobre alimentos e mobilidade de jovens. A COP31 foi prorrogada devido a impasses sobre combustíveis fósseis e financiamento climático.",
+    "contexto": "Acordos internacionais buscam regular relações comerciais e ambientais. Impasses em negociações climáticas demonstram a dificuldade em conciliar interesses de países produtores e consumidores.",
+    "impacto": "Os acordos entre Reino Unido e UE podem facilitar o comércio e a circulação de pessoas. A prorrogação da COP31 adia decisões importantes sobre o combate às mudanças climáticas.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-internacional/cop31-e-prorrogada-apos-impasse-sobre-combustiveis-fosseis/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/20/reino-unido-e-ue-fecham-acordos-sobre-alimentos-e-mobilidade-de-jovens.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/20/confianca-do-consumidor-do-reino-unido-sobe-apesar-de-ventos-contrarios.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/20/precos-ao-produtor-da-alemanha-saltam-81percent-em-outubro-e-superam-projecoes.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/7SuoWCF2_puGiG4BwNvpuBcNucw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/L/o/FWbhFaT4CSGS6LrLhWcQ/2026-11-20t140044z-1275157889-rc2oroaueoem-rtrmadp-3-eu-britain-summit-burnham.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
