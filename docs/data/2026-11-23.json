@@ -1,0 +1,404 @@
+{
+ "data": "2026-11-23",
+ "geradoEm": "23/11/2026 18:30",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O Congresso Nacional se prepara para votar um projeto de ajuste fiscal do governo, com potencial para gerar economia e aumentar a arrecadação. Paralelamente, o dólar oscila em torno de R$ 6, influenciado por incertezas fiscais e expectativas sobre o Banco Central. A CSN Mineração enfrenta desafios com endividamento e geração de caixa, enquanto o governo busca alternativas para a infraestrutura de nuvem e regulamenta a jornada de trabalho 5x2."
+  ],
+  "itens": [
+   {
+    "tag": "Congresso e Fiscal",
+    "titulo": "Votação do Ajuste Fiscal no Congresso",
+    "resumo": "A Câmara dos Deputados deve votar um projeto de ajuste fiscal do governo, que inclui medidas para cortar gastos e aumentar a arrecadação, com o objetivo de gerar economia nas contas públicas. O projeto já foi aprovado no Senado e sua votação em plenário é aguardada com expectativa.",
+    "contexto": "A aprovação do ajuste fiscal é vista como crucial para a estabilidade econômica, mas enfrenta resistência de partidos como o Psol, que propõe alternativas como a taxação de altas rendas.",
+    "impacto": "A aprovação do ajuste fiscal pode trazer maior confiança aos investidores e estabilizar a economia, mas a rejeição ou modificações significativas podem gerar incertezas.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/governo-fiscalizara-empresas-nos-primeiros-90-dias-do-fim-da-6-x-1/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/psol-entrega-18-propostas-a-moretti-e-rejeita-ajuste-fiscal-do-governo/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/ao-vivo/ajuste-fiscal-camara-deputados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/23/compromisso-de-motta-votar-plp-do-ajuste-e-eventuais-destaques-hoje-diz-guimares.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/sEIYeb7ZwR-8EChyNn8utvimH7U=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/L/b1grW2Royz1n8UQenoag/img20261119112143917.jpg"
+   },
+   {
+    "tag": "Câmbio e BC",
+    "titulo": "Dólar e Juros em Meio a Incertezas",
+    "resumo": "O dólar ultrapassou a marca de R$ 6, sendo pressionado por incertezas sobre o cenário fiscal e aguardando indicações para a diretoria do Banco Central. Os juros futuros recuaram após rumores sobre nomeações para o BC.",
+    "contexto": "A volatilidade cambial é influenciada por fatores externos e pela percepção de risco fiscal no Brasil, com a área econômica reconhecendo a pressão global.",
+    "impacto": "A alta do dólar pode gerar repasse para a inflação. A definição da diretoria do BC tende a trazer mais clareza para o mercado financeiro.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/23/juros-futuros-recuam-com-rumores-de-nomeacoes-do-governo-para-o-bc.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/advisor/dolar-em-alta-como-investir-no-exterior/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/dolar-fecha-a-r-593-apos-superar-r-6-pela-1a-vez-desde-abril-de-2025/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/5CQ36a-qTTGkyG3hnwsnNPKmBnw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/a/8/MqcNC5QSyIv3W7YtfzBg/13b74a3a-64e4-43c5-910f-df796ed11854.jpg"
+   },
+   {
+    "tag": "Empresas e Setor Produtivo",
+    "titulo": "Desafios na Mineração e Infraestrutura",
+    "resumo": "A CSN Mineração enfrenta o desafio de lidar com uma geração de caixa mais pressionada e o aumento do endividamento, o que pode impactar o pagamento de dividendos. O IFC realizou um aporte na CSD BR, reforçando o plano de criar um mercado de bolsa e balcão.",
+    "contexto": "A situação da CSN Mineração reflete desafios setoriais, enquanto o investimento na CSD BR sinaliza desenvolvimento em infraestrutura de mercado financeiro.",
+    "impacto": "A pressão sobre a CSN Mineração pode levar a uma revisão de dividendos. O aporte na CSD BR tende a fortalecer o mercado de capitais.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/csn-mineracao-cmin3-dividas-podem-bater-nos-dividendos-ve-bb-investimentos-melhor-vender-rnda/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ifc-entra-no-capital-da-csd-br-e-reforca-plano-de-criar-mercado-de-bolsa-e-balcao/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Trabalho e Regulamentação",
+    "titulo": "Regulamentação da Jornada 5x2",
+    "resumo": "O Ministério do Trabalho e Emprego publicou portarias detalhando a regulamentação e regras complementares para a implementação da jornada de trabalho 6x1 e 5x2, com fiscalização nos primeiros 90 dias do fim da escala.",
+    "contexto": "A regulamentação visa estabelecer diretrizes claras para as novas jornadas de trabalho após o fim de períodos anteriores.",
+    "impacto": "A fiscalização pode garantir o cumprimento das novas regras trabalhistas e evitar irregularidades.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/governo-fiscalizara-empresas-nos-primeiros-90-dias-do-fim-da-6-x-1/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/23/governo-publica-regras-complementares-para-implementacao-de-jornada-de-trabalho-5x2.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/agu-defende-dispensa-de-liminar-de-dino-sobre-escala-5x2"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/23/ministerio-do-trabalho-portaria-escala-5x2.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/kQ-P-bgaxwueCO2_fW_SYuFWDsw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/t/H/Sa2LfgSJ23yCaGLPMeAg/garcom.jpg"
+   },
+   {
+    "tag": "Tecnologia e Inovação",
+    "titulo": "Governo e Infraestrutura de Nuvem",
+    "resumo": "O governo Lula planeja lançar um edital para a criação de uma nuvem própria, com o objetivo de reduzir a dependência de grandes empresas de tecnologia (big techs). A ideia é ter os dados hospedados em infraestruturas locais.",
+    "contexto": "A iniciativa busca maior soberania digital e segurança de dados, com parceria público-privada prevista para o início de 2027.",
+    "impacto": "A criação de uma nuvem própria pode reduzir custos e aumentar o controle sobre dados governamentais.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-tech/governo-lula-lancara-edital-de-nuvem-propria-para-fugir-de-big-techs/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia e Previsões",
+    "titulo": "Revisão de Previsões Econômicas",
+    "resumo": "O Ministério da Fazenda reduziu a previsão de crescimento do PIB e elevou as projeções de inflação e da taxa Selic para 2027. O déficit primário estrutural do governo central para 2025 foi estimado em 0,51% do PIB.",
+    "contexto": "As revisões refletem um cenário de maior pressão inflacionária e a necessidade de manter juros mais altos por mais tempo, além de ajustes nas metas fiscais.",
+    "impacto": "A elevação da inflação e Selic pode impactar o custo do crédito e o ritmo de recuperação econômica. O déficit primário estrutural indica desafios fiscais persistentes.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/fazenda-eleva-projecao-de-inflacao-para-2027-e-ve-selic-mais-alta-por-mais-tempo-jcav/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/23/deficit-primario-estrutural-cai-para-051percent-do-pib-em-2025-mostra-fazenda.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/23/governo-nao-tem-sinalizado-aumento-de-gastos-em-2027-diz-durigan.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/7Ypg1WQLrTODIhxM-WVCUr7--38=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/O/H/auHrmITFAcK6s6VeNmGA/whatsappimage2026-11-17at114854.jpeg"
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Balança Comercial",
+    "resumo": "A balança comercial brasileira registrou um superávit de US$ 3,10 bilhões na terceira semana de novembro.",
+    "contexto": "O resultado contribui para a conta externa do país.",
+    "impacto": "Um superávit consistente tende a fortalecer as reservas internacionais e a moeda nacional.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/23/balanca-comercial-tem-superavit-de-us-310-bi-na-3a-semana-de-novembro.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ajpAzX1ksLmdzNdAf3s_dbrxkjA=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/4/r/6oPBdjSLaPxSxCIhaodA/06agr-100-conteiner-b10-img01.jpg"
+   },
+   {
+    "tag": "Setor de Energia",
+    "titulo": "Preço do Petróleo",
+    "resumo": "Os contratos futuros de petróleo fecharam em queda de mais de 3%, com o Brent abaixo dos US$ 90 pela primeira vez em duas semanas, influenciados pelo aumento do fluxo no Oriente Médio.",
+    "contexto": "A dinâmica geopolítica no Oriente Médio impacta diretamente os preços globais do petróleo.",
+    "impacto": "A queda no preço do petróleo pode reduzir custos para o setor de transportes e algumas indústrias, mas também afeta receitas de países produtores.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petroleo-23-11-2026-davs/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Desenvolvimento de Mercado",
+    "resumo": "O IFC realizou um aporte de capital na CSD BR, infraestrutura de mercado financeiro, com o objetivo de reforçar o plano de criação de um mercado de bolsa e balcão.",
+    "contexto": "O investimento visa expandir e modernizar a infraestrutura para negociação e liquidação de ativos financeiros.",
+    "impacto": "O fortalecimento da CSD BR pode aumentar a liquidez e a eficiência do mercado financeiro brasileiro.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ifc-entra-no-capital-da-csd-br-e-reforca-plano-de-criar-mercado-de-bolsa-e-balcao/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Legislação e Direitos",
+    "titulo": "Plano de Saúde e Previdência",
+    "resumo": "Uma comissão aprovou uma proposta que equipara enteados a filhos para fins de inclusão em planos de saúde e na Previdência Social. Outra proposta aprovada retira subsídios de irrigação, aquicultura e cooperativas rurais da conta de luz.",
+    "contexto": "As propostas visam ajustar regras de inclusão em benefícios e reestruturar custos de energia.",
+    "impacto": "A equiparação de enteados pode ampliar o acesso a benefícios. A retirada de subsídios da conta de luz pode impactar os custos de setores específicos.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321955-comissao-aprova-proposta-que-equipara-enteado-a-filho-em-plano-de-saude-e-na-previdencia-social"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321949-comissao-aprova-proposta-que-retira-da-conta-de-luz-subsidios-de-irrigacao-aquicultura-e-cooperativas-rurais"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": {
+  "intervalo": "16/11 a 22/11/2026",
+  "resumo": [
+   "A semana foi marcada por debates intensos sobre o ajuste fiscal, com o governo buscando economizar R$ 70 bilhões e o Senado discutindo propostas para um alívio de até R$ 56,1 bilhões. Paralelamente, o Congresso aprovou medidas para garantir acessibilidade e regras de prevenção, enquanto o STF e o TCU analisaram questões de irregularidades e decisões judiciais impactaram diversos setores. A regulamentação do trabalho também esteve em pauta, com o fim da escala 6x1 e a regulamentação da escala 5x2. O mercado financeiro reagiu à política fiscal e a fatores internacionais, com o dólar em alta e o Ibovespa em queda em alguns momentos. A inteligência artificial e a economia circular também foram temas de destaque.",
+   "O cenário político e econômico brasileiro concentrou-se nas discussões sobre o ajuste fiscal, com o governo apresentando propostas para otimizar gastos e o Congresso analisando o texto. A esfera judicial teve movimentações significativas, com decisões do STF e do TCU sobre casos que envolvem autoridades e empresas. A regulamentação de jornadas de trabalho, como o fim da escala 6x1, gerou debates sobre sua aplicação e possíveis judicializações. O mercado de capitais e a atuação de empresas de tecnologia, incluindo o impacto da inteligência artificial, também foram pontos de atenção. A balança comercial registrou superávit, mas a atividade econômica mostrou estagnação.",
+   "A semana foi dominada por discussões sobre o ajuste fiscal, com o governo propondo medidas para economizar R$ 70 bilhões e o Senado debatendo propostas de alívio fiscal. A esfera judicial esteve ativa com decisões do STF e do TCU, além de investigações em andamento. A regulamentação de jornadas de trabalho, como o fim da escala 6x1, gerou controvérsias e a possibilidade de judicialização. O mercado financeiro reagiu a fatores fiscais e internacionais, com o dólar apresentando volatilidade e o Ibovespa em queda em determinados dias. A inteligência artificial e seu potencial impacto na economia brasileira foram temas recorrentes, assim como a economia circular e a defesa da ciência e inovação.",
+   "O ajuste fiscal foi o tema central da semana, com o governo buscando aprovação de um pacote para economizar R$ 70 bilhões e o Senado discutindo propostas de alívio fiscal. O judiciário teve movimentações importantes, com o STF e o TCU analisando casos e decisões que impactaram diferentes setores. A regulamentação do trabalho, especialmente o fim da escala 6x1, gerou debates sobre sua aplicação e possíveis judicializações. O mercado financeiro reagiu a notícias fiscais e internacionais, com o dólar em alta e o Ibovespa em queda em alguns momentos. A inteligência artificial e seu potencial de crescimento econômico, bem como a economia circular, foram temas de destaque.",
+   "A semana foi marcada por intensos debates sobre o ajuste fiscal, com o governo propondo medidas para economizar R$ 70 bilhões e o Senado discutindo propostas de alívio fiscal. O judiciário teve movimentações significativas, com decisões do STF e do TCU sobre casos que envolvem autoridades e empresas. A regulamentação de jornadas de trabalho, como o fim da escala 6x1, gerou debates sobre sua aplicação e possíveis judicializações. O mercado financeiro reagiu a fatores fiscais e internacionais, com o dólar apresentando volatilidade e o Ibovespa em queda em determinados dias. A inteligência artificial e seu potencial impacto na economia brasileira, assim como a economia circular, foram temas de destaque."
+  ],
+  "destaques": [
+   {
+    "tag": "Ajuste Fiscal",
+    "titulo": "Congresso debate pacote fiscal do governo",
+    "resumo": "O Congresso, especialmente a Câmara e o Senado, discutiu propostas para ajuste fiscal, com o governo buscando economizar R$ 70 bilhões e o Senado analisando propostas de alívio de até R$ 56,1 bilhões. O Centrão se posicionou a favor do pacote na Câmara.",
+    "contexto": "A aprovação de medidas de ajuste fiscal é vista como crucial para a estabilidade econômica e para a confiança dos investidores. A negociação entre governo e Congresso busca conciliar a necessidade de controle de gastos com a manutenção de programas sociais.",
+    "impacto": "O possível sucesso na aprovação do ajuste fiscal tende a gerar maior confiança na economia brasileira, podendo levar à redução da percepção de risco e à atração de investimentos. Por outro lado, a não aprovação ou a aprovação de medidas que aumentem despesas pode pressionar a dívida pública e a inflação.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1321186-camara-deve-votar-ajuste-fiscal-proposta-do-governo-pretende-economizar-r-70-bilhoes"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/19/orgao-do-senado-alerta-que-bondades-de-lula-nas-eleicoes-apertam-maquina-publica-e-pede-ajuste-fiscal-profundo.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/19/medidas-anunciadas-pelo-governo-elevam-despesas-em-r-401-bi-e-reduzem-receitas-em-r-64-bi-diz-ifi.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/politica/blog/camila-bomfim/post/2026/11/19/moreti-fiscal-mercado.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/5GCwV5E3g-pohUhYCh7q_jE7Dfk=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/A/GjD23IT86Bv4kn8xL25Q/55649135842-76af97ee3a-k.jpg"
+   },
+   {
+    "tag": "Regulamentação do Trabalho",
+    "titulo": "Fim da escala 6x1 e regulamentação da escala 5x2",
+    "resumo": "O presidente Lula assinou o fim da escala 6x1 e regulamentou a escala 5x2. Especialistas apontam que o decreto que regulamentou o fim da escala 6x1 deixou brechas e abriu margem para judicialização. O STF analisa julgamento sobre a escala 5x2.",
+    "contexto": "A regulamentação de jornadas de trabalho impacta diretamente a rotina de milhões de trabalhadores e empresas. A discussão sobre a escala 6x1 e a 5x2 reflete a busca por um equilíbrio entre a flexibilidade para as empresas e os direitos dos empregados.",
+    "impacto": "A regulamentação da escala 5x2 pode trazer mais previsibilidade para trabalhadores e empresas. No entanto, a possibilidade de judicialização devido a brechas na regulamentação do fim da escala 6x1 pode gerar insegurança jurídica e custos adicionais para as empresas.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/20/decreto-do-fim-da-escala-6x1-deixa-brechas-e-abre-margem-para-judicializacao.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/legislacao/noticia/2026/11/20/decreto-do-fim-da-escala-6-x-1-nao-regula-tres-pontos-principais-dizem-especialistas.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/19/escala-5x2-saiba-quando-entra-em-vigor-apos-o-fim-da-6x1.ghtml"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/transporte-gratuito-no-fim-de-semana-complementa-escala-5x2-diz-lula"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/PjOWpPfmXoDXEgwbB7Sx9VvRCb0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/G/M/4EPM4aQ9AByF8aoXwHAA/jorge-matsumoto.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Dólar sobe e Ibovespa cai com foco na política fiscal e juros",
+    "resumo": "O dólar voltou a superar R$ 5,90 e se aproximou de R$ 5,80, levando o Banco Central a intervir. O Ibovespa caiu em alguns momentos, com os juros futuros atingindo máximas. A saída de capital estrangeiro da bolsa brasileira se intensificou.",
+    "contexto": "A volatilidade do dólar e a performance do Ibovespa são reflexos da percepção do mercado sobre a economia brasileira, influenciada por fatores internos como a política fiscal e externos como a política monetária americana. A saída de capital estrangeiro indica uma menor atratividade do mercado brasileiro no curto prazo.",
+    "impacto": "A alta do dólar tende a encarecer produtos importados e pressionar a inflação. A queda do Ibovespa pode afetar o desempenho de fundos de investimento e a confiança dos investidores. A saída de capital estrangeiro pode reduzir a liquidez no mercado e pressionar ainda mais a taxa de câmbio.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/juros-disparam-e-tesouro-direto-suspende-negociacao-de-prefixados-e-ipca/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/19/analise-discurso-de-lula-amplia-tensao-e-bc-entra-no-cambio.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/dolar-nas-alturas-banco-central-intervem-em-leilao-de-us-1-bilhao/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/Kg_ZnNtwSD6gOaqZfPc6FmIciUI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/0/1/2wu17qT2yK5Snc50oLAg/336641520.jpg"
+   },
+   {
+    "tag": "Judiciário e Investigação",
+    "titulo": "STF e TCU analisam casos e relatórios da PF",
+    "resumo": "O STF analisou restrições a senador e retirou sigilo de relatórios da PF sobre o caso Master, que mencionam ministros. O TCU identificou indícios de irregularidades em pronunciamento de Lula. A Justiça autorizou o Senado a retomar gasto com iPhones.",
+    "contexto": "As ações do judiciário e de órgãos de controle como o TCU têm impacto na estabilidade política e na percepção de governança. Investigações e decisões judiciais podem influenciar a atuação de autoridades e a confiança nas instituições.",
+    "impacto": "A continuidade de investigações e a análise de irregularidades podem gerar instabilidade política e afetar a imagem das instituições. Decisões judiciais que autorizam gastos ou impõem restrições podem ter implicações orçamentárias e políticas.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/justica-autoriza-pao-de-acucar-a-parcelar-divida-trabalhista-em-72-vezes/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/stf-reduz-em-55-estoque-de-acoes-constitucionais-em-10-anos/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/lindbergh-ve-acordao-para-reduzir-penas-de-bolsonaro/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/moraes-vota-para-deixar-flavio-bolsonaro-sem-passaportes-e-proibido-de-contatar-willer-tomaz-pads/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/xxiKPwiQLBS-BWcsnEFTqqf0nfQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/w/OAz8r3RBWAoAuuUK0dvw/2026-10-28t133344z-931556810-rc2dcoanfocy-rtrmadp-3-brazil-usa.jpg"
+   },
+   {
+    "tag": "Inteligência Artificial",
+    "titulo": "IA impulsiona mercados e debate sobre seu impacto na economia",
+    "resumo": "A estreia da empresa de IA Anthropic na Nasdaq gerou volatilidade global. A IA é vista como motor de crescimento, podendo impulsionar o PIB, mas também exige reformas e pode gerar riscos à estabilidade financeira. A B3 terá BDR da Anthropic.",
+    "contexto": "A inteligência artificial é uma tecnologia disruptiva com potencial para transformar diversos setores da economia. O debate sobre seu impacto abrange desde o aumento de produtividade até os riscos à estabilidade financeira e a necessidade de regulamentação.",
+    "impacto": "O desenvolvimento e a adoção da IA podem impulsionar o crescimento econômico e a produtividade. No entanto, a volatilidade nos mercados de tecnologia e a necessidade de reformas para mitigar riscos podem gerar incertezas no curto prazo.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mundo/bessent-diz-que-ataques-com-base-em-ia-vem-de-modelos-chineses-e-sao-perigosos/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-firme-com-selloff-tech-mesmo-apos-estreia-da-anthropic-em-ny-pads/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/20/bolsas-da-europa-tem-queda-forte-com-pressao-sobre-acoes-de-ia-apos-estreia-da-anthropic.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/business/tiktok-lanca-recurso-que-permite-denunciar-deepfakes-de-politicos/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MkShCk9i7uX588W9w_j0hBHvI1I=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/u/M2ao8ETjun9q5UOfSqjQ/ap26323517703173.jpg"
+   },
+   {
+    "tag": "Economia e Setores",
+    "titulo": "Balança comercial com superávit e estagnação da atividade econômica",
+    "resumo": "A balança comercial registrou superávit em novembro, mas a atividade econômica mostrou estagnação no terceiro trimestre. A economia circular movimenta R$ 90,7 bilhões no Brasil. O setor defende aceleração do biodiesel.",
+    "contexto": "O desempenho da balança comercial e da atividade econômica são indicadores importantes da saúde da economia brasileira. A economia circular e o biodiesel representam modelos de desenvolvimento com foco em sustentabilidade e otimização de recursos.",
+    "impacto": "O superávit na balança comercial pode contribuir positivamente para o saldo externo do país. A estagnação da atividade econômica indica desafios para o crescimento e a geração de empregos. A economia circular e o biodiesel tendem a ganhar relevância como modelos de desenvolvimento sustentável.",
+    "fontes": [
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/producao-mundial-de-vinho-deve-ficar-perto-do-menor-nivel-em-65-anos-com-seca-e-calor-na-europa.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/um-salario-minimo-compra-23-kg-de-acem-a-menos-do-que-em-2007-entenda-o-preco-da-carne.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/brasil/criminalidade-custa-r-440-bilhoes-ao-brasil-e-consome-35-do-pib-diz-estudo/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/tecnologia/noticia/2026/11/19/ifood-sofre-invasao-que-expoe-dados-de-clientes-entregadores-e-representantes-de-restaurantes.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/xehRaOhn0sHarpWnVMzKX0ufDNE=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/y/JPEUBIQ0OX5npBLZhAbw/interna-1-cor-vinho-1400px.jpg"
+   },
+   {
+    "tag": "Diversidade e Inclusão",
+    "titulo": "Pessoas negras representam 45% dos novos servidores públicos federais",
+    "resumo": "Pessoas negras representaram 45% dos novos servidores públicos federais nos últimos quatro anos, com pressão de setores da sociedade civil por mais diversidade. O Congresso aprovou medidas para garantir acessibilidade de idosos.",
+    "contexto": "A diversidade na administração pública e a inclusão de grupos minoritários são temas relevantes para a construção de uma sociedade mais equitativa. A acessibilidade para idosos em atividades esportivas também reflete um avanço em políticas de inclusão.",
+    "impacto": "O aumento da representatividade de pessoas negras no serviço público federal tende a refletir uma maior diversidade nas políticas públicas. A ampliação da acessibilidade para idosos pode melhorar a qualidade de vida desse segmento da população.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/mulheres-retomam-defesa-de-indicacao-inedita-de-ministra-negra-ao-stf"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/opiniao/assis-moreira/coluna/lula-e-o-brasil-que-envelhece.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/pessoas-negras-representaram-45percent-dos-novos-servidores-publicos-nos-ultimos-quatro-anos.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/20/marina-silva-fachin-e-erika-hilton-lula-ministra-negra-no-stf.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/SDCg4_sODdx-z92JQNIXptTkIuE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/H/o/XcV21UStOMEttYzPzjSg/55636418501-268275a04d-o.jpg"
+   }
+  ]
+ }
+}
