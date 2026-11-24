@@ -1,0 +1,239 @@
+{
+ "data": "2026-11-24",
+ "geradoEm": "24/11/2026 17:14",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O governo sancionou o ajuste fiscal com estimativa de economia de R$ 50 bilhões em 2027, medida que pode impactar a concentração bancária e a dívida da Petrobras. O dólar fechou em queda com possíveis novas medidas fiscais em foco, enquanto o Ibovespa teve pressão da Vale. O STF reabriu debate sobre impedimento de ministro e a Petrobras discute novas fontes de energia."
+  ],
+  "itens": [
+   {
+    "tag": "Fiscal",
+    "titulo": "Ajuste Fiscal Sancionado",
+    "resumo": "O Presidente Lula sancionou o projeto de lei complementar de ajuste fiscal sem vetos. A economia estimada é de R$ 50 bilhões em 2027. A medida foi aprovada pela Câmara horas antes da sanção.",
+    "contexto": "A sanção ocorre após aprovação no Congresso e busca equilibrar as contas públicas.",
+    "impacto": "Pode contribuir para a estabilidade econômica e reduzir a necessidade de endividamento futuro.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/leia-a-integra-da-lei-complementar-do-ajuste-fiscal/"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/24/humberto-costa-celebra-aprovacao-do-projeto-de-ajuste-fiscal"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/lula-sanciona-ajuste-fiscal-com-impacto-estimado-de-r-50-bi/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/24/lula-sanciona-o-ajuste-fiscal-sem-vetos.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/WfBrfDamzblx75p4YNN_ZZLPBzg=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/o/U/UuRCETSHWoGMZ3RUf1vQ/dinheiroreal.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Dólar em Queda e Ibovespa com Pressão",
+    "resumo": "O dólar fechou em queda, influenciado por possíveis novas medidas fiscais. O Ibovespa operou perto da estabilidade, pressionado pelas ações da Vale. Juros futuros recuaram.",
+    "contexto": "Movimentações no câmbio e na bolsa refletem expectativas sobre a política econômica e desempenho de empresas específicas.",
+    "impacto": "A queda do dólar pode baratear importações, enquanto a pressão na Vale afeta o desempenho geral do Ibovespa.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/24/aes-da-vale-cedem-quase-5-pontos-percentuais-com-onda-vendedora-e-esto-entre-as-maiores-quedas-do-ibovespa.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/5CQ36a-qTTGkyG3hnwsnNPKmBnw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/a/8/MqcNC5QSyIv3W7YtfzBg/13b74a3a-64e4-43c5-910f-df796ed11854.jpg"
+   },
+   {
+    "tag": "Petrobras",
+    "titulo": "Plano de Investimentos e Dívida",
+    "resumo": "A Petrobras informou que seu novo plano de investimentos considerou custos inflacionários e efeitos cambiais. A presidente da empresa afirmou que o foco é reduzir a dívida e buscar novas fontes de energia além de petróleo e gás.",
+    "contexto": "A empresa discute sua estratégia de longo prazo e a gestão de seus recursos.",
+    "impacto": "A busca por novas fontes de energia pode diversificar a matriz energética da empresa. A redução da dívida pode fortalecer sua saúde financeira.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/24/petrobras-tivemos-custo-inflacionrio-e-efeito-do-cmbio-envolvidos-no-novo-plano-diz-diretor.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/24/petrobras-no-falamos-em-aumentar-dvida-mas-sim-em-reduzir-dvida-diz-presidente.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/24/temos-que-gerar-novas-fontes-de-energia-alem-do-petroleo-e-gas-para-o-futuro-da-petrobras-diz-presidente.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/VB25PTMSf9mT39vuopDetEiPFsY=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/9/D/mfYQOcQ9aSupTofhISRg/04emp-100-petrob-b3-img01.jpg"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "Debate sobre Impedimento no STF",
+    "resumo": "A definição do ministro Nunes Marques como relator de pedidos ligados ao ex-banqueiro Daniel Vorcaro reabriu a discussão sobre impedimento no STF. Um pedido da defesa de Carla Zambelli foi rejeitado.",
+    "contexto": "Questões sobre a atuação de ministros do STF em casos específicos geram debates sobre a imparcialidade e o andamento da justiça.",
+    "impacto": "Pode gerar questionamentos sobre a condução de processos e a percepção da atuação do Judiciário.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/24/master-relatoria-de-pedidos-sobre-vorcaro-reabre-debate-no-stf-sobre-impedimento-de-nunes-marques.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/24/moraes-rejeita-pedido-da-defesa-de-zambelli-para-descontar-de-pena-da-ex-deputada-tempo-que-ela-ficou-presa-na-italia.ghtml"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/24/nunes-marques-e-sorteado-relator-de-pedido-de-vorcaro-para-retirar-caso-master-do-gabinete-da-presidencia-do-stf.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/24/relatrio-da-pf-sobre-moraes-deixou-contrato-com-escritrio-da-esposa-e-parte-de-mensagens-de-vorcaro-de-fora.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/HZn9P15WrZvvTYwLK7hW3UtxTS0=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/U/wtKowOTcm0lAouHVYW1w/55574360850-aa334d5896-k.jpg"
+   },
+   {
+    "tag": "Políticas Sociais",
+    "titulo": "Reparação e Inclusão no SUS",
+    "resumo": "Senadores defenderam políticas permanentes de reparação histórica para a população negra e a inclusão de dados sobre raça ou cor nos prontuários do SUS. Especialistas pediram mais recursos para políticas de igualdade racial.",
+    "contexto": "O debate sobre igualdade racial e a inclusão de dados específicos no sistema de saúde busca aprimorar políticas públicas.",
+    "impacto": "Pode levar a um melhor direcionamento de políticas públicas e à identificação de desigualdades no acesso à saúde.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1322481-camara-aprova-inclusao-de-dados-sobre-raca-ou-cor-nos-prontuarios-do-sus-acompanhe"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/24/reparacao-para-populacao-negra-precisa-ser-politica-de-estado-afirma-zenaide"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/24/sc-tem-menor-desigualdade-salarial-entre-pretos-e-brancos-aponta-esperidiao-amin"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/24/politicas-de-genero-e-raca-precisam-estar-na-execucao-orcamentaria-mostra-debate"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Mercado de Capitais",
+    "titulo": "Projeções para B3 e XP",
+    "resumo": "Um relatório rebaixou as recomendações para as ações da B3 e da XP para neutra, com perspectiva de um 2027 mais difícil para o mercado de capitais. A CVM completa 50 anos com desafios de fiscalização.",
+    "contexto": "Análises de mercado e o desempenho de órgãos reguladores indicam tendências para o setor financeiro.",
+    "impacto": "Pode afetar a confiança de investidores e o fluxo de capital para o mercado de capitais brasileiro.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/xp-e-b3-podem-ter-um-2027-mais-dificil-safra-rebaixa-acoes-e-corta-preco-alvo-confira-miql/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/governanca-de-valor/post/2026/11/cvm-50-anos-em-defesa-do-mercado-de-capitais-e-o-desafio-da-autonomia.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/MusTfblhd1f5-duNhqxJfB57Q3o=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/A/v/PBSTp5Scqv5iblpFeSSg/5e526781-acd4-4717-b223-a75a6aea6cae.jpg"
+   },
+   {
+    "tag": "Economia Internacional",
+    "titulo": "Tarifas dos EUA e Petróleo",
+    "resumo": "Os Estados Unidos bloquearam um pedido do Brasil na OMC para avaliar tarifas de importação. O preço do petróleo fechou em alta com aumento das tensões no Estreito de Ormuz.",
+    "contexto": "Decisões comerciais de outros países e tensões geopolíticas podem afetar a economia brasileira.",
+    "impacto": "O bloqueio na OMC pode prejudicar exportadores brasileiros. A alta do petróleo impacta custos de importação e inflação.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/petroleo-fecha-em-forte-alta-com-aumento-das-tensoes-no-estreito-de-ormuz-davs/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/eua-bloqueiam-pedido-do-brasil-na-omc-contra-tarifas-de-25-e-125-jcav/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Petróleo e Combustíveis",
+    "titulo": "Combustível Sustentável e Custos",
+    "resumo": "O governo rejeitou mudar o prazo para aéreas adotarem combustível sustentável, pressionadas por custos. A Petrobras mencionou custos inflacionários e efeitos cambiais em seu plano.",
+    "contexto": "A transição para combustíveis mais sustentáveis e a gestão de custos são desafios para o setor aéreo e para a Petrobras.",
+    "impacto": "O atraso na adoção de combustível sustentável pode adiar benefícios ambientais. Custos inflacionários impactam a rentabilidade das empresas.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/24/petrobras-tivemos-custo-inflacionrio-e-efeito-do-cmbio-envolvidos-no-novo-plano-diz-diretor.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-infra/governo-rejeita-mudar-prazo-para-aereas-adotarem-combustivel-sustentavel/"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1322388-relator-defende-proibicao-de-atividade-exclusiva-de-formulacao-de-combustiveis"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/VB25PTMSf9mT39vuopDetEiPFsY=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/9/D/mfYQOcQ9aSupTofhISRg/04emp-100-petrob-b3-img01.jpg"
+   },
+   {
+    "tag": "Criptomoedas",
+    "titulo": "Regulamentação do BC",
+    "resumo": "O Banco Central autorizou a Foxbit a funcionar como distribuidora de títulos e valores mobiliários e a Binance Brasil a operar no câmbio.",
+    "contexto": "As autorizações do BC visam regulamentar o mercado de criptomoedas e expandir os serviços financeiros.",
+    "impacto": "Pode aumentar a segurança e a oferta de serviços no mercado de criptomoedas no Brasil.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/24/novas-regras-do-bc-devem-desacelerar-queda-da-concentrao-bancria-projeta-as-partners.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/criptomoedas/noticia/2026/11/24/bc-autoriza-foxbit-a-funcionar-como-distribuidora-e-binance-brasil-a-operar-no-cmbio.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ZLR5v78FmUAPV-r_HQg3WVZEvV4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/a/k/dlnSqjQX2SuemKv405Ew/418114562.jpg"
+   },
+   {
+    "tag": "Empresas",
+    "titulo": "Humor Corporativo e Desempenho",
+    "resumo": "Uma análise de teleconferências indicou o pior humor das empresas da Bolsa no 3º trimestre, com commodities liderando a piora. Ações da Vale sofreram com onda vendedora.",
+    "contexto": "O sentimento corporativo e o desempenho de ações de grandes empresas refletem o cenário econômico e setorial.",
+    "impacto": "Pode indicar cautela por parte das empresas e afetar o desempenho do mercado acionário.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/24/aes-da-vale-cedem-quase-5-pontos-percentuais-com-onda-vendedora-e-esto-entre-as-maiores-quedas-do-ibovespa.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ia-analisa-16-mil-teleconferencias-e-encontra-pior-humor-das-empresas-da-bolsa-no-3t/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/5CQ36a-qTTGkyG3hnwsnNPKmBnw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/a/8/MqcNC5QSyIv3W7YtfzBg/13b74a3a-64e4-43c5-910f-df796ed11854.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
