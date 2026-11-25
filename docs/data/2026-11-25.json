@@ -1,0 +1,247 @@
+{
+ "data": "2026-11-25",
+ "geradoEm": "25/11/2026 16:24",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "Rumores sobre a composição do Ministério da Fazenda impulsionam o mercado financeiro, com o dólar em queda e títulos prefixados do Tesouro recuando. O governo cogita convocar o Congresso em janeiro para votar medidas fiscais, enquanto a reforma tributária pode ter prazos prorrogados. O Brasil decide não enviar embaixador de volta à Argentina em meio a crise diplomática. Novas tarifas dos EUA sobre o açúcar brasileiro geram incerteza."
+  ],
+  "itens": [
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Especulações sobre Ministério da Fazenda afetam dólar e títulos públicos",
+    "resumo": "O dólar caiu mais de 1,5%, chegando a R$ 5,81, em meio a especulações sobre a nomeação de Luiz Carlos Trabuco para o Ministério da Fazenda. Títulos prefixados do Tesouro, como o de 2032, também recuaram. O mercado aguarda definições sobre a condução fiscal do governo.",
+    "contexto": "A instabilidade política e a incerteza sobre a equipe econômica tendem a gerar volatilidade nos mercados. A possibilidade de um nome de peso no comando da Fazenda pode trazer otimismo.",
+    "impacto": "O dólar pode continuar em trajetória de queda se houver confirmação de nomes que transmitam confiança ao mercado. Títulos prefixados tendem a se valorizar com a perspectiva de maior estabilidade econômica.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-25112026/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/25/encontro-de-lula-com-trabuco-pode-ter-sido-de-aconselhamento-mas-aliados-nao-descartam-convite-para-a-fazenda.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/3GVO6OdMMW92YRJ1whrNBfmU_Hc=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/k/L/YT1WBXQPepATUQcEt8vQ/economia-1609210412-0.webp"
+   },
+   {
+    "tag": "Política Fiscal",
+    "titulo": "Governo avalia sessão extra no Congresso para votar medidas fiscais",
+    "resumo": "O governo Luiz Inácio Lula da Silva considera a possibilidade de convocar o Congresso Nacional para uma sessão em janeiro, durante o recesso parlamentar, a fim de votar uma Proposta de Emenda Constitucional (PEC) com medidas fiscais. A meta é apresentar um déficit primário de 0,5% do PIB em 2026.",
+    "contexto": "A necessidade de aprovar medidas fiscais em curto prazo é vista como crucial para a credibilidade econômica do governo e para a estabilidade das contas públicas.",
+    "impacto": "A aprovação de medidas fiscais pode trazer mais segurança aos investidores e reduzir a percepção de risco fiscal. A não aprovação pode aumentar a pressão sobre o câmbio e os juros.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/25/governo-lula-cogita-pedir-ao-congresso-sessao-em-janeiro-para-votar-pec-com-medidas-fiscais.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/25/caminhamos-para-deficit-primario-de-05percent-do-pib-em-2026-diz-ceron.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/25/bancada-do-pt-vai-propor-gatilho-para-reduzir-meta-fiscal-em-caso-de-desacelerao-econmica.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ZBgBfMRG0w7ZDRURT9IWrn10Ns8=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/q/3/1IOTffRZyp6ciSo8wBrg/sede-congresso-nacional.jpg"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Prazos da reforma tributária podem ser prorrogados; alíquota da CBS gera incerteza",
+    "resumo": "Especialistas avaliam que pode haver um grau de incerteza razoável sobre a alíquota de 11,3% para a Contribuição sobre Bens e Serviços (CBS) em 2027. Há defesas pela prorrogação dos prazos de implementação da reforma tributária, que tem início previsto para o próximo ano.",
+    "contexto": "A complexidade da reforma tributária e a necessidade de ajustes técnicos podem justificar a extensão dos prazos para sua plena implementação.",
+    "impacto": "A prorrogação dos prazos pode dar mais tempo para adaptação das empresas e para a consolidação das novas regras. A incerteza sobre a alíquota da CBS pode afetar o planejamento tributário das companhias.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/25/aliquota-de-113percent-para-cbs-em-2027-tem-grau-de-incerteza-razoavel-avalia-appy.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/business/reforma-tributaria-nao-muda-rota-da-amazon-que-ampliara-centros-logisticos-em-2027/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/25/entendo-que-ha-sim-motivos-para-prorrogacao-do-periodo-de-testes-da-reforma-tributaria-diz-appy.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/yrGmK_TpmpOsCi1elbPx6GEyQFY=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/3/O/1N3fBpRsORkrjPzCMAmw/appy.png"
+   },
+   {
+    "tag": "Relações Internacionais",
+    "titulo": "Brasil decide manter embaixador fora da Argentina em meio a crise diplomática",
+    "resumo": "O governo brasileiro optou por não enviar o embaixador Julio Bitelli de volta às suas funções diplomáticas na Argentina. A decisão ocorre em meio a uma crise diplomática entre os dois países, após declarações do presidente argentino.",
+    "contexto": "A relação diplomática entre Brasil e Argentina é historicamente importante para a estabilidade regional e para acordos comerciais.",
+    "impacto": "A manutenção da crise diplomática pode afetar acordos bilaterais e a cooperação em fóruns internacionais. Pode haver impacto no fluxo comercial entre os países.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/em-crise-diplomatica-governo-lula-decide-que-embaixador-nao-deve-voltar-a-argentina-mlem/"
+     },
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-decide-que-embaixador-nao-deve-mais-voltar-argentina-de-milei"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Novas tarifas dos EUA sobre açúcar brasileiro geram incerteza no mercado",
+    "resumo": "Os Estados Unidos propuseram novas tarifas sobre o açúcar importado do Brasil e de outras 14 economias. A medida pode impactar as exportações brasileiras e gerar incerteza para o setor sucroalcooleiro.",
+    "contexto": "A política tarifária dos EUA, especialmente sob a administração Trump, tem sido marcada por barreiras comerciais que afetam diversos setores da economia global.",
+    "impacto": "As novas tarifas podem reduzir a competitividade do açúcar brasileiro no mercado americano e pressionar os preços. A Embraer também se manifestou contra tarifas sobre a indústria aeroespacial.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/25/analise-washington-amplia-o-alcance-das-tarifas-e-exporta-incerteza.ghtml"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/25/eua-querem-mudar-taxacao-sobre-acucar-brasileiro-veja-como-pode-ficar.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-com-nova-proposta-tarifaria-dos-eua-e-pressao-tech-lmrs/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/25/trump-tarifas-ia-bolsa-de-ny-wall-street.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/uy1yVzPqHDYjWmM2rWDYRGMo8nE=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/0/M/A2cQMLRoOyOOhfMblOnQ/photo-1563126171-fa019bbbfa18.avif"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF e Moraes em foco em decisões sobre gastos públicos e leis",
+    "resumo": "O ministro Alexandre de Moraes rejeitou pedido para que o STF indicasse como custear R$ 324 milhões em 'penduricalhos' no Ministério Público da União. O deputado Paulinho da Força espera apoio unânime do STF a lei que reduz penas relacionadas aos atos de 8 de janeiro.",
+    "contexto": "Decisões judiciais sobre a aplicação de recursos públicos e a interpretação de leis têm impacto direto na gestão governamental e no sistema de justiça.",
+    "impacto": "A decisão sobre os gastos do MPU pode gerar precedentes para outras áreas do serviço público. A definição sobre as penas do 8 de janeiro pode influenciar o cenário político.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/25/moraes-rejeita-pedido-para-stf-indicar-como-devem-ser-custeados-r-324-milhoes-em-penduricalhos-no-mpu.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/25/paulinho-da-forca-diz-ter-se-reunido-com-moraes-apos-eleicoes-e-espera-aprovacao-unanime-da-lei-da-dosimetria-no-stf.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/vereadora-pede-desculpas-por-fala-sobre-tiro-em-alexandre-de-moraes/"
+     },
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/11/25/paulinho-da-forca-dosimetria-moraes.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/RqN73HlaDSTqvRXUWOY1a0EqluQ=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/q/5/3PLUPRTwmLe5Pz5xLlpg/10pol-100-dosimetria-a12-img01.jpg"
+   },
+   {
+    "tag": "Congresso Nacional",
+    "titulo": "Projetos sobre partidos, segurança e direitos das mulheres avançam no Congresso",
+    "resumo": "A Câmara dos Deputados aprovou projetos que simplificam a desfiliação partidária e estabelecem diretrizes de segurança alimentar climática para povos tradicionais da Amazônia. No Senado, avançam propostas sobre ampliação do acesso a mamografias e medidas protetivas para mulheres no Mercosul.",
+    "contexto": "O Congresso Nacional tem pautado discussões sobre temas relevantes para a sociedade, desde a organização partidária até a proteção de grupos vulneráveis.",
+    "impacto": "A aprovação dessas propostas pode modernizar a legislação eleitoral, fortalecer a segurança alimentar e ampliar a proteção a mulheres em situação de violência.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/25/ccj-da-cmara-aprova-projeto-que-altera-lei-dos-partidos-polticos-para-simplificar-desfiliao.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/proposta-que-amplia-o-acesso-a-mamografias-segue-para-o-plenario"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1322848-comissao-aprova-diretrizes-de-seguranca-alimentar-climatica-para-povos-tradicionais-da-amazonia"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1322865-denuncias-de-violencia-virtual-no-ligue-180-crescem-365-diz-ministra-das-mulheres"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/jVc02BmGQpSG3MKmDiRZGqytWbw=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/8/0/6ahWLhQLOYGWKNBNLB1w/plenario-camara.jpg"
+   },
+   {
+    "tag": "Setor Público",
+    "titulo": "Contratos públicos e subvenções sob escrutínio e avaliação",
+    "resumo": "A senadora Dra. Eudócia questionou um contrato de R$ 209 milhões entre o governo de Alagoas e a Caixa. O governo prorrogará a subvenção ao diesel por mais um mês. O Tesouro Nacional negou que o BRB vá ser 'salvo' pela Caixa.",
+    "contexto": "A fiscalização de contratos públicos e a gestão de subsídios são essenciais para a transparência e a eficiência dos gastos governamentais.",
+    "impacto": "A investigação de contratos pode levar a ajustes ou cancelamentos, impactando a execução orçamentária. A prorrogação da subvenção ao diesel pode manter o custo do transporte em patamares mais baixos.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/25/dra-eudocia-questiona-contrato-de-r-209-milhoes-entre-alagoas-e-caixa"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/governo-nega-que-va-salvar-brb-por-meio-da-caixa/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/governo-prorrogara-subvencao-ao-diesel-por-mais-1-mes-diz-moretti/"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia Setorial",
+    "titulo": "Desmontagem de plataformas de petróleo e logística impulsionam o Porto do Açu",
+    "resumo": "A desmontagem de plataformas de petróleo já representa 50% do caixa do Porto do Açu. A Amazon planeja ampliar seus centros logísticos no Brasil em 2027, independentemente da reforma tributária.",
+    "contexto": "O desenvolvimento de infraestrutura logística e a diversificação de atividades portuárias são importantes para o crescimento econômico e a geração de empregos.",
+    "impacto": "O aumento da atividade no Porto do Açu pode atrair mais investimentos e consolidar sua posição como hub logístico. A expansão da Amazon pode otimizar a distribuição de produtos no país.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/business/reforma-tributaria-nao-muda-rota-da-amazon-que-ampliara-centros-logisticos-em-2027/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/empresas/noticia/2026/11/25/desmontagem-de-plataformas-de-petrleo-j-representa-50-pontos-percentuais-do-caixa-do-porto-do-au.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/mXfUzwKzGa-ehhqQkHL80VIFcNI=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/x/y/bp5H9RRGumF18Io5xQOw/19rel-100-logistica-f4-img01.jpg"
+   },
+   {
+    "tag": "Bem-estar Social",
+    "titulo": "Avanços em saúde e apoio a grupos vulneráveis no Congresso",
+    "resumo": "Projetos aprovados em comissões do Senado visam ampliar o acesso a mamografias no SUS, estabelecer protocolos de segurança no atendimento pediátrico e oferecer apoio emocional a crianças e jovens com deficiências. Medidas protetivas para mulheres poderão valer em todo o Mercosul.",
+    "contexto": "O foco em políticas públicas de saúde e proteção social demonstra a atenção do legislativo a demandas importantes da população.",
+    "impacto": "Essas iniciativas podem melhorar a qualidade de vida e a segurança de grupos vulneráveis, além de fortalecer a cooperação regional em temas sociais.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/proposta-que-amplia-o-acesso-a-mamografias-segue-para-o-plenario"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/videos/2026/11/cas-aprova-protocolos-de-seguranca-no-atendimento-pediatrico"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/25/cdh-aprova-proposta-de-apoio-emocional-a-criancas-e-jovens-com-deficiencias"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/medidas-protetivas-para-mulheres-poderao-valer-em-todo-o-mercosul"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
