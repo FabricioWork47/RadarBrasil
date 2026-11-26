@@ -1,0 +1,257 @@
+{
+ "data": "2026-11-26",
+ "geradoEm": "26/11/2026 16:07",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "O mercado financeiro reage positivamente a especulações sobre a escolha do novo Ministro da Fazenda, com o Ibovespa em alta e o dólar em queda. Paralelamente, discussões sobre a reforma tributária avançam no Congresso, com entidades pedindo adiamento da implementação da CBS. O governo também estuda medidas para conter a inflação, como a renovação do auxílio ao diesel.",
+   "A possível indicação de um novo nome para o Ministério da Fazenda gera otimismo no mercado, refletido na alta da bolsa e queda do dólar. No Congresso, o debate sobre a reforma tributária continua, com setores pedindo mais tempo para adaptação. Medidas de controle de preços, como o auxílio ao diesel, são prorrogadas.",
+   "O mercado financeiro demonstra otimismo com possíveis mudanças na Fazenda, impulsionando a bolsa e derrubando o dólar. A reforma tributária segue em pauta no Congresso, com pedidos de adiamento da CBS por parte de setores produtivos. O governo busca equilibrar as contas públicas com medidas como o auxílio ao diesel."
+  ],
+  "itens": [
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Otimismo com a Fazenda impulsiona Ibovespa e derruba dólar",
+    "resumo": "O Ibovespa subiu mais de 3% e o dólar caiu até R$ 5,71, impulsionados pelo 'efeito Trabuco' e otimismo sobre política fiscal. Juros futuros tiveram forte queda e o IPCA-15 veio abaixo do previsto.",
+    "contexto": "A especulação em torno de um nome para o Ministério da Fazenda, que pode não ser a 'melhor opção' segundo lideranças do PT, gerou reações positivas no mercado financeiro.",
+    "impacto": "O otimismo com a política fiscal pode continuar a sustentar a valorização da bolsa e a desvalorização do dólar no curto prazo.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-26112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/YCyptsWppbDkfdK3xIZ6bh0LUwU=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/o/9/fR8kjCSW6v800bHxTnAQ/foto16esp-101-trabuco-a16.jpg"
+   },
+   {
+    "tag": "Reforma Tributária",
+    "titulo": "Setores pedem adiamento da CBS e discutem cálculo da alíquota",
+    "resumo": "Entidades do agro, comércio e transporte acionaram o STF para adiar o início da CBS, alegando lacunas na regulamentação e pedindo prazo para adaptação. Deputados se reuniram com a Fazenda para discutir mudanças nos parâmetros de cálculo.",
+    "contexto": "A reforma tributária, com a introdução da Contribuição sobre Bens e Serviços (CBS), enfrenta resistência de setores produtivos que buscam mais tempo para se adequar às novas regras.",
+    "impacto": "O adiamento da implementação da CBS pode ocorrer caso o STF aceite os argumentos das entidades, impactando o cronograma de arrecadação previsto.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/26/deputados-se-renem-com-equipe-tcnica-da-fazenda-para-discutir-clculo-da-cbs.ghtml"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/agro-comercio-e-transporte-pedem-ao-stf-adiar-a-cbs/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/brasil/entidades-do-agro-comercio-e-transporte-acionam-stf-para-adiar-reforma-tributaria/"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/sOkRhiOeWN-oyYfCp23iBAZhBP0=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/A/z/jfkHu1ShWh9oLl9pUtKQ/joaquim-passarinho.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "Governo busca ajuste fiscal criativo e prorroga auxílio ao diesel",
+    "resumo": "Lula cobra criatividade em novo ajuste fiscal para evitar cortes em programas sociais, com a nova PEC a ser enviada após definição do novo ministro da Fazenda. O governo também deve publicar a renovação do auxílio ao diesel por mais 30 dias.",
+    "contexto": "A necessidade de um ajuste fiscal para equilibrar as contas públicas pressiona o governo, que busca alternativas para manter programas sociais. A prorrogação do auxílio ao diesel visa conter a alta dos preços.",
+    "impacto": "A busca por um ajuste fiscal criativo pode levar a novas propostas de arrecadação ou cortes, enquanto a prorrogação do auxílio ao diesel tende a manter os preços do combustível mais estáveis.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-economia/governo-deve-publicar-na-6a-feira-renovacao-do-auxilio-ao-diesel/"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/lula-cobra-criatividade-em-novo-ajuste-fiscal-para-evitar-cortes-em-programas-sociais/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/26/fazenda-diz-que-renovacao-por-mais-30-dias-da-subvencao-de-r-212-por-litro-de-diesel-sera-publicada-nesta-sexta.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/5HMa7zCMEtw4H4PH0bge-KqxHs8=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/o/h/MeIuLARZeiBebWSTbN5A/mca-edit-27051807942.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "IFI estima alíquota da CBS em 7% sem benefícios e debate Conselho de Gestão Fiscal",
+    "resumo": "A Instituição Fiscal Independente (IFI) estima que a alíquota da CBS poderia ser de 7% sem benefícios fiscais, mas com eles, sobe para 11,3%. O futuro Conselho de Gestão Fiscal tem o desafio de melhorar a eficiência dos gastos públicos.",
+    "contexto": "O cálculo da alíquota da CBS e a eficiência dos gastos públicos são pontos centrais no debate sobre a reforma tributária e a gestão fiscal do país.",
+    "impacto": "A discussão sobre a alíquota da CBS pode influenciar a carga tributária sobre bens e serviços, enquanto o Conselho de Gestão Fiscal pode trazer maior controle e eficiência aos gastos públicos.",
+    "fontes": [
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/26/ifi-entrega-estudo-sobre-aliquota-da-cbs-para-eduardo-braga"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/26/sem-excees-da-reforma-tributria-alquota-da-cbs-poderia-ser-de-7-pontos-percentuais-calcula-ifi.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/11/26/conselho-de-gestao-fiscal-deve-melhorar-eficiencia-dos-gastos-dizem-debatedores"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/noticia/2026/11/26/reforma-tributaria-sem-beneficios-a-produtos-e-setores-imposto-do-governo-cairia-de-113percent-para-7percent-em-2027-estima-orgao-do-senado.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/yeWEVhULia6DhJaKH5qxXsfwp3g=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/K/qb7amSRtAKCx3xxAyEXw/pexasdaskfjaskdjls.jpg"
+   },
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Queda da Bolsa abre espaço para dividendos e XP Asset vê oportunidades",
+    "resumo": "A XP Asset vê oportunidades em empresas líderes que podem se ajustar no ano que vem e ganhar fatias de mercado, estando baratas após quedas. A gestora evita BB e commodities, focando em utilities, Smart Fit e Cyrela.",
+    "contexto": "A volatilidade do mercado financeiro, com quedas recentes, cria oportunidades de investimento em setores específicos, segundo análise da XP Asset.",
+    "impacto": "Investidores podem encontrar oportunidades de altos dividendos em empresas com bom potencial de recuperação e crescimento de participação de mercado.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/onde-investir/queda-da-bolsa-abre-espaco-para-dividendos-de-ate-20-ao-ano-ve-xp-asset/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/26/xp-asset-evita-bb-e-commodities-e-v-oportunidades-em-utilities-smart-fit-e-cyrela.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/o7K9_t85GXUAgzZwn4MBfL-wJg4=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/v/j/31P0DDSBCntIlFKPsQxw/marcos-peixoto-scaled-e1732821545346.jpg"
+   },
+   {
+    "tag": "Política",
+    "titulo": "Líder do PT critica possível nome para Fazenda e descarta 'segunda etapa' do ajuste fiscal",
+    "resumo": "O líder do PT na Câmara, Pedro Uczai, demonstrou insatisfação com gestos do governo e a possibilidade de um novo ajuste fiscal, dizendo que Trabuco 'pode não ser a melhor opção' para a Fazenda e descartando uma 'segunda etapa' do ajuste.",
+    "contexto": "A articulação política em torno da escolha do novo Ministro da Fazenda e a condução do ajuste fiscal geram divergências dentro da base aliada do governo.",
+    "impacto": "A insatisfação de lideranças do PT pode gerar instabilidade política e dificultar a aprovação de medidas econômicas pelo Congresso.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/lider-do-pt-diz-que-trabuco-pode-nao-ser-a-melhor-opcao-para-fazenda/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-congresso/trabuco-pode-nao-ser-a-melhor-opcao-para-a-fazenda-diz-uczai/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/26/lider-do-pt-na-camara-descarta-uma-segunda-etapa-do-ajuste-fiscal.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/j2zd79AK1YX-RnDVYYFJk-ae7gQ=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/N/1B9R4dSPenA783GhRvpQ/pedro-uczai.jpg"
+   },
+   {
+    "tag": "Fiscal",
+    "titulo": "Orçamento de 2027: CMO aprova relatório preliminar com R$ 44,8 bi em emendas",
+    "resumo": "A Comissão Mista de Orçamento (CMO) aprovou o relatório preliminar do PLOA 2027, com previsão de R$ 44,8 bilhões em emendas. Houve um corte de R$ 2,09 bilhões para uso em emendas.",
+    "contexto": "A aprovação do relatório preliminar do orçamento para 2027 indica o andamento das discussões sobre as prioridades de gastos do governo para o próximo ano.",
+    "impacto": "A destinação de recursos via emendas parlamentares pode influenciar a alocação de verbas públicas e a execução de projetos em diferentes áreas.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/dos-eua-flavio-bolsonaro-lista-r-793-milhoes-em-emendas-para-o-orcamento-de-2027-mlem/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/cmo-aprova-relatorio-preliminar-do-orcamento-de-2027-com-previsao-de-r-448-bi-em-emendas-lmrs/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/brasil/noticia/2026/11/26/comissao-do-orcamento-aprova-relatorio-preliminar-do-ploa-2027-com-corte-de-r-209-bilhoes-para-usar-em-emendas.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/H4Vv1k-EfvaeoULy1IhOOIZFFf8=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/e/jBclOyTwOj05sZBjtzUg/0401eduardobragafotodanielfagundes-6.jpg"
+   },
+   {
+    "tag": "Comércio Exterior",
+    "titulo": "Exportadores rebatem Macron sobre 'carne dopada' e aguardam retomada de vendas à UE",
+    "resumo": "Exportadores brasileiros rebatem declarações do presidente francês sobre a qualidade da carne brasileira, chamando-as de 'inaceitáveis'. Há expectativa de retomada das vendas de frango à União Europeia em dezembro.",
+    "contexto": "Declarações de líderes estrangeiros sobre produtos brasileiros podem impactar o comércio exterior, enquanto setores buscam reverter barreiras e retomar mercados.",
+    "impacto": "A resolução de impasses comerciais pode facilitar a retomada das exportações e fortalecer a imagem dos produtos brasileiros no exterior.",
+    "fontes": [
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-internacional/macron-diz-que-carne-brasileira-e-dopada-associacoes-respondem/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/ceo-da-jbs-jbss32-espera-retomada-de-vendas-de-frango-do-brasil-a-ue-em-dezembro-pads/"
+     },
+     {
+      "n": "g1 Economia",
+      "u": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/26/exportadores-de-carne-rebatem-fala-de-macron.ghtml"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/sgOEt820l6onJ9RDGEvZ34Sj0jc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/G/AtfP9JQsiKPZ35KBXvvg/captura-de-tela-2026-11-26-100401.png"
+   },
+   {
+    "tag": "Judiciário",
+    "titulo": "STF julga piso nacional dos professores e CCJ aprova fim de fiança em mortes no trânsito",
+    "resumo": "O STF analisa processos sobre o piso nacional dos professores. A CCJ do Senado aprovou projeto que acaba com a fiança em casos de homicídio culposo em acidentes de trânsito causados por embriaguez.",
+    "contexto": "Decisões do Judiciário em temas como piso salarial e segurança no trânsito têm impacto direto na vida dos cidadãos e na aplicação da lei.",
+    "impacto": "A definição do piso nacional dos professores pode impactar o orçamento de estados e municípios. O fim da fiança em casos de embriaguez ao volante tende a endurecer as penas para motoristas infratores.",
+    "fontes": [
+     {
+      "n": "g1 Política",
+      "u": "https://g1.globo.com/politica/noticia/2026/11/26/senado-aprova-projeto-que-proibe-fianca-em-caso-de-morte-no-transito-causada-por-embriaguez-ao-volante.ghtml"
+     },
+     {
+      "n": "Agência Senado",
+      "u": "https://www12.senado.leg.br/noticias/audios/2026/11/senado-aprova-bafometro-em-acidentes-e-proibe-fianca-em-caso-de-morte"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-julga-piso-nacional-dos-professores/"
+     }
+    ],
+    "imagem": "https://s2-g1.glbimg.com/bAVuNOhFC5z3WrkmiqMl_PtiRzc=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/V/8tXRpCRsOy0sdhW1XuJQ/whatsapp-image-2026-09-06-at-10.44.32-1-.jpeg"
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Brasil pode enfrentar recessão em 2027 e UBS alerta sobre cortes na Selic",
+    "resumo": "O Brasil pode enfrentar uma recessão em 2027, e mesmo assim, não encontrar espaço para cortes expressivos na taxa Selic, alerta o UBS. O BNP projeta ano de ajuste em 2027, mas com possível espaço para cortes de juros no 2º semestre.",
+    "contexto": "Projeções de instituições financeiras indicam um cenário desafiador para a economia brasileira nos próximos anos, com riscos de recessão e limitações para a política monetária.",
+    "impacto": "A perspectiva de recessão e a dificuldade em cortar juros podem afetar o crescimento econômico e o poder de compra da população.",
+    "fontes": [
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/brasil-pode-entrar-em-recessao-em-2027-e-nem-isso-garante-cortes-expressivos-na-selic-alerta-ubs/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/26/brasil-caminha-para-ano-de-ajuste-em-2027-mas-bc-pode-ter-espao-para-cortar-juros-no-2-semestre-diz-bnp.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/3zq-KZ2eU8uFD8y9xJFLLbsEL9A=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/R/u/T6eeQqRcqQgljlbTJ6jg/290525fernandaguardado019.jpg"
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Governo estuda auxílio emergencial para pescadores afetados pela seca na Amazônia",
+    "resumo": "O governo federal está estudando a possibilidade de oferecer um auxílio emergencial para pescadores que foram prejudicados pela seca na região amazônica.",
+    "contexto": "Eventos climáticos extremos, como a seca na Amazônia, afetam diretamente a subsistência de comunidades que dependem de recursos naturais.",
+    "impacto": "O auxílio emergencial pode mitigar os impactos econômicos da seca sobre os pescadores, garantindo um suporte temporário.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/seca-na-amazonia-governo-estuda-auxilio-emergencial-para-pescadores"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Investimento estrangeiro direto atinge US$ 1,416 trilhão em 2025",
+    "resumo": "O estoque de investimento estrangeiro direto no Brasil alcançou US$ 1,416 trilhão ao final de 2025, o que representa 49,3% do PIB.",
+    "contexto": "O volume de investimento estrangeiro direto é um indicador da confiança de investidores internacionais na economia brasileira e em seu potencial de crescimento.",
+    "impacto": "Um alto volume de investimento estrangeiro pode impulsionar o crescimento econômico, gerar empregos e trazer novas tecnologias para o país.",
+    "fontes": [
+     {
+      "n": "Agência Brasil",
+      "u": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/investimento-estrangeiro-no-pais-chega-us-1416-trilhao-em-2025"
+     }
+    ],
+    "imagem": ""
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
