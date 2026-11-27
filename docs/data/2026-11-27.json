@@ -1,0 +1,145 @@
+{
+ "data": "2026-11-27",
+ "geradoEm": "27/11/2026 16:03",
+ "modelo": "openai/gpt-4o-mini",
+ "modo": "ia",
+ "dia": {
+  "resumo30s": [
+   "A nomeação de Luiz Carlos Trabuco para o Ministério da Fazenda a partir de 2027 gerou reações positivas no mercado financeiro, com queda de juros futuros e do dólar. O presidente Lula reforçou o compromisso com a manutenção de benefícios sociais, mas indicou que haverá revisão de gastos. O futuro ministro da Fazenda, Trabuco, tem perfil conciliador e sabe ouvir, mas define suas decisões. A manutenção de Bruno Moretti no Ministério do Planejamento também foi confirmada."
+  ],
+  "itens": [
+   {
+    "tag": "Mercado Financeiro",
+    "titulo": "Reação do mercado à nomeação de Trabuco para a Fazenda",
+    "resumo": "A confirmação de Luiz Carlos Trabuco como futuro ministro da Fazenda a partir de 2027 levou a uma queda expressiva nos juros futuros e do dólar. O Ibovespa, após euforia inicial, teve um dia de ajustes. O mercado vê a escolha como um sinal importante sobre o quarto mandato de Lula, aliviando preocupações de investidores.",
+    "contexto": "A nomeação de Trabuco, presidente do Conselho de Administração do Bradesco, para a Fazenda foi interpretada pelo mercado como um sinal de estabilidade e compromisso com a gestão econômica.",
+    "impacto": "A escolha pode blindar o Banco Central e sinalizar uma condução mais previsível da política fiscal, potencialmente atraindo investimentos e mantendo a confiança do mercado.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/27/com-trabuco-na-fazenda-mercado-apaga-expectativa-de-alta-de-juros-em-2027.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/27/trabuco-encolhe-cenrios-negativos-e-envia-sinal-importante-sobre-quarto-mandato-de-lula-diz-bofa.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/ofFRiC-7fySvqzZtHDeUkCS8T_U=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/6/A/M8NbNRQjuVGXEWcBhBsQ/juros-percentual-porcentagem-taxas-de-juros-dimitri-k-pixabay.jpg"
+   },
+   {
+    "tag": "Política Econômica",
+    "titulo": "Compromisso com gastos sociais e ajuste fiscal",
+    "resumo": "O presidente Lula reafirmou que não haverá corte de benefícios sociais, mas defendeu uma revisão nos programas para garantir a eficiência. O futuro ministro da Fazenda, Trabuco, sinalizou que o ajuste nas contas públicas focará em otimização de gastos, sem medidas drásticas como um \"tesouraço\".",
+    "contexto": "A declaração de Lula busca equilibrar a manutenção de programas sociais com a necessidade de ajuste fiscal, um ponto de atenção para investidores e para a sustentabilidade das contas públicas.",
+    "impacto": "A promessa de não cortar benefícios sociais pode gerar alívio para a população de baixa renda, mas a efetividade da revisão de gastos será crucial para a credibilidade fiscal do governo.",
+    "fontes": [
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/economia/trabuco-ministerio-fazenda-fiador-lula-ajuste-fiscal/"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/lula-nao-vamos-cortar-beneficios-do-povo-pobre-desse-pais/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/lula-diz-que-nao-pode-gastar-dinheiro-a-toa-no-governo/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/financas/noticia/2026/11/27/o-que-luiz-carlos-trabuco-futuro-ministro-da-fazenda-ja-disse-sobre-juros-ajuste-fiscal-e-gastos-sociais.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/7i0dbsREPaegG_I5otaZhNkRD4U=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/B/G/3l7Pl0RnW5NQr0BqXTmw/476603177.jpg"
+   },
+   {
+    "tag": "Governo",
+    "titulo": "Mudanças e permanências em ministérios chave",
+    "resumo": "Luiz Carlos Trabuco foi confirmado como futuro ministro da Fazenda, com carta branca para montar sua equipe. Bruno Moretti deve ser mantido no Ministério do Planejamento, sendo elogiado por Lula por sua atuação na viabilização de projetos e liderança no ajuste fiscal. Camilo Santana foi convidado para assumir a Casa Civil.",
+    "contexto": "As movimentações indicam uma estratégia de consolidação da equipe econômica e de articulação política para o próximo mandato, com nomes que já possuem a confiança do presidente.",
+    "impacto": "A manutenção de Moretti no Planejamento pode reforçar a continuidade da gestão orçamentária. A nomeação de Santana para a Casa Civil pode fortalecer a articulação política do governo.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/27/pt-pressiona-e-teresa-leitao-ganha-forca-para-articulacao-do-governo.ghtml"
+     },
+     {
+      "n": "InfoMoney",
+      "u": "https://www.infomoney.com.br/politica/apos-troca-na-fazenda-moretti-deve-ser-mantido-no-planejamento-dizem-aliados/"
+     },
+     {
+      "n": "Poder360",
+      "u": "https://www.poder360.com.br/poder-governo/magico-do-orcamento-bruno-moretti-vai-seguir-como-ministro/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/politica/noticia/2026/11/27/lula-da-carta-branca-para-trabuco-montar-equipe-da-fazenda.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/yKYCXhuTGWROSNw8qLK7dkTu4ps=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/U/z/PAX5NET2eE4gBa52Trag/foto26pol-201-lidera-a12.jpg"
+   },
+   {
+    "tag": "Congresso",
+    "titulo": "Propostas em análise no Congresso Nacional",
+    "resumo": "Comissões da Câmara dos Deputados aprovaram propostas como gratuidade de 20 a 30 minutos em áreas de embarque de aeroportos, criação de corredores exclusivos para motos e regras para circulação entre faixas, e o direito de associações rurais contestarem dispensa de compra para merenda. O Senado analisa emendas à LDO de 2027 que visam proteger programas e alterar a meta fiscal.",
+    "contexto": "As propostas em tramitação refletem discussões sobre infraestrutura, direitos de associações e planejamento orçamentário para os próximos anos.",
+    "impacto": "A aprovação dessas propostas pode gerar impactos em setores específicos como o aéreo e o agronegócio, além de influenciar o debate sobre as metas fiscais futuras.",
+    "fontes": [
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1323758-comissao-aprova-gratuidade-de-20-minutos-em-areas-de-embarque-de-aeroportos"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1323756-comissao-aprova-criacao-de-corredores-exclusivos-para-motos-e-regras-para-circulacao-entre-faixas"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1323754-comissao-aprova-direito-de-associacoes-rurais-contestarem-dispensa-de-compra-para-merenda"
+     },
+     {
+      "n": "Agência Câmara",
+      "u": "https://www.camara.leg.br/noticias/1323760-comissao-aprova-gratuidade-de-ate-30-minutos-para-veiculos-em-area-de-embarque-e-desembarque-dos-aeroportos"
+     }
+    ],
+    "imagem": ""
+   },
+   {
+    "tag": "Economia",
+    "titulo": "Confiança do comércio e cenário internacional",
+    "resumo": "A confiança do comércio em novembro recuou devido à percepção de desaceleração econômica e frustração com a eleição. No cenário internacional, a Ucrânia apresentou proposta de trégua no Mar Negro, e a França entrou em recessão técnica. O desemprego no Chile atingiu o maior nível desde a pandemia.",
+    "contexto": "Indicadores de confiança e dados econômicos internacionais podem influenciar o desempenho da economia brasileira.",
+    "impacto": "A desaceleração econômica interna e os eventos globais podem afetar o ritmo de recuperação e a atividade econômica no Brasil.",
+    "fontes": [
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/27/cmara-baixa-do-parlamento-da-alemanha-aprova-oramento-de-2027.ghtml"
+     },
+     {
+      "n": "Money Times",
+      "u": "https://www.moneytimes.com.br/espanha-vai-as-urnas-no-domingo-e-eleicao-pode-derrubar-pedro-sanchez-desafeto-de-trump-ccgg/"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/27/ucrnia-apresenta-proposta-de-trgua-no-mar-negro-e-aguarda-resposta-da-rssia.ghtml"
+     },
+     {
+      "n": "Valor Econômico",
+      "u": "https://valor.globo.com/mundo/noticia/2026/11/27/desemprego-no-chile-chega-a-10-pontos-percentuais-maior-nvel-desde-a-pandemia.ghtml"
+     }
+    ],
+    "imagem": "https://s2-valor.glbimg.com/_tnIyvMB9tL7UFcZca7Jsdph34I=/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/F/m/pxSnXvScWPPg34fQXE2w/2026-11-24t093842z-410354559-rc29uoa4hg2i-rtrmadp-3-germany-budget.jpg"
+   }
+  ],
+  "ia": true
+ },
+ "semana": null
+}
